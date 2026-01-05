@@ -1,0 +1,14 @@
+<div class="rank-tile" [class.color-correct]="isCorrect()" [class.color-wrong]="!isCorrect() && !isWithinRange()"
+    [class.color-partial]="!isCorrect() && isWithinRange()">
+
+    <span class="cmc-value">{{ value }}</span>
+
+    @if (direction() === 'up') {
+    <img src="/up.svg" alt="Higher Rank" class="rank-arrow" />
+    }
+
+    @if (direction() === 'down') {
+    <img src="/down.svg" alt="Lower Rank" class="rank-arrow" />
+    }
+
+</div>

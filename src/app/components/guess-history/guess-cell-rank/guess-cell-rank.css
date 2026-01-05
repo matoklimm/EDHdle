@@ -1,0 +1,36 @@
+.rank-tile {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border-radius: inherit;
+}
+
+.color-correct {
+    background: var(--color-correct-bg);
+}
+
+.color-wrong {
+    background: var(--color-wrong-bg);
+}
+
+.color-partial {
+    background: var(--color-partial-bg);
+}
+
+.rank-value {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.rank-arrow {
+    width: 14px;
+    height: 14px;
+
+    image-rendering: pixelated;
+    opacity: 0.85;
+}

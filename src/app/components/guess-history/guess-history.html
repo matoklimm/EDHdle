@@ -27,9 +27,7 @@
 
         <app-guess-cell-tags class="tile" [values]="guess.card.tags" [targetValues]="target.tags" />
 
-        <div class="tile">
-            {{ guess.card.edhrecRank}}
-        </div>
+        <app-guess-cell-rank class="tile" [value]="guess.card.edhrecRank" [targetValue]="target.edhrecRank" />
     </div>
     }
 </div>
