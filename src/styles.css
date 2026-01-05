@@ -1,9 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
-
 @import "tailwindcss";
 
-
 :root {
+    --color-white: #ffffff;
     --color-correct-bg: #c8e6c9;
     --color-wrong-bg: #ffcdd2;
     --color-partial-bg: #ffcc80;
