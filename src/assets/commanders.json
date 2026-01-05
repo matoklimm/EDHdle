@@ -1,0 +1,3382 @@
+{
+  "version": "2026-01-03",
+  "generatedAt": "2026-01-03T22:27:02+01:00",
+  "count": 150,
+  "commanders": [
+    {
+      "id": 1,
+      "name": "The Ur-Dragon",
+      "cmc": 9,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 5,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Dragon",
+        "Avatar"
+      ],
+      "keywords": [
+        "Flying",
+        "Eminence"
+      ],
+      "tags": [
+        "triggered",
+        "combat",
+        "card_advantage",
+        "draw"
+      ],
+      "power": "10",
+      "toughness": "10",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/1/0/10d42b35-844f-4a64-9981-c6118d45e826.jpg?1689999317",
+      "edhrecRank": 1,
+      "edhrecDecks": 42254,
+      "isPartner": false
+    },
+    {
+      "id": 2,
+      "name": "Edgar Markov",
+      "cmc": 6,
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Vampire",
+        "Knight"
+      ],
+      "keywords": [
+        "First strike",
+        "Haste",
+        "Eminence"
+      ],
+      "tags": [
+        "combat",
+        "cast",
+        "token",
+        "counter",
+        "triggered"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/a/5/a577ba08-0aa8-45be-aa83-d5078770127c.jpg?1736468492",
+      "edhrecRank": 2,
+      "edhrecDecks": 40929,
+      "isPartner": false
+    },
+    {
+      "id": 3,
+      "name": "Atraxa, Praetors' Voice",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "G",
+        "U",
+        "W"
+      ],
+      "colorCount": 4,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Phyrexian",
+        "Angel",
+        "Horror"
+      ],
+      "keywords": [
+        "Deathtouch",
+        "Flying",
+        "Lifelink",
+        "Vigilance",
+        "Proliferate"
+      ],
+      "tags": [
+        "lifegain",
+        "counter",
+        "triggered"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/d/0/d0d33d52-3d28-4635-b985-51e126289259.jpg?1599707796",
+      "edhrecRank": 3,
+      "edhrecDecks": 38924,
+      "isPartner": false
+    },
+    {
+      "id": 4,
+      "name": "Krenko, Mob Boss",
+      "cmc": 4,
+      "colors": [
+        "R"
+      ],
+      "colorCount": 1,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Goblin",
+        "Warrior"
+      ],
+      "keywords": [],
+      "tags": [
+        "token"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/8/2/824b2d73-2151-4e5e-9f05-8f63e2bdcaa9.jpg?1730632010",
+      "edhrecRank": 4,
+      "edhrecDecks": 34766,
+      "isPartner": false
+    },
+    {
+      "id": 5,
+      "name": "Kaalia of the Vast",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric"
+      ],
+      "keywords": [
+        "Flying"
+      ],
+      "tags": [
+        "triggered",
+        "combat"
+      ],
+      "power": "2",
+      "toughness": "2",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/e/7/e71c8c39-3fbb-4a42-9cf6-b3224f5a56fc.jpg?1717013745",
+      "edhrecRank": 5,
+      "edhrecDecks": 32942,
+      "isPartner": false
+    },
+    {
+      "id": 6,
+      "name": "Sauron, the Dark Lord",
+      "cmc": 6,
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Avatar",
+        "Horror"
+      ],
+      "keywords": [
+        "Amass",
+        "Ward"
+      ],
+      "tags": [
+        "draw",
+        "discard",
+        "sacrifice",
+        "triggered",
+        "combat",
+        "card_advantage",
+        "cast"
+      ],
+      "power": "7",
+      "toughness": "6",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/0/3/034e0929-b2c7-4b5f-94f2-8eaf4fb1a2a1.jpg?1693611218",
+      "edhrecRank": 6,
+      "edhrecDecks": 30437,
+      "isPartner": false
+    },
+    {
+      "id": 7,
+      "name": "Pantlaza, Sun-Favored",
+      "cmc": 5,
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Dinosaur"
+      ],
+      "keywords": [
+        "Discover"
+      ],
+      "tags": [
+        "etb",
+        "triggered",
+        "exile"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/2/5/2524645e-b066-4351-885b-10faa8d819d7.jpg?1699972737",
+      "edhrecRank": 7,
+      "edhrecDecks": 30253,
+      "isPartner": false
+    },
+    {
+      "id": 8,
+      "name": "Yuriko, the Tiger's Shadow",
+      "cmc": 3,
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Ninja"
+      ],
+      "keywords": [
+        "Commander ninjutsu"
+      ],
+      "tags": [
+        "triggered",
+        "combat"
+      ],
+      "power": "1",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/f/e/fe9be3e0-076c-4703-9750-2a6b0a178bc9.jpg?1761053654",
+      "edhrecRank": 8,
+      "edhrecDecks": 29661,
+      "isPartner": false
+    },
+    {
+      "id": 9,
+      "name": "Lathril, Blade of the Elves",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "G"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Elf",
+        "Noble"
+      ],
+      "keywords": [
+        "Menace"
+      ],
+      "tags": [
+        "combat",
+        "lifegain",
+        "token",
+        "triggered"
+      ],
+      "power": "2",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/8/d/8d4e5480-a287-4a25-b855-a26dae555b1c.jpg?1730489505",
+      "edhrecRank": 9,
+      "edhrecDecks": 29249,
+      "isPartner": false
+    },
+    {
+      "id": 10,
+      "name": "Y'shtola, Night's Blessed",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Cat",
+        "Warlock"
+      ],
+      "keywords": [
+        "Vigilance"
+      ],
+      "tags": [
+        "card_advantage",
+        "cast",
+        "draw",
+        "triggered",
+        "lifegain"
+      ],
+      "power": "2",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/c/7/c7f2c2d5-e052-49e8-b5de-712858c2ea78.jpg?1752052932",
+      "edhrecRank": 10,
+      "edhrecDecks": 29012,
+      "isPartner": false
+    },
+    {
+      "id": 11,
+      "name": "Kenrith, the Returned King",
+      "cmc": 5,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 5,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Noble"
+      ],
+      "keywords": [],
+      "tags": [
+        "draw",
+        "counter",
+        "graveyard",
+        "lifegain",
+        "card_advantage"
+      ],
+      "power": "5",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/0/e/0e259db1-14db-4314-998c-6a076a28d8cb.jpg?1691056044",
+      "edhrecRank": 11,
+      "edhrecDecks": 27854,
+      "isPartner": false
+    },
+    {
+      "id": 12,
+      "name": "Giada, Font of Hope",
+      "cmc": 2,
+      "colors": [
+        "W"
+      ],
+      "colorCount": 1,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Angel"
+      ],
+      "keywords": [
+        "Flying",
+        "Vigilance"
+      ],
+      "tags": [
+        "counter",
+        "ramp",
+        "cast"
+      ],
+      "power": "2",
+      "toughness": "2",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/8/a/8ae6fc26-cfad-4da8-98d9-49c27c24d293.jpg?1730489128",
+      "edhrecRank": 12,
+      "edhrecDecks": 27495,
+      "isPartner": false
+    },
+    {
+      "id": 13,
+      "name": "The Wise Mothman",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Insect",
+        "Mutant"
+      ],
+      "keywords": [
+        "Flying"
+      ],
+      "tags": [
+        "triggered",
+        "combat",
+        "counter",
+        "etb"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/3/d/3d6d6944-a364-41c2-b824-7a1bf6ad0d1e.jpg?1710673435",
+      "edhrecRank": 13,
+      "edhrecDecks": 27347,
+      "isPartner": false
+    },
+    {
+      "id": 14,
+      "name": "Jodah, the Unifier",
+      "cmc": 5,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 5,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "keywords": [],
+      "tags": [
+        "triggered",
+        "cast",
+        "exile"
+      ],
+      "power": "5",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/e/4/e4b1aa1e-b4e3-4346-8937-76b312501c70.jpg?1673307974",
+      "edhrecRank": 14,
+      "edhrecDecks": 27071,
+      "isPartner": false
+    },
+    {
+      "id": 15,
+      "name": "Nekusar, the Mindrazer",
+      "cmc": 5,
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Zombie",
+        "Wizard"
+      ],
+      "keywords": [],
+      "tags": [
+        "triggered",
+        "card_advantage",
+        "draw"
+      ],
+      "power": "2",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/4/a/4afdc65d-3c97-47af-83fa-df340389802e.jpg?1689999186",
+      "edhrecRank": 15,
+      "edhrecDecks": 26316,
+      "isPartner": false
+    },
+    {
+      "id": 16,
+      "name": "Miirym, Sentinel Wyrm",
+      "cmc": 6,
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Dragon",
+        "Spirit"
+      ],
+      "keywords": [
+        "Flying",
+        "Ward"
+      ],
+      "tags": [
+        "token",
+        "etb",
+        "triggered"
+      ],
+      "power": "6",
+      "toughness": "6",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/a/9/a934590b-5c70-4f07-af67-fbe817a99531.jpg?1674137589",
+      "edhrecRank": 16,
+      "edhrecDecks": 26007,
+      "isPartner": false
+    },
+    {
+      "id": 17,
+      "name": "Isshin, Two Heavens as One",
+      "cmc": 3,
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Samurai"
+      ],
+      "keywords": [],
+      "tags": [
+        "combat"
+      ],
+      "power": "3",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.jpg?1767123522",
+      "edhrecRank": 17,
+      "edhrecDecks": 25279,
+      "isPartner": false
+    },
+    {
+      "id": 18,
+      "name": "Ms. Bumbleflower",
+      "cmc": 4,
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Rabbit",
+        "Citizen"
+      ],
+      "keywords": [
+        "Vigilance"
+      ],
+      "tags": [
+        "draw",
+        "counter",
+        "triggered",
+        "card_advantage",
+        "cast"
+      ],
+      "power": "1",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140",
+      "edhrecRank": 18,
+      "edhrecDecks": 25094,
+      "isPartner": false
+    },
+    {
+      "id": 19,
+      "name": "Ulalek, Fused Atrocity",
+      "cmc": 5,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 5,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Eldrazi"
+      ],
+      "keywords": [
+        "Devoid"
+      ],
+      "tags": [
+        "triggered",
+        "cast"
+      ],
+      "power": "2",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/f/d/fdad1b0e-d3cc-4d76-ae7e-fee12558cf2c.jpg?1735676761",
+      "edhrecRank": 19,
+      "edhrecDecks": 24335,
+      "isPartner": false
+    },
+    {
+      "id": 20,
+      "name": "Vivi Ornitier",
+      "cmc": 3,
+      "colors": [
+        "R",
+        "U"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Wizard"
+      ],
+      "keywords": [],
+      "tags": [
+        "cast",
+        "counter",
+        "ramp",
+        "triggered"
+      ],
+      "power": "0",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/e/c/ecc1027a-8c07-44a0-bdde-fa2844cff694.jpg?1762773080",
+      "edhrecRank": 20,
+      "edhrecDecks": 23739,
+      "isPartner": false
+    },
+    {
+      "id": 21,
+      "name": "Teval, the Balanced Scale",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Spirit",
+        "Dragon"
+      ],
+      "keywords": [
+        "Flying",
+        "Mill"
+      ],
+      "tags": [
+        "recursion",
+        "token",
+        "graveyard",
+        "triggered",
+        "combat"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/b/5/b5d1955a-9ff0-4f8b-9af8-341371957299.jpg?1745970978",
+      "edhrecRank": 21,
+      "edhrecDecks": 23184,
+      "isPartner": false
+    },
+    {
+      "id": 22,
+      "name": "Baylen, the Haymaker",
+      "cmc": 3,
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Rabbit",
+        "Warrior"
+      ],
+      "keywords": [],
+      "tags": [
+        "card_advantage",
+        "draw",
+        "token",
+        "counter",
+        "ramp"
+      ],
+      "power": "4",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/0/0/00e93be2-e06b-4774-8ba5-ccf82a6da1d8.jpg?1721427006",
+      "edhrecRank": 22,
+      "edhrecDecks": 23080,
+      "isPartner": false
+    },
+    {
+      "id": 23,
+      "name": "Chatterfang, Squirrel General",
+      "cmc": 3,
+      "colors": [
+        "B",
+        "G"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Squirrel",
+        "Warrior"
+      ],
+      "keywords": [
+        "Landwalk",
+        "Forestwalk"
+      ],
+      "tags": [
+        "combat",
+        "sacrifice",
+        "token"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2.jpg?1626097239",
+      "edhrecRank": 23,
+      "edhrecDecks": 22798,
+      "isPartner": false
+    },
+    {
+      "id": 24,
+      "name": "Hakbal of the Surging Soul",
+      "cmc": 4,
+      "colors": [
+        "G",
+        "U"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Merfolk",
+        "Scout"
+      ],
+      "keywords": [
+        "Explore"
+      ],
+      "tags": [
+        "card_advantage",
+        "draw",
+        "counter",
+        "graveyard",
+        "triggered",
+        "combat"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/e/7/e738e675-4fd1-4bc3-97f5-71d0e2fc3f2e.jpg?1699885010",
+      "edhrecRank": 24,
+      "edhrecDecks": 22332,
+      "isPartner": false
+    },
+    {
+      "id": 25,
+      "name": "Valgavoth, Harrower of Souls",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "R"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Elder",
+        "Demon"
+      ],
+      "keywords": [
+        "Flying",
+        "Ward"
+      ],
+      "tags": [
+        "counter",
+        "triggered",
+        "card_advantage",
+        "draw"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/8/d/8d7c1f6c-af45-4449-8cf8-e13830b3df8a.jpg?1726596807",
+      "edhrecRank": 25,
+      "edhrecDecks": 22114,
+      "isPartner": false
+    },
+    {
+      "id": 26,
+      "name": "Esika, God of the Tree // The Prismatic Bridge",
+      "cmc": 3,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 5,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "God",
+        "//",
+        "Legendary",
+        "Enchantment"
+      ],
+      "keywords": [
+        "Vigilance"
+      ],
+      "tags": [
+        "ramp",
+        "triggered"
+      ],
+      "power": null,
+      "toughness": null,
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/f/6/f6cd7465-9dd0-473c-ac5e-dd9e2f22f5f6.jpg?1631050188",
+      "edhrecRank": 26,
+      "edhrecDecks": 22043,
+      "isPartner": false
+    },
+    {
+      "id": 27,
+      "name": "Muldrotha, the Gravetide",
+      "cmc": 6,
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Elemental",
+        "Avatar"
+      ],
+      "keywords": [],
+      "tags": [
+        "graveyard",
+        "cast"
+      ],
+      "power": "6",
+      "toughness": "6",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/5/1/51710b19-68e3-4853-901f-e618bde61161.jpg?1730489512",
+      "edhrecRank": 27,
+      "edhrecDecks": 21668,
+      "isPartner": false
+    },
+    {
+      "id": 28,
+      "name": "The Necrobloom",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Plant"
+      ],
+      "keywords": [
+        "Mill",
+        "Landfall"
+      ],
+      "tags": [
+        "card_advantage",
+        "recursion",
+        "draw",
+        "token",
+        "graveyard",
+        "etb",
+        "triggered"
+      ],
+      "power": "2",
+      "toughness": "7",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/8/f/8fcf68cf-0dac-4b29-90d5-c18c685182e6.jpg?1717012767",
+      "edhrecRank": 28,
+      "edhrecDecks": 21249,
+      "isPartner": false
+    },
+    {
+      "id": 29,
+      "name": "Frodo, Adventurous Hobbit",
+      "cmc": 2,
+      "colors": [
+        "B",
+        "W"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Halfling",
+        "Scout"
+      ],
+      "keywords": [
+        "Partner with",
+        "Vigilance",
+        "Partner"
+      ],
+      "tags": [
+        "draw",
+        "triggered",
+        "combat",
+        "lifegain",
+        "card_advantage"
+      ],
+      "power": "1",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/3/2/328df403-7428-4b17-bdd1-9759fc0f32d8.jpg?1686963703",
+      "edhrecRank": 29,
+      "edhrecDecks": 21200,
+      "isPartner": true,
+      "partnerNames": [
+        "Frodo, Adventurous Hobbit",
+        "Sam, Loyal Attendant"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Arcades, the Strategist",
+      "cmc": 4,
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Elder",
+        "Dragon"
+      ],
+      "keywords": [
+        "Flying",
+        "Vigilance"
+      ],
+      "tags": [
+        "etb",
+        "triggered",
+        "combat",
+        "card_advantage",
+        "draw"
+      ],
+      "power": "3",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/1/e/1e90c638-d4b2-4243-bbc4-1cc10516c40f.jpg?1666961830",
+      "edhrecRank": 30,
+      "edhrecDecks": 21197,
+      "isPartner": false
+    },
+    {
+      "id": 31,
+      "name": "Animar, Soul of Elements",
+      "cmc": 3,
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Elemental"
+      ],
+      "keywords": [
+        "Protection"
+      ],
+      "tags": [
+        "triggered",
+        "cast",
+        "counter"
+      ],
+      "power": "1",
+      "toughness": "1",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/a/3/a3da57d0-1ae3-4f05-a52d-eb76ad56cae7.jpg?1673148281",
+      "edhrecRank": 31,
+      "edhrecDecks": 21094,
+      "isPartner": false
+    },
+    {
+      "id": 32,
+      "name": "Wilhelt, the Rotcleaver",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Zombie",
+        "Warrior"
+      ],
+      "keywords": [],
+      "tags": [
+        "combat",
+        "card_advantage",
+        "draw",
+        "sacrifice",
+        "token",
+        "triggered"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/2/5/2501a911-d072-436d-ae3b-a5164e3b30aa.jpg?1675456154",
+      "edhrecRank": 32,
+      "edhrecDecks": 20956,
+      "isPartner": false
+    },
+    {
+      "id": 33,
+      "name": "Mr. House, President and CEO",
+      "cmc": 3,
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Artifact",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human"
+      ],
+      "keywords": [
+        "Treasure"
+      ],
+      "tags": [
+        "triggered",
+        "token",
+        "ramp"
+      ],
+      "power": "0",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/2/3/23eb3cf7-c90d-4bfa-b125-4fbcb5614468.jpg?1710673416",
+      "edhrecRank": 33,
+      "edhrecDecks": 20703,
+      "isPartner": false
+    },
+    {
+      "id": 34,
+      "name": "Voja, Jaws of the Conclave",
+      "cmc": 5,
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Wolf"
+      ],
+      "keywords": [
+        "Vigilance",
+        "Trample",
+        "Ward"
+      ],
+      "tags": [
+        "triggered",
+        "combat",
+        "card_advantage",
+        "draw",
+        "counter"
+      ],
+      "power": "5",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/b/f/bfa1bd2f-25bd-4fbd-877b-cef00ab7f92f.jpg?1759301012",
+      "edhrecRank": 34,
+      "edhrecDecks": 20593,
+      "isPartner": false
+    },
+    {
+      "id": 35,
+      "name": "Aragorn, the Uniter",
+      "cmc": 4,
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 4,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Noble"
+      ],
+      "keywords": [
+        "Scry"
+      ],
+      "tags": [
+        "cast",
+        "token",
+        "burn",
+        "triggered"
+      ],
+      "power": "5",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/e/9/e98d5321-ec09-456c-a9ea-c8ca2cfc6205.jpg?1686969644",
+      "edhrecRank": 35,
+      "edhrecDecks": 20517,
+      "isPartner": false
+    },
+    {
+      "id": 36,
+      "name": "Gishath, Sun's Avatar",
+      "cmc": 8,
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Dinosaur",
+        "Avatar"
+      ],
+      "keywords": [
+        "Vigilance",
+        "Haste",
+        "Trample"
+      ],
+      "tags": [
+        "triggered",
+        "combat"
+      ],
+      "power": "7",
+      "toughness": "6",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/b/c/bc4a65de-23b5-48f0-b8b7-94608eaced3e.jpg?1699044539",
+      "edhrecRank": 36,
+      "edhrecDecks": 20438,
+      "isPartner": false
+    },
+    {
+      "id": 37,
+      "name": "Bello, Bard of the Brambles",
+      "cmc": 3,
+      "colors": [
+        "G",
+        "R"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Raccoon",
+        "Bard"
+      ],
+      "keywords": [],
+      "tags": [
+        "draw",
+        "triggered",
+        "combat",
+        "card_advantage"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1721428130",
+      "edhrecRank": 37,
+      "edhrecDecks": 20158,
+      "isPartner": false
+    },
+    {
+      "id": 38,
+      "name": "Zhulodok, Void Gorger",
+      "cmc": 6,
+      "colors": [],
+      "colorCount": 0,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Eldrazi"
+      ],
+      "keywords": [],
+      "tags": [
+        "exile",
+        "triggered"
+      ],
+      "power": "7",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/a/0/a015461d-4214-4feb-8b04-519c537759eb.jpg?1691500689",
+      "edhrecRank": 38,
+      "edhrecDecks": 20157,
+      "isPartner": false
+    },
+    {
+      "id": 39,
+      "name": "Rin and Seri, Inseparable",
+      "cmc": 4,
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Dog",
+        "Cat"
+      ],
+      "keywords": [],
+      "tags": [
+        "burn",
+        "triggered",
+        "lifegain",
+        "cast",
+        "token"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/9/9/992b2dd3-87e7-48a4-bd8d-84973ff0ee1f.jpg?1745912080",
+      "edhrecRank": 39,
+      "edhrecDecks": 20035,
+      "isPartner": false
+    },
+    {
+      "id": 40,
+      "name": "Caesar, Legion's Emperor",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "keywords": [],
+      "tags": [
+        "card_advantage",
+        "draw",
+        "sacrifice",
+        "token",
+        "triggered",
+        "combat"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/2/4/246a7176-98bc-4f54-aa61-38747420f178.jpg?1710673450",
+      "edhrecRank": 40,
+      "edhrecDecks": 19887,
+      "isPartner": false
+    },
+    {
+      "id": 41,
+      "name": "Shorikai, Genesis Engine",
+      "cmc": 4,
+      "colors": [
+        "U",
+        "W"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Artifact"
+      ],
+      "subtypes": [
+        "Vehicle"
+      ],
+      "keywords": [
+        "Crew"
+      ],
+      "tags": [
+        "discard",
+        "token",
+        "card_advantage",
+        "draw"
+      ],
+      "power": "8",
+      "toughness": "8",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/9/6/969ac7dd-f3aa-4888-9ff0-d16a31b5e7a9.jpg?1763728107",
+      "edhrecRank": 41,
+      "edhrecDecks": 19825,
+      "isPartner": false
+    },
+    {
+      "id": 42,
+      "name": "Hashaton, Scarab's Fist",
+      "cmc": 2,
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Zombie",
+        "Wizard"
+      ],
+      "keywords": [],
+      "tags": [
+        "discard",
+        "token",
+        "triggered"
+      ],
+      "power": "1",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/0/2/02645651-cd55-4bd0-8a4d-fa257270a0e0.jpg?1747231831",
+      "edhrecRank": 42,
+      "edhrecDecks": 19722,
+      "isPartner": false
+    },
+    {
+      "id": 43,
+      "name": "Meren of Clan Nel Toth",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "G"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Shaman"
+      ],
+      "keywords": [],
+      "tags": [
+        "counter",
+        "graveyard",
+        "triggered"
+      ],
+      "power": "3",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/5/0/508b1442-bf2c-4ad6-9bcf-bd894e081ab6.jpg?1743207181",
+      "edhrecRank": 43,
+      "edhrecDecks": 19370,
+      "isPartner": false
+    },
+    {
+      "id": 44,
+      "name": "Flubs, the Fool",
+      "cmc": 3,
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Frog",
+        "Scout"
+      ],
+      "keywords": [],
+      "tags": [
+        "draw",
+        "discard",
+        "triggered",
+        "card_advantage",
+        "cast"
+      ],
+      "power": "0",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/4/1/41e58eb8-e5b9-4ef6-be1f-00e28cebb998.jpg?1722441006",
+      "edhrecRank": 44,
+      "edhrecDecks": 19279,
+      "isPartner": false
+    },
+    {
+      "id": 45,
+      "name": "Breya, Etherium Shaper",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 4,
+      "types": [
+        "Legendary",
+        "Artifact",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human"
+      ],
+      "keywords": [],
+      "tags": [
+        "lifegain",
+        "sacrifice",
+        "token",
+        "burn",
+        "etb",
+        "triggered"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/8/b/8bf3929c-957f-4ea2-a27d-7d53979844af.jpg?1763999888",
+      "edhrecRank": 45,
+      "edhrecDecks": 19128,
+      "isPartner": false
+    },
+    {
+      "id": 46,
+      "name": "Teysa Karlov",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "W"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Advisor"
+      ],
+      "keywords": [],
+      "tags": [
+        "token",
+        "lifegain"
+      ],
+      "power": "2",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/c/d/cd14f1ce-7fcd-485c-b7ca-01c5b45fdc01.jpg?1689999296",
+      "edhrecRank": 46,
+      "edhrecDecks": 18891,
+      "isPartner": false
+    },
+    {
+      "id": 47,
+      "name": "Go-Shintai of Life's Origin",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 5,
+      "types": [
+        "Legendary",
+        "Enchantment",
+        "Creature"
+      ],
+      "subtypes": [
+        "Shrine"
+      ],
+      "keywords": [],
+      "tags": [
+        "etb",
+        "triggered",
+        "recursion",
+        "token",
+        "graveyard"
+      ],
+      "power": "3",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/9/4/9476fe67-d2d3-4835-8ba6-2a17d18cc141.jpg?1723704351",
+      "edhrecRank": 47,
+      "edhrecDecks": 18875,
+      "isPartner": false
+    },
+    {
+      "id": 48,
+      "name": "Ghyrson Starn, Kelermorph",
+      "cmc": 3,
+      "colors": [
+        "R",
+        "U"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Tyranid",
+        "Human"
+      ],
+      "keywords": [
+        "Three Autostubs",
+        "Ward"
+      ],
+      "tags": [
+        "counter",
+        "triggered"
+      ],
+      "power": "3",
+      "toughness": "2",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/f/a/fa7349d9-c82f-4cf8-a852-92168d1f4966.jpg?1673309394",
+      "edhrecRank": 48,
+      "edhrecDecks": 18722,
+      "isPartner": false
+    },
+    {
+      "id": 49,
+      "name": "Korvold, Fae-Cursed King",
+      "cmc": 5,
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Dragon",
+        "Noble"
+      ],
+      "keywords": [
+        "Flying"
+      ],
+      "tags": [
+        "draw",
+        "sacrifice",
+        "counter",
+        "etb",
+        "triggered",
+        "combat",
+        "card_advantage"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.jpg?1752944988",
+      "edhrecRank": 49,
+      "edhrecDecks": 18387,
+      "isPartner": false
+    },
+    {
+      "id": 50,
+      "name": "Obeka, Splitter of Seconds",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Ogre",
+        "Warlock"
+      ],
+      "keywords": [
+        "Menace"
+      ],
+      "tags": [
+        "triggered",
+        "combat"
+      ],
+      "power": "2",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/0/3/03415c42-086e-4a2e-9be8-5cdcde83f134.jpg?1712356168",
+      "edhrecRank": 50,
+      "edhrecDecks": 18330,
+      "isPartner": false
+    },
+    {
+      "id": 51,
+      "name": "K'rrik, Son of Yawgmoth",
+      "cmc": 7,
+      "colors": [
+        "B"
+      ],
+      "colorCount": 1,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Phyrexian",
+        "Horror",
+        "Minion"
+      ],
+      "keywords": [
+        "Lifelink"
+      ],
+      "tags": [
+        "triggered",
+        "lifegain",
+        "cast",
+        "counter"
+      ],
+      "power": "2",
+      "toughness": "2",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/4/f/4f087b1c-97e0-4379-a94d-beac53685314.jpg?1717013624",
+      "edhrecRank": 51,
+      "edhrecDecks": 18227,
+      "isPartner": false
+    },
+    {
+      "id": 52,
+      "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+      "cmc": 5,
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Wizard",
+        "//",
+        "Legendary",
+        "Creature"
+      ],
+      "keywords": [
+        "Flying",
+        "Transform"
+      ],
+      "tags": [
+        "card_advantage",
+        "draw",
+        "discard",
+        "sacrifice",
+        "etb",
+        "triggered",
+        "combat"
+      ],
+      "power": null,
+      "toughness": null,
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/8/f/8fcf3fbb-1ddd-437e-81c1-f5a3133f5ee8.jpg?1748707830",
+      "edhrecRank": 52,
+      "edhrecDecks": 18075,
+      "isPartner": false
+    },
+    {
+      "id": 53,
+      "name": "Tom Bombadil",
+      "cmc": 5,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 5,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "God",
+        "Bard"
+      ],
+      "keywords": [],
+      "tags": [
+        "counter",
+        "triggered"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/2/a/2ab04c49-76a1-4896-8dca-8cb4c615f489.jpg?1686970104",
+      "edhrecRank": 53,
+      "edhrecDecks": 18029,
+      "isPartner": false
+    },
+    {
+      "id": 54,
+      "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+      "cmc": 3,
+      "colors": [
+        "B"
+      ],
+      "colorCount": 1,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Avatar",
+        "Soldier",
+        "//",
+        "Legendary",
+        "Creature"
+      ],
+      "keywords": [
+        "Flying",
+        "Transform",
+        "Super Nova"
+      ],
+      "tags": [
+        "combat",
+        "lifegain",
+        "card_advantage",
+        "draw",
+        "sacrifice",
+        "etb",
+        "triggered"
+      ],
+      "power": null,
+      "toughness": null,
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/8/5/85eaf5e7-77dc-4842-a70c-ce4ac7f724df.jpg?1748707811",
+      "edhrecRank": 54,
+      "edhrecDecks": 17846,
+      "isPartner": false
+    },
+    {
+      "id": 55,
+      "name": "Oloro, Ageless Ascetic",
+      "cmc": 6,
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Giant",
+        "Soldier"
+      ],
+      "keywords": [],
+      "tags": [
+        "triggered",
+        "lifegain",
+        "card_advantage",
+        "draw"
+      ],
+      "power": "4",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/a/b/abf8df47-405c-42d8-be9e-0f0d0a49589b.jpg?1562931285",
+      "edhrecRank": 55,
+      "edhrecDecks": 17823,
+      "isPartner": false
+    },
+    {
+      "id": 56,
+      "name": "Ygra, Eater of All",
+      "cmc": 5,
+      "colors": [
+        "B",
+        "G"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Elemental",
+        "Cat"
+      ],
+      "keywords": [
+        "Ward"
+      ],
+      "tags": [
+        "triggered",
+        "lifegain",
+        "sacrifice",
+        "counter",
+        "graveyard"
+      ],
+      "power": "6",
+      "toughness": "6",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/b/9/b9ac7673-eae8-4c4b-889e-5025213a6151.jpg?1721427242",
+      "edhrecRank": 56,
+      "edhrecDecks": 17754,
+      "isPartner": false
+    },
+    {
+      "id": 57,
+      "name": "Glarb, Calamity's Augur",
+      "cmc": 3,
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Frog",
+        "Wizard",
+        "Noble"
+      ],
+      "keywords": [
+        "Surveil",
+        "Deathtouch"
+      ],
+      "tags": [
+        "cast"
+      ],
+      "power": "2",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/f/f/ffc70b2d-5a3a-49ea-97db-175a62248302.jpg?1721427068",
+      "edhrecRank": 57,
+      "edhrecDecks": 17722,
+      "isPartner": false
+    },
+    {
+      "id": 58,
+      "name": "Eriette of the Charmed Apple",
+      "cmc": 3,
+      "colors": [
+        "B",
+        "W"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Warlock"
+      ],
+      "keywords": [],
+      "tags": [
+        "triggered",
+        "combat",
+        "lifegain"
+      ],
+      "power": "2",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/e/c/ecead4cd-47ae-4c42-b15c-1b29b5caba18.jpg?1692939281",
+      "edhrecRank": 58,
+      "edhrecDecks": 17577,
+      "isPartner": false
+    },
+    {
+      "id": 59,
+      "name": "Atla Palani, Nest Tender",
+      "cmc": 4,
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Shaman"
+      ],
+      "keywords": [],
+      "tags": [
+        "triggered",
+        "token"
+      ],
+      "power": "2",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/2/b/2b8414f7-22c3-4e1c-934b-4a0e7acf951d.jpg?1673305450",
+      "edhrecRank": 59,
+      "edhrecDecks": 17546,
+      "isPartner": false
+    },
+    {
+      "id": 60,
+      "name": "Urza, Lord High Artificer",
+      "cmc": 4,
+      "colors": [
+        "U"
+      ],
+      "colorCount": 1,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Artificer"
+      ],
+      "keywords": [],
+      "tags": [
+        "exile",
+        "token",
+        "etb",
+        "triggered"
+      ],
+      "power": "1",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/7/b/7b7a348a-51f7-4dc5-8fe7-1c70fea5e050.jpg?1761053659",
+      "edhrecRank": 60,
+      "edhrecDecks": 17521,
+      "isPartner": false
+    },
+    {
+      "id": 61,
+      "name": "Fire Lord Azula",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Noble"
+      ],
+      "keywords": [
+        "Firebending"
+      ],
+      "tags": [
+        "combat",
+        "cast",
+        "token",
+        "ramp",
+        "triggered"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/b/c/bc6146bf-f0c6-4557-af6a-74c643d5fc01.jpg?1764121593",
+      "edhrecRank": 61,
+      "edhrecDecks": 17499,
+      "isPartner": false
+    },
+    {
+      "id": 62,
+      "name": "Cloud, Ex-SOLDIER",
+      "cmc": 5,
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Soldier",
+        "Mercenary"
+      ],
+      "keywords": [
+        "Treasure",
+        "Haste"
+      ],
+      "tags": [
+        "etb",
+        "triggered",
+        "combat",
+        "card_advantage",
+        "draw",
+        "token"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/0/7/07b4e4f8-6a31-4533-be51-668ce3ddc84f.jpg?1752052926",
+      "edhrecRank": 62,
+      "edhrecDecks": 17444,
+      "isPartner": false
+    },
+    {
+      "id": 63,
+      "name": "Xyris, the Writhing Storm",
+      "cmc": 5,
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Snake",
+        "Leviathan"
+      ],
+      "keywords": [
+        "Flying"
+      ],
+      "tags": [
+        "triggered",
+        "combat",
+        "card_advantage",
+        "draw",
+        "token"
+      ],
+      "power": "3",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/a/f/af0db1d6-5cb1-4917-8e8f-69d5dc184404.jpg?1673305716",
+      "edhrecRank": 63,
+      "edhrecDecks": 17384,
+      "isPartner": false
+    },
+    {
+      "id": 64,
+      "name": "Kinnan, Bonder Prodigy",
+      "cmc": 2,
+      "colors": [
+        "G",
+        "U"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Druid"
+      ],
+      "keywords": [],
+      "tags": [
+        "ramp",
+        "triggered"
+      ],
+      "power": "2",
+      "toughness": "2",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/6/3/63cda4a0-0dff-4edb-ae67-a2b7e2971350.jpg?1761053650",
+      "edhrecRank": 64,
+      "edhrecDecks": 17183,
+      "isPartner": false
+    },
+    {
+      "id": 65,
+      "name": "Henzie \"Toolbox\" Torre",
+      "cmc": 3,
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Devil",
+        "Rogue"
+      ],
+      "keywords": [],
+      "tags": [
+        "cast",
+        "draw",
+        "sacrifice",
+        "triggered",
+        "card_advantage"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/e/e/ee228dcc-3170-4c24-80bc-28bcee07cb43.jpg?1673481644",
+      "edhrecRank": 65,
+      "edhrecDecks": 17076,
+      "isPartner": false
+    },
+    {
+      "id": 66,
+      "name": "Ezio Auditore da Firenze",
+      "cmc": 2,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 5,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Assassin"
+      ],
+      "keywords": [
+        "Menace"
+      ],
+      "tags": [
+        "triggered",
+        "combat",
+        "cast"
+      ],
+      "power": "3",
+      "toughness": "2",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/d/a/dae9ee75-30b8-4e24-af8b-031c816d3221.jpg?1737999942",
+      "edhrecRank": 66,
+      "edhrecDecks": 16973,
+      "isPartner": false
+    },
+    {
+      "id": 67,
+      "name": "Omnath, Locus of Creation",
+      "cmc": 4,
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 4,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Elemental"
+      ],
+      "keywords": [
+        "Landfall"
+      ],
+      "tags": [
+        "etb",
+        "triggered",
+        "lifegain",
+        "card_advantage",
+        "draw"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/4/e/4e4fb50c-a81f-44d3-93c5-fa9a0b37f617.jpg?1639436752",
+      "edhrecRank": 67,
+      "edhrecDecks": 16786,
+      "isPartner": false
+    },
+    {
+      "id": 68,
+      "name": "Sidar Jabari of Zhalfir",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Knight"
+      ],
+      "keywords": [
+        "Flying",
+        "First strike",
+        "Eminence"
+      ],
+      "tags": [
+        "combat",
+        "card_advantage",
+        "recursion",
+        "draw",
+        "discard",
+        "graveyard",
+        "triggered"
+      ],
+      "power": "4",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/5/f/5fc707be-9286-4ba1-90f6-475265d19ed2.jpg?1682207238",
+      "edhrecRank": 68,
+      "edhrecDecks": 16715,
+      "isPartner": false
+    },
+    {
+      "id": 69,
+      "name": "Zaxara, the Exemplary",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Nightmare",
+        "Hydra"
+      ],
+      "keywords": [
+        "Deathtouch"
+      ],
+      "tags": [
+        "token",
+        "counter",
+        "ramp",
+        "triggered",
+        "cast"
+      ],
+      "power": "2",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/6/d/6dc390da-75f8-490a-a724-c12d21cfe578.jpg?1701636845",
+      "edhrecRank": 69,
+      "edhrecDecks": 16646,
+      "isPartner": false
+    },
+    {
+      "id": 70,
+      "name": "The First Sliver",
+      "cmc": 5,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 5,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Sliver"
+      ],
+      "keywords": [
+        "Cascade"
+      ],
+      "tags": [
+        "cast",
+        "exile",
+        "triggered"
+      ],
+      "power": "7",
+      "toughness": "7",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/0/6/06d4fbe1-8a2f-4958-bb85-1a1e5f1e8d87.jpg?1562202321",
+      "edhrecRank": 70,
+      "edhrecDecks": 16561,
+      "isPartner": false
+    },
+    {
+      "id": 71,
+      "name": "Arabella, Abandoned Doll",
+      "cmc": 2,
+      "colors": [
+        "R",
+        "W"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Artifact",
+        "Creature"
+      ],
+      "subtypes": [
+        "Toy"
+      ],
+      "keywords": [],
+      "tags": [
+        "triggered",
+        "combat",
+        "lifegain"
+      ],
+      "power": "1",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/f/6/f683d5a1-b8bf-446f-9fe3-88a4398bf3cf.jpg?1726286645",
+      "edhrecRank": 71,
+      "edhrecDecks": 16558,
+      "isPartner": false
+    },
+    {
+      "id": 72,
+      "name": "Niv-Mizzet, Parun",
+      "cmc": 6,
+      "colors": [
+        "R",
+        "U"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Dragon",
+        "Wizard"
+      ],
+      "keywords": [
+        "Flying"
+      ],
+      "tags": [
+        "draw",
+        "counter",
+        "burn",
+        "triggered",
+        "card_advantage",
+        "cast"
+      ],
+      "power": "5",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/8/6/86c5c337-d25f-4c3e-9762-09ed0c2d36d7.jpg?1712354750",
+      "edhrecRank": 72,
+      "edhrecDecks": 16410,
+      "isPartner": false
+    },
+    {
+      "id": 73,
+      "name": "Atraxa, Grand Unifier",
+      "cmc": 7,
+      "colors": [
+        "B",
+        "G",
+        "U",
+        "W"
+      ],
+      "colorCount": 4,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Phyrexian",
+        "Angel"
+      ],
+      "keywords": [
+        "Deathtouch",
+        "Flying",
+        "Lifelink",
+        "Vigilance"
+      ],
+      "tags": [
+        "etb",
+        "triggered",
+        "lifegain"
+      ],
+      "power": "7",
+      "toughness": "7",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/4/a/4a1f905f-1d55-4d02-9d24-e58070793d3f.jpg?1717951088",
+      "edhrecRank": 73,
+      "edhrecDecks": 16191,
+      "isPartner": false
+    },
+    {
+      "id": 74,
+      "name": "Urza, Chief Artificer",
+      "cmc": 6,
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Artificer"
+      ],
+      "keywords": [
+        "Affinity"
+      ],
+      "tags": [
+        "token",
+        "triggered"
+      ],
+      "power": "4",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/e/a/ea409050-4296-4b76-a6cd-2896ce1b88e4.jpg?1705542672",
+      "edhrecRank": 74,
+      "edhrecDecks": 16110,
+      "isPartner": false
+    },
+    {
+      "id": 75,
+      "name": "Captain N'ghathrod",
+      "cmc": 5,
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Horror",
+        "Pirate"
+      ],
+      "keywords": [
+        "Mill"
+      ],
+      "tags": [
+        "graveyard",
+        "triggered",
+        "combat"
+      ],
+      "power": "3",
+      "toughness": "6",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/5/5/55c02dc8-0743-400c-b334-ca029caf0463.jpg?1728436128",
+      "edhrecRank": 75,
+      "edhrecDecks": 16024,
+      "isPartner": false
+    },
+    {
+      "id": 76,
+      "name": "Sisay, Weatherlight Captain",
+      "cmc": 3,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 5,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "keywords": [],
+      "tags": [],
+      "power": "2",
+      "toughness": "2",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/5/a/5a293c45-1e73-4527-be2f-2dcd5c47b610.jpg?1650730165",
+      "edhrecRank": 76,
+      "edhrecDecks": 15973,
+      "isPartner": false
+    },
+    {
+      "id": 77,
+      "name": "Hearthhull, the Worldseed",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Artifact"
+      ],
+      "subtypes": [
+        "Spacecraft"
+      ],
+      "keywords": [
+        "Station"
+      ],
+      "tags": [
+        "card_advantage",
+        "draw",
+        "sacrifice",
+        "counter",
+        "triggered"
+      ],
+      "power": "6",
+      "toughness": "7",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/6/b/6b913e79-a9f6-44d4-bb37-c4f6f66b8151.jpg?1754673442",
+      "edhrecRank": 77,
+      "edhrecDecks": 15884,
+      "isPartner": false
+    },
+    {
+      "id": 78,
+      "name": "Queen Marchesa",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Assassin"
+      ],
+      "keywords": [
+        "Haste",
+        "Deathtouch"
+      ],
+      "tags": [
+        "triggered",
+        "token",
+        "etb"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/0/f/0fdae05f-7bdc-45fb-b9b9-e5ec3766f965.jpg?1712354769",
+      "edhrecRank": 78,
+      "edhrecDecks": 15686,
+      "isPartner": false
+    },
+    {
+      "id": 79,
+      "name": "Urtet, Remnant of Memnarch",
+      "cmc": 3,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 5,
+      "types": [
+        "Legendary",
+        "Artifact",
+        "Creature"
+      ],
+      "subtypes": [
+        "Myr"
+      ],
+      "keywords": [],
+      "tags": [
+        "cast",
+        "token",
+        "counter",
+        "triggered",
+        "combat"
+      ],
+      "power": "2",
+      "toughness": "2",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/7/a/7aa01ab4-26b0-49dc-8514-b3850d355a21.jpg?1675905609",
+      "edhrecRank": 79,
+      "edhrecDecks": 15554,
+      "isPartner": false
+    },
+    {
+      "id": 80,
+      "name": "Toph, the First Metalbender",
+      "cmc": 4,
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Warrior",
+        "Ally"
+      ],
+      "keywords": [
+        "Earthbend"
+      ],
+      "tags": [
+        "exile",
+        "token",
+        "counter",
+        "ramp",
+        "triggered"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/7/0/70b6670f-a9fa-4d75-b0a7-c01b5071a514.jpg?1764121822",
+      "edhrecRank": 80,
+      "edhrecDecks": 15478,
+      "isPartner": false
+    },
+    {
+      "id": 81,
+      "name": "Magda, Brazen Outlaw",
+      "cmc": 2,
+      "colors": [
+        "R"
+      ],
+      "colorCount": 1,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Dwarf",
+        "Berserker"
+      ],
+      "keywords": [
+        "Treasure"
+      ],
+      "tags": [
+        "triggered",
+        "sacrifice",
+        "token"
+      ],
+      "power": "2",
+      "toughness": "1",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/0/7/079e6263-e54c-4899-a336-5315909b9322.jpg?1631049453",
+      "edhrecRank": 81,
+      "edhrecDecks": 15224,
+      "isPartner": false
+    },
+    {
+      "id": 82,
+      "name": "Alela, Cunning Conqueror",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Faerie",
+        "Warlock"
+      ],
+      "keywords": [
+        "Flying",
+        "Goad"
+      ],
+      "tags": [
+        "token",
+        "triggered",
+        "combat",
+        "cast"
+      ],
+      "power": "2",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/7/9/79ba5c35-6e5c-406a-b95f-844d5ec296ab.jpg?1692933638",
+      "edhrecRank": 82,
+      "edhrecDecks": 15005,
+      "isPartner": false
+    },
+    {
+      "id": 83,
+      "name": "Zinnia, Valley's Voice",
+      "cmc": 3,
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Bird",
+        "Bard"
+      ],
+      "keywords": [
+        "Flying"
+      ],
+      "tags": [
+        "token",
+        "etb",
+        "triggered",
+        "cast"
+      ],
+      "power": "1",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/d/f/dfe36901-5841-4942-8b61-c273111f715e.jpg?1721428146",
+      "edhrecRank": 83,
+      "edhrecDecks": 15000,
+      "isPartner": false
+    },
+    {
+      "id": 84,
+      "name": "Marneus Calgar",
+      "cmc": 5,
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Astartes",
+        "Warrior"
+      ],
+      "keywords": [
+        "Double strike",
+        "Master Tactician",
+        "Chapter Master"
+      ],
+      "tags": [
+        "card_advantage",
+        "draw",
+        "token",
+        "triggered"
+      ],
+      "power": "3",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/e/7/e7517e8e-b424-4731-ba9d-6132bdefa6bf.jpg?1674058408",
+      "edhrecRank": 84,
+      "edhrecDecks": 14861,
+      "isPartner": false
+    },
+    {
+      "id": 85,
+      "name": "Alela, Artful Provocateur",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Faerie",
+        "Warlock"
+      ],
+      "keywords": [
+        "Deathtouch",
+        "Flying",
+        "Lifelink"
+      ],
+      "tags": [
+        "cast",
+        "token",
+        "triggered",
+        "lifegain"
+      ],
+      "power": "2",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/a/b/abc9e41e-fd03-4b6f-8f44-17ba94fa44f5.jpg?1673484923",
+      "edhrecRank": 85,
+      "edhrecDecks": 14659,
+      "isPartner": false
+    },
+    {
+      "id": 86,
+      "name": "Stella Lee, Wild Card",
+      "cmc": 3,
+      "colors": [
+        "R",
+        "U"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Rogue"
+      ],
+      "keywords": [],
+      "tags": [
+        "triggered",
+        "cast",
+        "exile"
+      ],
+      "power": "2",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1714110409",
+      "edhrecRank": 86,
+      "edhrecDecks": 14650,
+      "isPartner": false
+    },
+    {
+      "id": 87,
+      "name": "Helga, Skittish Seer",
+      "cmc": 3,
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Frog",
+        "Druid"
+      ],
+      "keywords": [],
+      "tags": [
+        "ramp",
+        "triggered",
+        "lifegain",
+        "card_advantage",
+        "cast",
+        "draw",
+        "counter"
+      ],
+      "power": "1",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/4/0/40339715-22d0-4f99-822b-a00d9824f27a.jpg?1721427078",
+      "edhrecRank": 87,
+      "edhrecDecks": 14546,
+      "isPartner": false
+    },
+    {
+      "id": 88,
+      "name": "Galadriel, Light of Valinor",
+      "cmc": 5,
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Elf",
+        "Noble"
+      ],
+      "keywords": [
+        "Alliance",
+        "Scry"
+      ],
+      "tags": [
+        "counter",
+        "etb",
+        "triggered",
+        "card_advantage",
+        "draw"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/f/4/f485596f-3a23-4714-ad7e-4c493ab1b530.jpg?1695428241",
+      "edhrecRank": 88,
+      "edhrecDecks": 14382,
+      "isPartner": false
+    },
+    {
+      "id": 89,
+      "name": "Aesi, Tyrant of Gyre Strait",
+      "cmc": 6,
+      "colors": [
+        "G",
+        "U"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Serpent"
+      ],
+      "keywords": [
+        "Landfall"
+      ],
+      "tags": [
+        "card_advantage",
+        "draw",
+        "etb",
+        "triggered"
+      ],
+      "power": "5",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/6/7/673c21f8-02b6-4ac4-b2fc-df065b4ac662.jpg?1726285172",
+      "edhrecRank": 89,
+      "edhrecDecks": 14138,
+      "isPartner": false
+    },
+    {
+      "id": 90,
+      "name": "Aminatou, Veil Piercer",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "keywords": [
+        "Surveil"
+      ],
+      "tags": [
+        "graveyard",
+        "triggered",
+        "card_advantage",
+        "draw"
+      ],
+      "power": "2",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1726596831",
+      "edhrecRank": 90,
+      "edhrecDecks": 14083,
+      "isPartner": false
+    },
+    {
+      "id": 91,
+      "name": "Zur the Enchanter",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "keywords": [
+        "Flying"
+      ],
+      "tags": [
+        "triggered",
+        "combat"
+      ],
+      "power": "1",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/5/6/561cfc04-65ea-49a4-8638-b4631a7cf828.jpg?1675200810",
+      "edhrecRank": 91,
+      "edhrecDecks": 14009,
+      "isPartner": false
+    },
+    {
+      "id": 92,
+      "name": "Be'lakor, the Dark Master",
+      "cmc": 6,
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Demon",
+        "Noble"
+      ],
+      "keywords": [
+        "Flying",
+        "Prince of Chaos",
+        "Lord of Torment"
+      ],
+      "tags": [
+        "card_advantage",
+        "draw",
+        "etb",
+        "triggered"
+      ],
+      "power": "6",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/6/2/62b6ecb2-ac7e-4528-b53c-2cb4f1e38349.jpg?1674058389",
+      "edhrecRank": 92,
+      "edhrecDecks": 13834,
+      "isPartner": false
+    },
+    {
+      "id": 93,
+      "name": "Tovolar, Dire Overlord // Tovolar, the Midnight Scourge",
+      "cmc": 3,
+      "colors": [
+        "G",
+        "R"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Werewolf",
+        "//",
+        "Legendary",
+        "Creature"
+      ],
+      "keywords": [
+        "Daybound",
+        "Transform",
+        "Nightbound"
+      ],
+      "tags": [
+        "triggered",
+        "combat",
+        "card_advantage",
+        "draw"
+      ],
+      "power": null,
+      "toughness": null,
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/f/9/f953fad3-0cd1-48aa-8ed9-d7d2e293e6e2.jpg?1637114341",
+      "edhrecRank": 93,
+      "edhrecDecks": 13819,
+      "isPartner": false
+    },
+    {
+      "id": 94,
+      "name": "Omnath, Locus of All",
+      "cmc": 5,
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 5,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Phyrexian",
+        "Elemental"
+      ],
+      "keywords": [],
+      "tags": [
+        "ramp",
+        "triggered"
+      ],
+      "power": "4",
+      "toughness": "4",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/3/3/33d94ecf-758b-4f68-a7be-6bf3ff1047f4.jpg?1709720836",
+      "edhrecRank": 94,
+      "edhrecDecks": 13723,
+      "isPartner": false
+    },
+    {
+      "id": 95,
+      "name": "Zurgo Stormrender",
+      "cmc": 3,
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Orc",
+        "Warrior"
+      ],
+      "keywords": [
+        "Mobilize"
+      ],
+      "tags": [
+        "triggered",
+        "combat",
+        "card_advantage",
+        "draw",
+        "sacrifice",
+        "token"
+      ],
+      "power": "3",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/d/c/dc8eb325-75c9-4331-830d-3f7d62d77290.jpg?1745970988",
+      "edhrecRank": 95,
+      "edhrecDecks": 13678,
+      "isPartner": false
+    },
+    {
+      "id": 96,
+      "name": "Satya, Aetherflux Genius",
+      "cmc": 4,
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Artificer"
+      ],
+      "keywords": [
+        "Haste",
+        "Menace"
+      ],
+      "tags": [
+        "triggered",
+        "combat",
+        "sacrifice",
+        "token",
+        "counter"
+      ],
+      "power": "3",
+      "toughness": "5",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/3/b/3b964bbe-54cc-425c-9cc6-c877f82af7ba.jpg?1727175658",
+      "edhrecRank": 96,
+      "edhrecDecks": 13410,
+      "isPartner": false
+    },
+    {
+      "id": 97,
+      "name": "Fynn, the Fangbearer",
+      "cmc": 2,
+      "colors": [
+        "G"
+      ],
+      "colorCount": 1,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Warrior"
+      ],
+      "keywords": [
+        "Deathtouch"
+      ],
+      "tags": [
+        "counter",
+        "destroy",
+        "removal",
+        "triggered",
+        "combat"
+      ],
+      "power": "1",
+      "toughness": "3",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/6/9/699efb9e-2649-432b-8b2d-10775114c314.jpg?1730491013",
+      "edhrecRank": 97,
+      "edhrecDecks": 13289,
+      "isPartner": false
+    },
+    {
+      "id": 98,
+      "name": "Kotis, the Fangkeeper",
+      "cmc": 4,
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Zombie",
+        "Warrior"
+      ],
+      "keywords": [
+        "Indestructible"
+      ],
+      "tags": [
+        "triggered",
+        "combat",
+        "cast",
+        "exile"
+      ],
+      "power": "2",
+      "toughness": "1",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/d/3/d3736f17-f80b-4b2c-b919-2c963bc14682.jpg?1743204793",
+      "edhrecRank": 98,
+      "edhrecDecks": 13227,
+      "isPartner": false
+    },
+    {
+      "id": 99,
+      "name": "Etali, Primal Conqueror // Etali, Primal Sickness",
+      "cmc": 7,
+      "colors": [
+        "G",
+        "R"
+      ],
+      "colorCount": 2,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Elder",
+        "Dinosaur",
+        "//",
+        "Legendary",
+        "Creature"
+      ],
+      "keywords": [
+        "Indestructible",
+        "Transform",
+        "Trample"
+      ],
+      "tags": [
+        "counter",
+        "etb",
+        "triggered",
+        "combat",
+        "cast",
+        "exile"
+      ],
+      "power": null,
+      "toughness": null,
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/9/5/95c14c4d-6c16-4826-8d93-d89ad04aee09.jpg?1739657577",
+      "edhrecRank": 99,
+      "edhrecDecks": 13175,
+      "isPartner": false
+    },
+    {
+      "id": 100,
+      "name": "Ureni of the Unwritten",
+      "cmc": 7,
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "colorCount": 3,
+      "types": [
+        "Legendary",
+        "Creature"
+      ],
+      "subtypes": [
+        "Spirit",
+        "Dragon"
+      ],
+      "keywords": [
+        "Flying",
+        "Trample"
+      ],
+      "tags": [
+        "etb",
+        "triggered",
+        "combat"
+      ],
+      "power": "7",
+      "toughness": "7",
+      "imageUrl": "https://cards.scryfall.io/art_crop/front/f/5/f54ecbf1-83df-4486-bd6a-7d1f173b6863.jpg?1745970982",
+      "edhrecRank": 100,
+      "edhrecDecks": 13069,
+      "isPartner": false
+    }
+  ]
+}
