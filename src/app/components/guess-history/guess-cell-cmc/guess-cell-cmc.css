@@ -9,14 +9,6 @@
     border-radius: inherit;
 }
 
-.color-correct {
-    background: var(--color-correct-bg);
-}
-
-.color-wrong {
-    background: var(--color-wrong-bg);
-}
-
 .cmc-value {
     font-size: 18px;
     font-weight: 600;

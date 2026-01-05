@@ -10,7 +10,6 @@
         <div class="tile tile-header">Rank</div>
     </div>
 
-    <!-- ROWS -->
     @for (guess of guesses; track guess.card.name) {
     <div class="tile-row">
         <app-guess-cell-artwork class="tile" [imgUrl]="guess.card.imageUrl" />

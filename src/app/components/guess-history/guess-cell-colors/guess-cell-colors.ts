@@ -11,29 +11,22 @@ export class GuessCellColors {
   @Input({ required: true }) targetColors!: string[];
 
 
-  readonly isExactMatch = computed(() => {
-    if (!this.colors || !this.targetColors) return false;
+  readonly correctCount = computed(() =>
+    this.colors.filter(c => this.targetColors.includes(c)).length
+  );
 
-    return (
-      this.colors.length === this.targetColors.length &&
-      this.colors.every(c => this.targetColors.includes(c))
-    );
-  });
+  readonly isExact = computed(() =>
+    this.correctCount() === this.targetColors.length &&
+    this.colors.length === this.targetColors.length
+  );
 
-  readonly isSuperset = computed(() => {
-    if (!this.colors || !this.targetColors) return false;
+  readonly isPartial = computed(() =>
+    this.correctCount() > 0 && !this.isExact()
+  );
 
-    return (
-      this.targetColors.every(c => this.colors.includes(c)) &&
-      this.colors.length > this.targetColors.length
-    );
-  });
-
-  readonly isAllWrong = computed(() => {
-    if (!this.colors || !this.targetColors) return false;
-
-    return this.colors.every(c => !this.targetColors.includes(c));
-  });
+  readonly isAllWrong = computed(() =>
+    this.correctCount() === 0
+  );
 
   isCorrectColor(color: string): boolean {
     return this.targetColors.includes(color);

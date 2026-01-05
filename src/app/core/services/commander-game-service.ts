@@ -36,7 +36,7 @@ export class CommanderGameService implements GameService {
     }
 
     const isCorrect = submittedCard.name === this.target()!.name;
-    this.guesses.update(prev => [...prev, { card: submittedCard, isCorrect }]);
+    this.guesses.update(prev => [{ card: submittedCard, isCorrect }, ...prev]);
   }
 
 

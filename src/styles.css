@@ -11,3 +11,18 @@
     --tile-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
     --tile-radius: 6px;
 }
+
+.color-correct {
+    background: var(--color-correct-bg);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.color-partial {
+    background: var(--color-partial-bg);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.color-wrong {
+    background: var(--color-wrong-bg);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+}

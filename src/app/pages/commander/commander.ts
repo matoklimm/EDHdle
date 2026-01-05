@@ -43,5 +43,13 @@ export class Commander {
     setTimeout(() => {
       this.service.submitGuess('Giada, Font of Hope');
     }, 2500);
+
+    setTimeout(() => {
+      this.service.submitGuess('Baylen, the Haymaker');
+    }, 3500);
+
+    setTimeout(() => {
+      this.service.submitGuess('Hakbal of the Surging Soul');
+    }, 4500);
   }
 }

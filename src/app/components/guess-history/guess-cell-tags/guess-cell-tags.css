@@ -40,18 +40,6 @@
     background: var(--color-wrong-bg);
 }
 
-.color-correct {
-    background: var(--color-correct-bg);
-}
-
-.color-partial {
-    background: var(--color-partial-bg);
-}
-
-.color-wrong {
-    background: var(--color-wrong-bg);
-}
-
 .color-correct .tag,
 .color-wrong .tag {
     background: rgba(255, 255, 255, 0.6);
