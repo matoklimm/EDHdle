@@ -1,0 +1,7 @@
+<div class="page">
+    <div class="content">
+        <app-guess-input [allCommanders]="allCards()" [guessedNames]="guessedNames()" (select)="submitGuess($event)" />
+
+        <app-guess-history [guesses]="guesses()" [target]="target()"></app-guess-history>
+    </div>
+</div>

@@ -1,17 +1,13 @@
-import { Component, inject } from '@angular/core';
+import { Component, computed, inject, Signal } from '@angular/core';
 import { CommanderGameService } from '@core/services/commander-game-service';
 import { GuessHistory } from "@app/components/guess-history/guess-history";
+import { Card } from '@core/models/card';
+import { GuessInput } from "@app/components/guess-input/guess-input";
 
 @Component({
   selector: 'app-commander',
-  imports: [GuessHistory],
-  template: `
-  <div class="page">
-    <div class="content">
-      <app-guess-history [guesses]="guesses()" [target]="target()"></app-guess-history>
-    </div>
-  </div>
-  `,
+  imports: [GuessHistory, GuessInput],
+  templateUrl: './commander.html',
   styles: `
   .page {
     display: flex;
@@ -19,9 +15,15 @@ import { GuessHistory } from "@app/components/guess-history/guess-history";
   }
 
   .content {
-    max-width: 1000px;
+    max-width: 1100px;
     width: 100%;
-    padding: 32px 24px;
+    padding: 40px 32px;
+    background: linear-gradient(
+      to bottom,
+      rgba(0,0,0,0.15),
+      rgba(0,0,0,0.05)
+    );
+  border-radius: 12px;
   }
   `,
 })
@@ -29,6 +31,15 @@ export class Commander {
   private service = inject(CommanderGameService)
   guesses = this.service.guesses
   target = this.service.target
+  allCards = this.service.cards
+
+  guessedNames: Signal<string[]> = computed(() => {
+    return this.guesses().map(guess => guess.card.name)
+  });
+
+  submitGuess(guess: Card) {
+    this.service.submitGuess(guess.name);
+  }
 
 
   constructor() {

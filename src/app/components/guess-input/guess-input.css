@@ -1,0 +1,81 @@
+.autocomplete {
+    position: relative;
+    width: 420px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    flex: 1;
+    height: 44px;
+    padding: 0 14px;
+
+    font-size: 16px;
+    color: #fff;
+
+    background: rgba(0, 0, 0, 0.65);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px 0 0 8px;
+
+    outline: none;
+}
+
+input:focus {
+    border-color: #f5c542;
+}
+
+.submit-btn {
+    height: 44px;
+    width: 48px;
+
+    background: #f5c542;
+    border: none;
+    border-radius: 0 8px 8px 0;
+
+    cursor: pointer;
+}
+
+.suggestions {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+
+    background: rgba(20, 20, 20, 0.95);
+    border-radius: 8px;
+
+    list-style: none;
+    margin: 0;
+    padding: 4px 0;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.suggestions li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.suggestions img {
+    width: 32px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.suggestions span {
+    color: #fff;
+    font-size: 14px;
+}

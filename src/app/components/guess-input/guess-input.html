@@ -1,1 +1,23 @@
-<p>guess-input works!</p>
+<div class="autocomplete">
+
+    <div class="input-wrapper">
+        <input type="text" placeholder="Commander eingeben…" [value]="query()"
+            (input)="query.set($any($event.target).value)" autocomplete="off" />
+
+        <button class="submit-btn" aria-label="Submit">
+            ▶
+        </button>
+    </div>
+
+    @if (filtered().length) {
+    <ul class="suggestions">
+        @for (c of filtered(); track c.name) {
+        <li (click)="choose(c)">
+            <img [src]="c.imageUrl" alt="" />
+            <span>{{ c.name }}</span>
+        </li>
+        }
+    </ul>
+    }
+
+</div>
