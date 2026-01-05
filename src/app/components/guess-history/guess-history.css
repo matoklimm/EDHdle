@@ -85,3 +85,11 @@
 .tile-row>.tile:nth-child(8) {
     animation-delay: 700ms;
 }
+
+/* added for Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    .tile {
+        animation: none;
+        opacity: 1;
+    }
+}
