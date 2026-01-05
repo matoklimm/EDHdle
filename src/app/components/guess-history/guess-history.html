@@ -17,9 +17,7 @@
 
         <app-guess-cell-colors class="tile" [colors]="guess.card.colors" [targetColors]="target.colors" />
 
-        <div class="tile">
-            {{ guess.card.cmc}}
-        </div>
+        <app-guess-cell-cmc class="tile" [value]="guess.card.cmc" [targetValue]="target.cmc" />
 
         <div class="tile">
             {{ guess.card.edhrecRank}}
