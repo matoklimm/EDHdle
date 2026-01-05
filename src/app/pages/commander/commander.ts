@@ -34,9 +34,6 @@ export class Commander {
   constructor() {
     setTimeout(() => {
       this.service.submitGuess('Atraxa, Praetors\' Voice');
-      this.service.submitGuess('Chatterfang, Squirrel General');
-      this.service.submitGuess('Arabella, Abandoned Doll');
-      this.service.submitGuess('Kenrith, the Returned King');
       console.log(this.service.guesses());
     }, 1500);
 
@@ -51,5 +48,9 @@ export class Commander {
     setTimeout(() => {
       this.service.submitGuess('Hakbal of the Surging Soul');
     }, 4500);
+
+    setTimeout(() => {
+      this.service.submitGuess('Kenrith, the Returned King');
+    }, 6500);
   }
 }

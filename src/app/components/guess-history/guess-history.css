@@ -17,19 +17,17 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-
     background: var(--color-white);
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: 6px;
-
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-
     font-size: 14px;
     font-weight: 500;
-
     transition:
         box-shadow 120ms ease,
         transform 120ms ease;
+    opacity: 0;
+    animation: tile-scale 300ms ease-out forwards;
 }
 
 .tile-header {
@@ -42,4 +40,48 @@
     font-weight: 500;
     font-size: 19px;
     line-height: 1.1;
+}
+
+@keyframes tile-scale {
+    from {
+        opacity: 0;
+        transform: scale(0.96);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.tile-row>.tile:nth-child(1) {
+    animation-delay: 0ms;
+}
+
+.tile-row>.tile:nth-child(2) {
+    animation-delay: 100ms;
+}
+
+.tile-row>.tile:nth-child(3) {
+    animation-delay: 200ms;
+}
+
+.tile-row>.tile:nth-child(4) {
+    animation-delay: 300ms;
+}
+
+.tile-row>.tile:nth-child(5) {
+    animation-delay: 400ms;
+}
+
+.tile-row>.tile:nth-child(6) {
+    animation-delay: 500ms;
+}
+
+.tile-row>.tile:nth-child(7) {
+    animation-delay: 600ms;
+}
+
+.tile-row>.tile:nth-child(8) {
+    animation-delay: 700ms;
 }
