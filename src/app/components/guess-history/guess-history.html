@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let g of guesses()">
+        <img [src]="g.card.imageUrl" width="40" />
+        {{ g.card.name }}
+        {{ g.isCorrect ? '✅' : '❌' }}
+    </li>
+</ul>
