@@ -39,5 +39,9 @@ export class Commander {
       this.service.submitGuess('Kenrith, the Returned King');
       console.log(this.service.guesses());
     }, 1500);
+
+    setTimeout(() => {
+      this.service.submitGuess('Giada, Font of Hope');
+    }, 2500);
   }
 }

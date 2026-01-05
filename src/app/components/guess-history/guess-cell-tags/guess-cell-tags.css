@@ -1,0 +1,58 @@
+:host {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.tags-tile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+    padding: 6px;
+}
+
+.tags-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+}
+
+.tag {
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.1;
+    border-radius: 999px;
+    white-space: nowrap;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+    background: #e7e7e7;
+}
+
+.tag-correct {
+    background: var(--color-correct-bg);
+}
+
+.tag-wrong {
+    background: var(--color-wrong-bg);
+}
+
+.color-correct {
+    background: var(--color-correct-bg);
+}
+
+.color-partial {
+    background: var(--color-partial-bg);
+}
+
+.color-wrong {
+    background: var(--color-wrong-bg);
+}
+
+.color-correct .tag,
+.color-wrong .tag {
+    background: rgba(255, 255, 255, 0.6);
+}

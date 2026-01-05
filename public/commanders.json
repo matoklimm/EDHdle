@@ -26,7 +26,7 @@
     "tags": [
       "triggered",
       "combat",
-      "card_advantage",
+      "card advantage",
       "draw"
     ],
     "power": "10",
@@ -199,7 +199,7 @@
       "sacrifice",
       "triggered",
       "combat",
-      "card_advantage",
+      "card advantage",
       "cast"
     ],
     "power": "7",
@@ -327,7 +327,7 @@
       "Vigilance"
     ],
     "tags": [
-      "card_advantage",
+      "card advantage",
       "cast",
       "draw",
       "triggered",
@@ -366,7 +366,7 @@
       "counter",
       "graveyard",
       "lifegain",
-      "card_advantage"
+      "card advantage"
     ],
     "power": "5",
     "toughness": "5",
@@ -494,7 +494,7 @@
     "keywords": [],
     "tags": [
       "triggered",
-      "card_advantage",
+      "card advantage",
       "draw"
     ],
     "power": "2",
@@ -592,7 +592,7 @@
       "draw",
       "counter",
       "triggered",
-      "card_advantage",
+      "card advantage",
       "cast"
     ],
     "power": "1",
@@ -721,7 +721,7 @@
     ],
     "keywords": [],
     "tags": [
-      "card_advantage",
+      "card advantage",
       "draw",
       "token",
       "counter",
@@ -788,7 +788,7 @@
       "Explore"
     ],
     "tags": [
-      "card_advantage",
+      "card advantage",
       "draw",
       "counter",
       "graveyard",
@@ -826,7 +826,7 @@
     "tags": [
       "counter",
       "triggered",
-      "card_advantage",
+      "card advantage",
       "draw"
     ],
     "power": "4",
@@ -924,7 +924,7 @@
       "Landfall"
     ],
     "tags": [
-      "card_advantage",
+      "card advantage",
       "recursion",
       "draw",
       "token",
@@ -966,7 +966,7 @@
       "triggered",
       "combat",
       "lifegain",
-      "card_advantage"
+      "card advantage"
     ],
     "power": "1",
     "toughness": "3",
@@ -1005,7 +1005,7 @@
       "etb",
       "triggered",
       "combat",
-      "card_advantage",
+      "card advantage",
       "draw"
     ],
     "power": "3",
@@ -1067,7 +1067,7 @@
     "keywords": [],
     "tags": [
       "combat",
-      "card_advantage",
+      "card advantage",
       "draw",
       "sacrifice",
       "token",
@@ -1138,7 +1138,7 @@
     "tags": [
       "triggered",
       "combat",
-      "card_advantage",
+      "card advantage",
       "draw",
       "counter"
     ],
@@ -1240,7 +1240,7 @@
       "draw",
       "triggered",
       "combat",
-      "card_advantage"
+      "card advantage"
     ],
     "power": "3",
     "toughness": "3",
@@ -1327,7 +1327,7 @@
     ],
     "keywords": [],
     "tags": [
-      "card_advantage",
+      "card advantage",
       "draw",
       "sacrifice",
       "token",
@@ -1363,7 +1363,7 @@
     "tags": [
       "discard",
       "token",
-      "card_advantage",
+      "card advantage",
       "draw"
     ],
     "power": "8",
@@ -1457,7 +1457,7 @@
       "draw",
       "discard",
       "triggered",
-      "card_advantage",
+      "card advantage",
       "cast"
     ],
     "power": "0",
@@ -1626,7 +1626,7 @@
       "etb",
       "triggered",
       "combat",
-      "card_advantage"
+      "card advantage"
     ],
     "power": "4",
     "toughness": "4",
@@ -1726,7 +1726,7 @@
       "Transform"
     ],
     "tags": [
-      "card_advantage",
+      "card advantage",
       "draw",
       "discard",
       "sacrifice",
@@ -1801,7 +1801,7 @@
     "tags": [
       "combat",
       "lifegain",
-      "card_advantage",
+      "card advantage",
       "draw",
       "sacrifice",
       "etb",
@@ -1836,7 +1836,7 @@
     "tags": [
       "triggered",
       "lifegain",
-      "card_advantage",
+      "card advantage",
       "draw"
     ],
     "power": "4",
@@ -2065,7 +2065,7 @@
       "etb",
       "triggered",
       "combat",
-      "card_advantage",
+      "card advantage",
       "draw",
       "token"
     ],
@@ -2100,7 +2100,7 @@
     "tags": [
       "triggered",
       "combat",
-      "card_advantage",
+      "card advantage",
       "draw",
       "token"
     ],
@@ -2164,7 +2164,7 @@
       "draw",
       "sacrifice",
       "triggered",
-      "card_advantage"
+      "card advantage"
     ],
     "power": "3",
     "toughness": "3",
@@ -2233,7 +2233,7 @@
       "etb",
       "triggered",
       "lifegain",
-      "card_advantage",
+      "card advantage",
       "draw"
     ],
     "power": "4",
@@ -2268,7 +2268,7 @@
     ],
     "tags": [
       "combat",
-      "card_advantage",
+      "card advantage",
       "recursion",
       "draw",
       "discard",
@@ -2406,7 +2406,7 @@
       "counter",
       "burn",
       "triggered",
-      "card_advantage",
+      "card advantage",
       "cast"
     ],
     "power": "5",
@@ -2567,7 +2567,7 @@
       "Station"
     ],
     "tags": [
-      "card_advantage",
+      "card advantage",
       "draw",
       "sacrifice",
       "counter",
@@ -2808,7 +2808,7 @@
       "Chapter Master"
     ],
     "tags": [
-      "card_advantage",
+      "card advantage",
       "draw",
       "token",
       "triggered"
@@ -2909,7 +2909,7 @@
       "ramp",
       "triggered",
       "lifegain",
-      "card_advantage",
+      "card advantage",
       "cast",
       "draw",
       "counter"
@@ -2947,7 +2947,7 @@
       "counter",
       "etb",
       "triggered",
-      "card_advantage",
+      "card advantage",
       "draw"
     ],
     "power": "3",
@@ -2977,7 +2977,7 @@
       "Landfall"
     ],
     "tags": [
-      "card_advantage",
+      "card advantage",
       "draw",
       "etb",
       "triggered"
@@ -3013,7 +3013,7 @@
     "tags": [
       "graveyard",
       "triggered",
-      "card_advantage",
+      "card advantage",
       "draw"
     ],
     "power": "2",
@@ -3079,7 +3079,7 @@
       "Lord of Torment"
     ],
     "tags": [
-      "card_advantage",
+      "card advantage",
       "draw",
       "etb",
       "triggered"
@@ -3119,7 +3119,7 @@
     "tags": [
       "triggered",
       "combat",
-      "card_advantage",
+      "card advantage",
       "draw"
     ],
     "power": null,
@@ -3185,7 +3185,7 @@
     "tags": [
       "triggered",
       "combat",
-      "card_advantage",
+      "card advantage",
       "draw",
       "sacrifice",
       "token"

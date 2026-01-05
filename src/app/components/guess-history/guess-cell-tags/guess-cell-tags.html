@@ -1,0 +1,12 @@
+<div class="tags-tile" [class.color-correct]="isExact()" [class.color-partial]="isPartial()"
+    [class.color-wrong]="isAllWrong()">
+
+    <div class="tags-wrap">
+        @for (value of values; track value) {
+        <span class="tag" [class.tag-correct]="isCorrect(value)" [class.tag-wrong]="!isCorrect(value)">
+            {{ value }}
+        </span>
+        }
+    </div>
+
+</div>
