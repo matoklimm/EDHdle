@@ -8,7 +8,7 @@ import { Card } from '@core/models/card';
   styleUrl: './guess-input.css',
 })
 export class GuessInput {
-  @Input({ required: true }) allCommanders!: Card[];
+  @Input({ required: true }) allCards!: Card[];
   @Input({ required: true }) guessedNames!: string[];
 
   @Output() select = new EventEmitter<Card>();
@@ -19,15 +19,15 @@ export class GuessInput {
     const q = this.query().toLowerCase().trim();
     if (!q) return [];
 
-    return this.allCommanders
+    return this.allCards
       .filter(c =>
         c.name.toLowerCase().startsWith(q) &&
         !this.guessedNames.includes(c.name)
       )
   });
 
-  choose(commander: Card) {
+  choose(card: Card) {
     this.query.set('');
-    this.select.emit(commander);
+    this.select.emit(card);
   }
 }
