@@ -1,11 +1,11 @@
 import { computed, inject, Injectable, signal, Signal } from '@angular/core';
-import { GameService } from './game-service';
-import { Card } from '../models/card';
-import { Guess } from '../models/guess';
-import { AssetLoaderService } from './asset-loader-service';
 import { dailyIndex } from './daily-random';
-import { HttpClient } from '@angular/common/http';
 import { toSignal } from '@angular/core/rxjs-interop';
+import { HttpClient } from '@angular/common/http';
+
+import { GameService } from './game-service';
+import { Card } from '@core/models/card';
+import { Guess } from '@core/models/guess';
 
 @Injectable({
   providedIn: 'root',
@@ -17,22 +17,18 @@ export class CommanderGameService implements GameService {
   suggestions = signal<Card[]>([]);
 
   cards = toSignal(this.http.get<Card[]>('commanders.json'), { initialValue: [] });
-  private target = computed(() => {
+
+  target: Signal<Card> = computed(() => {
     const allCards = this.cards();
-    if (allCards.length === 0) return null;
+    if (allCards.length === 0) {
+      console.error('Not having a length on all cards, therefore cant select a target');
+    }
     return allCards[dailyIndex(allCards.length)];
   });
 
 
-  constructor() {
-    //this.cards();
-    setTimeout(() => console.log('Cards geladen:', this.cards()), 500);
-    setTimeout(() => console.log('Cards geladen:', this.target()), 500);
-  }
-
   submitGuess(cardName: string): void {
     const submittedCard = this.cards().find(card => card.name === cardName);
-    console.log('Submitted card:', submittedCard);
     if (!submittedCard || !this.target()) {
       // FIXME: proper error handling, maybe with a toast ?
       console.error('Submitted card not found or target not set.');

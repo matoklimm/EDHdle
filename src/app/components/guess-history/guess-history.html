@@ -1,7 +1,25 @@
-<ul>
-    <li *ngFor="let g of guesses()">
-        <img [src]="g.card.imageUrl" width="40" />
-        {{ g.card.name }}
-        {{ g.isCorrect ? '✅' : '❌' }}
-    </li>
-</ul>
+<div class="guess-scroll">
+    <div class="tile-row">
+        <div class="tile tile-header">Commander</div>
+        <div class="tile tile-header">Colors</div>
+        <div class="tile tile-header">CMC</div>
+        <div class="tile tile-header">Types</div>
+        <div class="tile tile-header">Subtypes</div>
+        <div class="tile tile-header">Keywords</div>
+        <div class="tile tile-header">Tags</div>
+        <div class="tile tile-header">Rank</div>
+    </div>
+
+    <!-- ROWS -->
+    @for (guess of guesses; track guess.card.name) {
+    <div class="tile-row">
+        <app-guess-cell-artwork class="tile" [imgUrl]="guess.card.imageUrl" />
+
+        <app-guess-cell-colors class="tile" [colors]="guess.card.colors" [targetColors]="target.colors" />
+
+        <div class="tile">
+            {{ guess.card.edhrecRank}}
+        </div>
+    </div>
+    }
+</div>

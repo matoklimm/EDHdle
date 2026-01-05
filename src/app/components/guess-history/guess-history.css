@@ -1,0 +1,44 @@
+.guess-scroll {
+    display: grid;
+    row-gap: 10px;
+    overflow-x: auto;
+}
+
+.tile-row {
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+}
+
+.tile {
+    height: 150px;
+    flex: 0 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+
+    font-size: 14px;
+    font-weight: 500;
+
+    transition:
+        box-shadow 120ms ease,
+        transform 120ms ease;
+}
+
+.tile-header {
+    background: transparent;
+    box-shadow: none;
+
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid var(--header-border);
+
+    font-weight: 600;
+}

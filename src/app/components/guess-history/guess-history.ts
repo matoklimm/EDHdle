@@ -1,11 +1,16 @@
-import { Component, computed, inject } from '@angular/core';
+import { Component, computed, inject, Input } from '@angular/core';
+import { Guess } from '@core/models/guess';
+import { Card } from '@core/models/card';
+import { GuessCellArtwork } from './guess-cell-artwork/guess-cell-artwork';
+import { GuessCellColors } from "./guess-cell-colors/guess-cell-colors";
 
 @Component({
   selector: 'app-guess-history',
-  imports: [],
+  imports: [GuessCellArtwork, GuessCellColors],
   templateUrl: './guess-history.html',
   styleUrl: './guess-history.css',
 })
 export class GuessHistory {
-
+  @Input({ required: true }) guesses!: Guess[]
+  @Input({ required: true }) target!: Card
 }

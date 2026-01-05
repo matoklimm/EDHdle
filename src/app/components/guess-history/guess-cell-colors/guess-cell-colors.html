@@ -1,0 +1,12 @@
+<div class="colors-tile" [class.colors-tile--exact]="isExactMatch()" [class.colors-tile--superset]="isSuperset()"
+    [class.colors-tile--wrong]="isAllWrong()">
+
+    @for (color of colors; track color) {
+    <div class="color-row" [class.color-row--correct]="isCorrectColor(color)"
+        [class.color-row--wrong]="!isCorrectColor(color)">
+
+        <img class="mana-icon" [src]="getSvgPath(color)" [alt]="color" />
+    </div>
+    }
+
+</div>
