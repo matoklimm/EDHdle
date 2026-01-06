@@ -1,5 +1,6 @@
 export function dailyIndex(length: number): number {
     const key = getTodayKey();
+    console.log('today', key)
     const hash = hashString(key);
     return hash % length;
 }
@@ -13,7 +14,12 @@ function hashString(str: string): number {
     return Math.abs(hash);
 }
 
-function getTodayKey(): string {
-    const now = new Date();
-    return `${now.getUTCFullYear()}-${now.getUTCMonth() + 1}-${now.getUTCDate()}`;
+export function getTodayKey(): string {
+    return new Date().toISOString().slice(0, 10);
+}
+
+export function getYesterdayKey(): string {
+    const d = new Date();
+    d.setUTCDate(d.getUTCDate() - 1);
+    return d.toISOString().slice(0, 10);
 }
