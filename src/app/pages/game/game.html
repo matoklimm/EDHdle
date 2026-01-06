@@ -5,11 +5,13 @@
                 [isGameWon]="isGameWon()" />
         </div>
 
-        <app-guess-history [guesses]="guesses()" [target]="target()"></app-guess-history>
+        @if (target()) {
+        <app-guess-history [guesses]="guesses()" [target]="target()!"></app-guess-history>
+        }
     </div>
 
 
-    @if (showVictory()) {
-    <app-victory [target]="target()" (close)="showVictory.set(false)" />
+    @if (isGameWon()) {
+    <app-victory [target]="target()!" (close)="showVictory.set(false)" />
     }
 </div>

@@ -7,37 +7,52 @@ import { GameService } from './game-service';
 import { Card } from '@core/models/card';
 import { Guess } from '@core/models/guess';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable({ providedIn: 'root' })
 export class CommanderGameService implements GameService {
   private http = inject(HttpClient);
 
-  guesses = signal<Guess[]>([]);
-  suggestions = signal<Card[]>([]);
+  constructor() {
+    console.log("hello from the commander game service");
+  }
 
-  cards = toSignal(this.http.get<Card[]>('commanders.json'), { initialValue: [] });
+  private _guesses = signal<Guess[]>([]);
 
-  target: Signal<Card> = computed(() => {
-    const allCards = this.cards();
-    if (allCards.length === 0) {
-      console.error('Not having a length on all cards, therefore cant select a target');
-    }
-    return allCards[dailyIndex(allCards.length)];
+  private _cards = toSignal(
+    this.http.get<Card[]>('data/commanders.json'),
+    { initialValue: [] }
+  );
+
+  private _target = computed<Card | null>(() => {
+    const all = this._cards();
+    if (!all.length) return null;
+    return all[dailyIndex(all.length)];
   });
 
 
+  readonly guesses = this._guesses.asReadonly();
+  readonly cards = this._cards;
+  readonly target = this._target;
+
+  readonly isGameWon = computed(() =>
+    this._guesses().some(g => g.isCorrect)
+  );
+
+  readonly guessedNames = computed(() =>
+    this._guesses().map(g => g.card.name)
+  );
+
+
   submitGuess(cardName: string): void {
-    const submittedCard = this.cards().find(card => card.name === cardName);
-    if (!submittedCard || !this.target()) {
-      // FIXME: proper error handling, maybe with a toast ?
-      console.error('Submitted card not found or target not set.');
+    if (this.isGameWon()) return;
+
+    const submittedCard = this._cards().find(c => c.name === cardName);
+    const target = this._target();
+
+    if (!submittedCard || !target) {
+      console.error('Invalid guess or target not ready');
       return;
     }
 
-    const isCorrect = submittedCard.name === this.target()!.name;
-    this.guesses.update(prev => [{ card: submittedCard, isCorrect }, ...prev]);
+    this._guesses.update(prev => [{ card: submittedCard, isCorrect: submittedCard.name === target.name }, ...prev,]);
   }
-
-
 }

@@ -1,7 +1,9 @@
 import { Routes } from '@angular/router';
 import { Home } from './pages/home/home';
-import { Commander } from './pages/commander/commander';
-import { Staple } from './pages/staple/staple';
+import { StapleGameService } from '@core/services/staple-game-service';
+import { Game } from './pages/game/game';
+import { CommanderGameService } from '@core/services/commander-game-service';
+import { GAME_SERVICE } from '@core/services/game.token';
 
 export const routes: Routes = [
     {
@@ -10,12 +12,14 @@ export const routes: Routes = [
         component: Home,
     },
     {
-        path: 'commander',
-        component: Commander,
+        path: 'staple',
+        component: Game,
+        providers: [{ provide: GAME_SERVICE, useExisting: StapleGameService }]
     },
     {
-        path: 'staple',
-        component: Staple,
+        path: 'commander',
+        component: Game,
+        providers: [{ provide: GAME_SERVICE, useExisting: CommanderGameService }]
     },
     {
         path: '**',

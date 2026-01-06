@@ -8,5 +8,4 @@ export interface Card {
     keywords: string[],
     tags: string[],
     imageUrl: string
-    edhrecRank: number
 }
