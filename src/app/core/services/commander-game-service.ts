@@ -1,4 +1,4 @@
-import { computed, inject, Injectable, signal, Signal } from '@angular/core';
+import { computed, effect, inject, Injectable, signal, Signal } from '@angular/core';
 import { dailyIndex } from './daily-random';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { HttpClient } from '@angular/common/http';
@@ -6,13 +6,20 @@ import { HttpClient } from '@angular/common/http';
 import { GameService } from './game-service';
 import { Card } from '@core/models/card';
 import { Guess } from '@core/models/guess';
+import { restoreState, saveState } from '@core/cache/storage-functions';
 
 @Injectable({ providedIn: 'root' })
 export class CommanderGameService implements GameService {
+  private readonly STORAGE_KEY = 'CommanderGameService';
   private http = inject(HttpClient);
 
   constructor() {
-    console.log("hello from the commander game service");
+    this._guesses.set(restoreState(this.STORAGE_KEY))
+
+    effect(() => {
+      const saveGuesses = this._guesses();
+      saveState(this.STORAGE_KEY, saveGuesses);
+    });
   }
 
   private _guesses = signal<Guess[]>([]);
