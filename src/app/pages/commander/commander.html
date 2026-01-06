@@ -1,9 +1,15 @@
 <div class="page">
     <div class="content">
         <div class="input-zone">
-            <app-guess-input [allCards]="allCards()" [guessedNames]="guessedNames()" (select)="submitGuess($event)" />
+            <app-guess-input [allCards]="allCards()" [guessedNames]="guessedNames()" (select)="submitGuess($event)"
+                [isGameWon]="isGameWon()" />
         </div>
 
         <app-guess-history [guesses]="guesses()" [target]="target()"></app-guess-history>
     </div>
+
+
+    @if (showVictory()) {
+    <app-victory [target]="target()" (close)="showVictory.set(false)" />
+    }
 </div>

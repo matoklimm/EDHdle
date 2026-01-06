@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-staple',
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './staple.html',
   styleUrl: './staple.css',
 })

@@ -1,0 +1,30 @@
+<div class="victory-backdrop" (click)="close.emit()">
+    <div class="victory-card" (click)="$event.stopPropagation()">
+
+        <button class="victory-close" aria-label="Close" (click)="close.emit()">
+            ✕
+        </button>
+
+        <h1 class="victory-title">
+            🎉 You did it!
+        </h1>
+
+        <p class="victory-subtitle">
+            <strong>{{ target.name }}</strong><br />
+            was the searched card.
+        </p>
+
+        <img class="victory-art" [src]="target.imageUrl" [alt]="target.name" />
+
+        <div class="victory-actions">
+            <a routerLink="/" class="victory-link">
+                🏠 Home
+            </a>
+
+            <a [routerLink]="targetLink" class="victory-link">
+                {{ targetLabel }}
+            </a>
+        </div>
+
+    </div>
+</div>

@@ -10,6 +10,7 @@ import { Card } from '@core/models/card';
 export class GuessInput {
   @Input({ required: true }) allCards!: Card[];
   @Input({ required: true }) guessedNames!: string[];
+  @Input({ required: true }) isGameWon!: boolean;
 
   @Output() select = new EventEmitter<Card>();
 

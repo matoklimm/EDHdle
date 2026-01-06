@@ -2,7 +2,7 @@
 
     <div class="input-wrapper">
         <input type="text" placeholder="Commander eingeben…" [value]="query()"
-            (input)="query.set($any($event.target).value)" autocomplete="off" />
+            (input)="query.set($any($event.target).value)" autocomplete="off" [disabled]="isGameWon">
 
         <button class="submit-btn" aria-label="Submit">
             <img src="tap.svg" alt="Tap">

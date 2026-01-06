@@ -1,0 +1,163 @@
+.victory-backdrop {
+    position: fixed;
+    inset: 0;
+    background:
+        radial-gradient(circle at center,
+            rgba(255, 180, 80, 0.18),
+            rgba(0, 0, 0, 0.35));
+    backdrop-filter: blur(10px) saturate(1.1);
+    -webkit-backdrop-filter: blur(10px) saturate(1.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.victory-backdrop::before {
+    left: 20px;
+}
+
+.victory-backdrop::after {
+    right: 20px;
+    animation-delay: -4s;
+}
+
+@keyframes fire-float {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-40%);
+    }
+}
+
+.victory-card {
+    position: relative;
+    width: 460px;
+    max-width: 92vw;
+    background:
+        linear-gradient(180deg,
+            rgba(255, 255, 255, 0.04),
+            rgba(0, 0, 0, 0.0)),
+        rgba(30, 30, 30, 0.9);
+    color: #fff;
+    border-radius: 22px;
+    padding: 36px 30px 28px;
+    text-align: center;
+    box-shadow:
+        0 24px 70px rgba(0, 0, 0, 0.7),
+        0 0 0 1px rgba(255, 255, 255, 0.06);
+    animation: victory-pop 420ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.victory-card::before {
+    content: "";
+    position: absolute;
+    inset: -6px;
+    border-radius: 28px;
+    opacity: 0.55;
+    filter: blur(18px);
+    z-index: -1;
+}
+
+.victory-title {
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+.victory-subtitle {
+    font-size: 15px;
+    opacity: 0.9;
+    margin-bottom: 14px;
+    line-height: 1.45;
+}
+
+.victory-art {
+    width: 260px;
+    max-width: 100%;
+    margin: 18px auto 22px;
+    border-radius: 16px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.65);
+}
+
+.victory-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.victory-link {
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.14);
+    transition:
+        background 120ms ease,
+        transform 120ms ease;
+}
+
+.victory-link:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.victory-link:active {
+    transform: scale(0.96);
+}
+
+.victory-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 34px;
+    height: 34px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition:
+        background 120ms ease,
+        transform 120ms ease;
+}
+
+.victory-close:hover {
+    background: rgba(255, 255, 255, 0.28);
+}
+
+.victory-close:active {
+    transform: scale(0.9);
+}
+
+
+@keyframes victory-pop {
+    0% {
+        opacity: 0;
+        transform: scale(0.85) translateY(20px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    .victory-card {
+        animation: none;
+    }
+
+    .victory-backdrop::before,
+    .victory-backdrop::after {
+        animation: none;
+    }
+}
