@@ -8,24 +8,7 @@ import { GuessInput } from "@app/components/guess-input/guess-input";
   selector: 'app-commander',
   imports: [GuessHistory, GuessInput],
   templateUrl: './commander.html',
-  styles: `
-  .page {
-    display: flex;
-    justify-content: center;
-  }
-
-  .content {
-    max-width: 1100px;
-    width: 100%;
-    padding: 40px 32px;
-    background: linear-gradient(
-      to bottom,
-      rgba(0,0,0,0.15),
-      rgba(0,0,0,0.05)
-    );
-  border-radius: 12px;
-  }
-  `,
+  styleUrl: './commander.css',
 })
 export class Commander {
   private service = inject(CommanderGameService)

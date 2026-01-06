@@ -2,7 +2,8 @@
     display: block;
     min-height: 100vh;
 
-    background-image: url('/dragon.jpg');
+    /* background-image: url('/ashiok.png'); */
+    background-image: url('/urdragon.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

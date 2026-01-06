@@ -1,0 +1,44 @@
+.page {
+    display: flex;
+    justify-content: center;
+    padding-top: 7vh;
+}
+
+.content {
+    max-width: 1200px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    /* padding-left: 100px;
+    padding-right: 56px;
+    padding-bottom: 40px;
+    padding-top: 24px; */
+
+    padding: 24px 56px 40px 100px;
+}
+
+@media (max-width: 1024px) {
+    .content {
+        padding-left: 32px;
+        padding-right: 24px;
+        padding-top: 12px
+    }
+}
+
+@media (max-width: 600px) {
+    .page {
+        padding-top: 3vh;
+    }
+
+    .content {
+        padding: 16px;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.15);
+    }
+}
+
+.input-zone {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 40px;
+}
