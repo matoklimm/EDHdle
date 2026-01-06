@@ -1,4 +1,4 @@
-import { Component, computed, inject, signal } from '@angular/core';
+import { Component, computed, effect, inject, signal } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { GuessHistory } from '@app/components/guess-history/guess-history';
 import { GuessInput } from '@app/components/guess-input/guess-input';
@@ -26,11 +26,17 @@ export class Game {
 
   readyTarget = computed<Card | null>(() => this.target());
 
+  constructor() {
+    effect(() => {
+      if (this.isGameWon()) {
+        setTimeout(() => {
+          this.showVictory.set(true);
+        }, 1000);
+      }
+    });
+  }
+
   submitGuess(card: Card) {
     this.game.submitGuess(card.name);
-
-    if (this.isGameWon()) {
-      setTimeout(() => this.showVictory.set(true), 1000);
-    }
   }
 }

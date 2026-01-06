@@ -5,19 +5,21 @@ import { GameConfig } from '@core/models/game-config';
 import { GameService } from './game-service';
 import { Guess } from '@core/models/guess';
 import { Card } from '@core/models/card';
-import { dailyIndex } from './daily-random';
+import { dailyIndex, getTodayKey } from './daily-random';
 import { restoreState, saveState } from '@core/cache/storage-functions';
 
 export abstract class BaseGameService implements GameService {
     protected http = inject(HttpClient);
 
+    private _dayKey = signal(getTodayKey());
+
     protected _guesses = signal<Guess[]>([]);
+    readonly guesses = this._guesses.asReadonly();
 
     protected _allCards: Signal<Card[]>;
-    protected _target: Signal<Card | null>;
-
-    readonly guesses = this._guesses.asReadonly();
     readonly cards: Signal<Card[]>;
+
+    protected _target: Signal<Card | null>;
     readonly target: Signal<Card | null>;
 
     readonly isGameWon = computed(() =>
@@ -37,8 +39,9 @@ export abstract class BaseGameService implements GameService {
         this.cards = this._allCards;
 
         this._target = computed<Card | null>(() => {
-            const all = this._allCards();
-            return all.length ? all[dailyIndex(all.length)] : null;
+            const cards = this._allCards();
+            const day = this._dayKey();
+            return cards.length ? cards[dailyIndex(cards.length, day)] : null;
         });
 
         this.target = this._target;
@@ -48,6 +51,8 @@ export abstract class BaseGameService implements GameService {
         effect(() => {
             saveState(config.storageKey, this._guesses());
         });
+
+        this.startDailyTicker();
     }
 
     submitGuess(cardName: string): void {
@@ -62,5 +67,17 @@ export abstract class BaseGameService implements GameService {
             { card, isCorrect: card.name === target.name },
             ...prev,
         ]);
+    }
+
+    /**
+     * checking every minute today has changed and if so, update the signal
+     */
+    private startDailyTicker(): void {
+        setInterval(() => {
+            const today = getTodayKey();
+            if (today !== this._dayKey()) {
+                this._dayKey.update((_) => today);
+            }
+        }, 60_000);
     }
 }

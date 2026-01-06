@@ -1,7 +1,5 @@
-export function dailyIndex(length: number): number {
-    const key = getTodayKey();
-    console.log('today', key)
-    const hash = hashString(key);
+export function dailyIndex(length: number, dayKey: string): number {
+    const hash = hashString(dayKey);
     return hash % length;
 }
 

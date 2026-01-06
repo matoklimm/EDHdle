@@ -11,7 +11,7 @@
     </div>
 
 
-    @if (isGameWon()) {
+    @if (showVictory()) {
     <app-victory [target]="target()!" (close)="showVictory.set(false)" />
     }
 </div>
