@@ -20,7 +20,7 @@ export class GuessCellTags {
   );
 
   readonly isAllWrong = computed(() =>
-    this.correctCount() === 0
+    this.correctCount() === 0 && this.targetValues.length > 0
   );
 
   readonly isPartial = computed(() =>
