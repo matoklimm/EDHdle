@@ -11,6 +11,9 @@ export class GuessCellCmc {
   @Input({ required: true }) targetValue!: number;
 
   readonly isCorrect = computed(() => this.value === this.targetValue);
+  readonly isClose = computed<boolean>(() => {
+    return Math.abs(this.value - this.targetValue) === 1
+  });
 
   readonly direction = computed<'up' | 'down' | null>(() => {
     if (this.isCorrect()) return null;
