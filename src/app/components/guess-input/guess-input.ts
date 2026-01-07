@@ -15,6 +15,8 @@ export class GuessInput {
   @Output() select = new EventEmitter<Card>();
 
   query = signal('');
+  displayValue = signal('');
+  activeIndex = signal(-1);
 
   filtered = computed(() => {
     const q = this.query().toLowerCase().trim();
@@ -27,8 +29,65 @@ export class GuessInput {
       )
   });
 
+  onInput(value: string) {
+    this.query.set(value);
+    this.displayValue.set(value);
+    this.activeIndex.set(-1);
+  }
+
+  onKeyDown(event: KeyboardEvent) {
+    const list = this.filtered();
+    if (!list.length) return;
+
+    switch (event.key) {
+      case 'ArrowDown':
+        event.preventDefault();
+        this.activeIndex.update(i =>
+          i < list.length - 1 ? i + 1 : 0
+        );
+        this.updateDisplay();
+        break;
+
+      case 'ArrowUp':
+        event.preventDefault();
+        this.activeIndex.update(i =>
+          i > 0 ? i - 1 : list.length - 1
+        );
+        this.updateDisplay();
+        break;
+
+      case 'Enter':
+        if (this.activeIndex() >= 0) {
+          event.preventDefault();
+          this.choose(list[this.activeIndex()]);
+        }
+        break;
+
+      case 'Escape':
+        this.clear();
+        break;
+    }
+  }
+
+  updateDisplay() {
+    const i = this.activeIndex();
+    const list = this.filtered();
+    if (i >= 0 && list[i]) {
+      this.displayValue.set(list[i].name);
+    }
+  }
+
   choose(card: Card) {
     this.query.set('');
+    this.displayValue.set('');
+    this.activeIndex.set(-1);
     this.select.emit(card);
   }
+
+  clear() {
+    this.query.set('');
+    this.displayValue.set('');
+    this.activeIndex.set(-1);
+  }
+
 }

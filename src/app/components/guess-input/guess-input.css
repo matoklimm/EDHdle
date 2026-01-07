@@ -94,6 +94,10 @@
     background: rgba(255, 255, 255, 0.08);
 }
 
+.suggestions li.active {
+    background: rgba(255, 209, 102, 0.25);
+}
+
 .suggestions img {
     width: 32px;
     height: 44px;
