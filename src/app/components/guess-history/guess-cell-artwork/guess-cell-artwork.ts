@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, computed, Input } from '@angular/core';
 
 @Component({
   selector: 'app-guess-cell-artwork',
@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
   template: `
     <div class="artwork">
       <img
-        [src]="imgUrl"
+        [src]="artCropUrl()"
         alt="Commander artwork"
         class="artwork-image">
     </div>
@@ -15,4 +15,8 @@ import { Component, Input } from '@angular/core';
 })
 export class GuessCellArtwork {
   @Input({ required: true }) imgUrl!: String;
+
+  artCropUrl = computed(() =>
+    this.imgUrl.replace('/normal/front/', '/art_crop/front/')
+  );
 }
