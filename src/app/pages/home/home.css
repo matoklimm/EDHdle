@@ -37,6 +37,7 @@
     background: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(4px);
     color: #fff;
+    cursor: pointer;
 }
 
 .mode-card h2 {
