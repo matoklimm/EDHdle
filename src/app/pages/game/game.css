@@ -1,44 +1,81 @@
+/* =========================
+   Page Layout
+   ========================= */
+
 .page {
     display: flex;
-    justify-content: center;
-    padding-top: 7vh;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 2vh;
 }
+
+/* =========================
+   Header / Logo
+   ========================= */
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
+.page-logo {
+    width: clamp(220px, 60vw, 420px);
+    height: auto;
+
+    image-rendering: pixelated;
+
+    filter:
+        drop-shadow(0 0 6px rgba(255, 180, 90, 0.6)) drop-shadow(0 0 14px rgba(255, 80, 160, 0.4));
+}
+
+/* =========================
+   Main Content Container
+   ========================= */
 
 .content {
-    max-width: 1200px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
-    /* padding-left: 100px;
-    padding-right: 56px;
-    padding-bottom: 40px;
-    padding-top: 24px; */
+    max-width: 1200px;
 
     padding: 24px 56px 40px 100px;
+
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.25);
 }
 
-@media (max-width: 1024px) {
-    .content {
-        padding-left: 32px;
-        padding-right: 24px;
-        padding-top: 12px
-    }
-}
-
-@media (max-width: 600px) {
-    .page {
-        padding-top: 3vh;
-    }
-
-    .content {
-        padding: 16px;
-        border-radius: 12px;
-        background: rgba(255, 255, 255, 0.15);
-    }
-}
+/* =========================
+   Input Zone
+   ========================= */
 
 .input-zone {
     display: flex;
     justify-content: center;
     margin: 32px 0 40px;
+}
+
+/* =========================
+   Tablet Adjustments
+   ========================= */
+
+@media (max-width: 1024px) {
+    .content {
+        padding: 12px 24px 32px 32px;
+    }
+}
+
+/* =========================
+   Mobile Adjustments
+   ========================= */
+
+@media (max-width: 600px) {
+    .page {
+        padding-top: 3vh;
+        padding-inline: 10px;
+    }
+
+    .content {
+        padding: 16px;
+        border-radius: 12px;
+    }
 }

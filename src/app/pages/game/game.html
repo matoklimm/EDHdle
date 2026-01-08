@@ -1,4 +1,8 @@
 <div class="page">
+    <header class="page-header">
+        <img src="/edhdle.png" alt="EDHdle" class="page-logo">
+    </header>
+
     <div class="content">
         <div class="input-zone">
             <app-guess-input [allCards]="allCards()" [guessedNames]="guessedNames()" (select)="submitGuess($event)"
