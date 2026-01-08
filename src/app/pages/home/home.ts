@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -8,5 +8,9 @@ import { RouterModule } from '@angular/router';
   styleUrl: './home.css',
 })
 export class Home {
+  infoOpen = signal(false);
 
+  toggleInfo() {
+    this.infoOpen.update(v => !v);
+  }
 }

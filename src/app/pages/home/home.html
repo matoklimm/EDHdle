@@ -1,1 +1,77 @@
-<p>home works!</p>
+<div class="home">
+
+    <header class="hero">
+        <img src="/edhdle.png" alt="EDHdle" class="logo-image">
+    </header>
+
+    <section class="modes">
+
+        <button class="mode-card mode-card--icon-right" routerLink="/commander">
+            <div class="mode-text">
+                <h2>Klassisch</h2>
+                <p>Errate den Commander mit Hinweisen nach jedem Guess</p>
+            </div>
+
+            <img src="/icons/commander.png" alt="" class="mode-icon mode-icon--large" />
+        </button>
+
+        <button class="mode-card mode-card--icon-right" routerLink="/commander">
+            <div class="mode-text">
+                <h2>Staples</h2>
+                <p>Errate die meist gespielten Staple Karten in Commander</p>
+            </div>
+
+            <img src="/icons/staple.png" alt="" class="mode-icon mode-icon--large" />
+        </button>
+
+        <button class="mode-card mode-card--icon-right" routerLink="/card">
+            <div class="mode-text">
+                <h2>Karte</h2>
+                <p>Errate einen beliebten Commander anhand einer unscharfen Karte</p>
+            </div>
+
+            <img src="/icons/card.png" alt="" class="mode-icon mode-icon--large" />
+        </button>
+
+        <button class="mode-card mode-card--icon-right" routerLink="/oracle">
+            <div class="mode-text">
+                <h2>Oracle</h2>
+                <p>Errate einen Commander anhand seines Oracle-Textes</p>
+            </div>
+
+            <img src="/icons/oracle.png" alt="" class="mode-icon mode-icon--large" />
+        </button>
+
+    </section>
+
+    <section class="info">
+        <button class="info-header" (click)="toggleInfo()">
+            <span>ℹ Über dieses Spiel</span>
+            <span>{{ infoOpen() ? '–' : '+' }}</span>
+        </button>
+
+        @if (infoOpen()) {
+        <div class="info-content">
+            <p>
+                Diese App basiert auf den <strong>Top 100</strong> meistgespielten Commander-Karten
+                von EDHREC.
+            </p>
+
+            <p>
+                Die Daten werden einmalig gesammelt und lokal aufbereitet,
+                um APIs zu respektieren. Die aktuelle App hat ihre Daten am 08.01.2026 gesammelt.
+            </p>
+
+            <hr>
+
+            <p><strong>Farbkodierung</strong></p>
+            <ul>
+                <li>🟢 korrekt</li>
+                <li>🟠 teilweise korrekt (CMC ±1, Rank ±20)</li>
+                <li>🔴 falsch</li>
+            </ul>
+        </div>
+        }
+    </section>
+
+</div>

@@ -1,0 +1,112 @@
+.home {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.hero {
+    padding-top: clamp(24px, 6vh, 64px);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.logo-image {
+    display: block;
+    margin: 0 auto 32px auto;
+    width: clamp(320px, 70vw, 450px);
+    height: auto;
+    image-rendering: pixelated;
+    filter:
+        drop-shadow(0 0 6px rgba(255, 180, 90, 0.6)) drop-shadow(0 0 14px rgba(255, 80, 160, 0.4));
+}
+
+
+.modes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.mode-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 16px;
+    border-radius: 14px;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    color: #fff;
+}
+
+.mode-card h2 {
+    margin: 0 0 6px;
+}
+
+.mode-card p {
+    margin: 0;
+    opacity: 0.85;
+}
+
+.mode-icon {
+    font-size: 20px;
+    opacity: 0.85;
+}
+
+.info {
+    margin-top: 24px;
+}
+
+.info-header {
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.info-content {
+    margin-top: 12px;
+    padding: 14px;
+    font-size: 14px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: rgba(10, 10, 10, 0.75);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    color: #eee;
+}
+
+.logo {
+    font-family: 'Press Start 2P', system-ui;
+}
+
+.mode-card h2 {
+    font-size: clamp(18px, 4.5vw, 22px);
+}
+
+.mode-card p {
+    font-size: clamp(14px, 3.8vw, 16px);
+    line-height: 1.4;
+}
+
+.mode-icon {
+    width: clamp(28px, 7vw, 40px);
+    height: auto;
+    image-rendering: pixelated;
+    flex-shrink: 0;
+    filter:
+        drop-shadow(0 0 4px rgba(255, 180, 90, 0.6)) drop-shadow(0 0 10px rgba(255, 80, 160, 0.35));
+}
+
+.mode-card--icon-right {
+    justify-content: space-between;
+}
+
+.mode-icon--large {
+    width: clamp(40px, 10vw, 56px);
+    opacity: 0.9;
+}
