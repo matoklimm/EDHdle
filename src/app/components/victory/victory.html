@@ -17,13 +17,18 @@
         <img class="victory-art" [src]="target.imageUrl" [alt]="target.name" />
 
         <div class="victory-actions">
-            <a routerLink="/" class="victory-link">
+
+            <a routerLink="/" class="victory-link victory-link--home">
                 🏠 Home
             </a>
 
-            <a [routerLink]="targetLink" class="victory-link">
-                {{ targetLabel }}
+            @for (mode of nextModes; track mode.key) {
+            <a [routerLink]="mode.link" class="victory-link victory-link--mode">
+                <img [src]="mode.icon" alt="" class="victory-link-icon" />
+                {{ mode.label }}
             </a>
+            }
+
         </div>
 
     </div>
