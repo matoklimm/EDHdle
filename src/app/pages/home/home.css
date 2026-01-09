@@ -5,25 +5,6 @@
 }
 
 /* =========================
-   Hero / Logo
-   ========================= */
-
-.hero {
-    padding-top: clamp(16px, 2vh, 64px);
-    text-align: center;
-    margin-bottom: 46px;
-}
-
-.logo-image {
-    display: block;
-    margin: 0 auto 32px;
-    width: clamp(300px, 65vw, 350px);
-    height: auto;
-    filter:
-        drop-shadow(0 6px 16px rgba(0, 0, 0, 0.35)) drop-shadow(0 0 1px rgba(255, 255, 255, 0.2));
-}
-
-/* =========================
    Mode Cards
    ========================= */
 

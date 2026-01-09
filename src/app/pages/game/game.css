@@ -1,31 +1,9 @@
-/* =========================
-   Page Layout
-   ========================= */
-
 .page {
     display: flex;
     flex-direction: column;
     align-items: center;
 
     padding-top: 2vh;
-}
-
-/* =========================
-   Header / Logo
-   ========================= */
-
-.page-header {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 36px;
-}
-
-.page-logo {
-    width: clamp(300px, 65vw, 350px);
-    height: auto;
-
-    filter:
-        drop-shadow(0 6px 16px rgba(0, 0, 0, 0.35)) drop-shadow(0 0 1px rgba(255, 255, 255, 0.2));
 }
 
 @media (hover: hover) {
