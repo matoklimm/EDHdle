@@ -21,13 +21,18 @@
 }
 
 .page-logo {
-    width: clamp(220px, 60vw, 420px);
+    width: clamp(300px, 65vw, 350px);
     height: auto;
 
-    image-rendering: pixelated;
-
     filter:
-        drop-shadow(0 0 6px rgba(255, 180, 90, 0.6)) drop-shadow(0 0 14px rgba(255, 80, 160, 0.4));
+        drop-shadow(0 6px 16px rgba(0, 0, 0, 0.35)) drop-shadow(0 0 1px rgba(255, 255, 255, 0.2));
+}
+
+@media (hover: hover) {
+    .page-logo:hover {
+        transition: transform 160ms ease;
+        transform: scale(1.025);
+    }
 }
 
 /* =========================
