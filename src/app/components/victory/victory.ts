@@ -32,7 +32,7 @@ export class Victory {
     },
     {
       key: 'staple',
-      label: 'Staples',
+      label: 'Staple',
       link: '/staple',
       icon: '/icons/staple.png',
     },

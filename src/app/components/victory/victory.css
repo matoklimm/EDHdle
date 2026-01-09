@@ -127,13 +127,11 @@
 }
 
 .victory-link-icon {
-    width: 24px;
+    width: 40px;
     height: auto;
 
-    image-rendering: pixelated;
-
     filter:
-        drop-shadow(0 0 4px rgba(255, 180, 90, 0.5));
+        drop-shadow(0 6px 16px rgba(0, 0, 0, 0.35)) drop-shadow(0 0 1px rgba(255, 255, 255, 0.2));
 }
 
 /* =========================
