@@ -1,0 +1,36 @@
+<div class="hint-box">
+
+    @for (hint of config; track hint.type) {
+        @if (isVisible(hint.level)) {
+
+            @switch (hint.type) {
+
+            @case ('cmc') {
+            <div class="hint-cmc">
+                <strong>CMC:</strong> {{ target.cmc }}
+            </div>
+            }
+
+            @case ('colors') {
+            <div class="hint-colors">
+                @for (c of target.colors; track c) {
+                <img class="mana-icon" [src]="'/mana/' + c + '.svg'" />
+                }
+            </div>
+            }
+
+            @case ('oracle') {
+            <div class="hint-oracle" [innerHTML]="oracleHintHtml()">
+            </div>
+            }
+
+            @case ('artwork') {
+            <img class="hint-artwork" [src]="artCropUrl()" />
+            }
+
+            }
+
+        }
+    }
+
+</div>

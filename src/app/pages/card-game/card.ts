@@ -2,13 +2,15 @@ import { Component, computed, effect, inject, signal } from '@angular/core';
 import { GuessInput } from '@app/components/guess-input/guess-input';
 import { Victory } from '@app/components/victory/victory';
 import { stripCardNameFromOracle } from '@app/shared/oracle-helper';
+import { HintConfig } from '@core/models/hint-config';
 import { CardGameService } from '@core/services/card-game-service';
+import { GuessHint } from "@app/components/guess-hint/guess-hint";
 
 @Component({
   selector: 'app-card-game',
   templateUrl: './card-game.html',
   styleUrl: './card-game.css',
-  imports: [GuessInput, Victory],
+  imports: [GuessInput, Victory, GuessHint],
 })
 export class CardGameComponent {
   readonly service = inject(CardGameService);
@@ -16,6 +18,12 @@ export class CardGameComponent {
   readonly target = this.service.target;
   readonly guesses = this.service.guesses;
   readonly isGameWon = this.service.isGameWon;
+
+  hintConfig: HintConfig[] = [
+    { level: 3, type: 'cmc' },
+    { level: 5, type: 'colors' },
+    { level: 7, type: 'oracle' },
+  ];
 
   showVictory = signal(false);
   showHints = signal(false);
@@ -39,18 +47,6 @@ export class CardGameComponent {
     this.guesses().filter(g => !g.isCorrect).length
   );
 
-  readonly showCmcHint = computed(() =>
-    this.wrongGuesses() >= 3
-  );
-
-  readonly showColorHint = computed(() =>
-    this.wrongGuesses() >= 5
-  );
-
-  readonly showOracleHint = computed(() =>
-    this.wrongGuesses() >= 7
-  );
-
   toggleHints(): void {
     this.showHints.update(v => !v);
   }
@@ -71,6 +67,7 @@ export class CardGameComponent {
   });
 
   readonly blurAmount = computed(() => {
+    if (this.isGameWon()) return 0;
     if (this.forceMaxBlur()) return this.MAX_BLUR;
 
     const blur = this.MAX_BLUR - this.wrongGuesses() * this.STEP;

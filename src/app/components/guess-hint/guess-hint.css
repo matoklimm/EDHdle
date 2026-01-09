@@ -1,0 +1,45 @@
+/* =========================
+   Hints
+   ========================= */
+
+.hint-box {
+    margin-top: 16px;
+    padding: 14px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    text-align: center;
+}
+
+.hint-cmc {
+    font-size: 15px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.hint-colors {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 6px 0;
+}
+
+.mana-icon {
+    width: 26px;
+    height: 26px;
+    margin-bottom: 16px;
+}
+
+.hint-oracle {
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 1.5;
+    opacity: 0.9;
+    color: white;
+}
+
+.oracle-placeholder {
+    font-style: italic;
+    opacity: 0.75;
+    color: #ccc;
+}

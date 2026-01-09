@@ -23,30 +23,10 @@
                 Hints
             </button>
         </div>
+
         @if (showHints()) {
-        <div class="hint-box">
-
-            @if (showCmcHint()) {f
-            <div class="hint-cmc">
-                <strong>CMC:</strong> {{ target()!.cmc }}
-            </div>
-            }
-
-            @if (showColorHint()) {
-            <div class="hint-colors">
-                @for (c of target()!.colors; track c) {
-                <img class="mana-icon" [src]="'/mana/' + c + '.svg'" [alt]="c" />
-                }
-            </div>
-            }
-
-            @if (showOracleHint()) {
-            <div class="hint-oracle" [innerHTML]="oracleHintHtml()"></div>
-            }
-
-        </div>
+            <app-guess-hint [target]="target()!" [wrongGuesses]="wrongGuesses()" [config]="hintConfig"/>
         }
-
 
 
     </div>
