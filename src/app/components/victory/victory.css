@@ -64,12 +64,12 @@
    Typography
    ========================= */
 .victory-title {
-    font-size: 32px;
+    font-size: 36px;
     margin-bottom: 6px;
 }
 
 .victory-subtitle {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.45;
     opacity: 0.9;
     margin-bottom: 14px;
@@ -107,9 +107,11 @@
     padding: 10px 16px;
     border-radius: 999px;
 
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     text-decoration: none;
+
+    font-weight: 600;
 
     background: rgba(255, 255, 255, 0.14);
 
@@ -127,7 +129,7 @@
 }
 
 .victory-link-icon {
-    width: 40px;
+    width: var(--icon-size);
     height: auto;
 
     filter:
