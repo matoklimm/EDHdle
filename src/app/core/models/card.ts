@@ -7,5 +7,6 @@ export interface Card {
     subtypes: string[],
     keywords: string[],
     tags: string[],
-    imageUrl: string
+    imageUrl: string,
+    oracleText: string
 }

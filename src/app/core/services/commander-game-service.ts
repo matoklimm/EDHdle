@@ -8,6 +8,7 @@ export class CommanderGameService extends BaseGameService {
     super({
       dataUrl: 'data/commanders.json',
       storageKey: 'CommanderGameService',
+      modeKey: 'commander'
     });
   }
 }

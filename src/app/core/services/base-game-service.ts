@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Signal, computed, effect, inject, signal } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
-import { GameConfig } from '@core/models/game-config';
+import { GameConfig } from '@core/services/game-config';
 import { GameService } from './game-service';
 import { Guess } from '@core/models/guess';
 import { Card } from '@core/models/card';
@@ -44,7 +44,7 @@ export abstract class BaseGameService implements GameService {
 
             if (!cards.length) return null;
 
-            const seed = hashString(day);
+            const seed = hashString(`${day}:${this.config.modeKey}`);
             return seededShuffle(cards, seed)[0];
         });
 

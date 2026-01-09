@@ -7,6 +7,7 @@ export class StapleGameService extends BaseGameService {
     super({
       dataUrl: 'data/staples.json',
       storageKey: 'StapleGameService',
+      modeKey: 'staple'
     });
   }
 }
