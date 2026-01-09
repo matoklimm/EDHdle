@@ -5,7 +5,7 @@ import { GameConfig } from '@core/models/game-config';
 import { GameService } from './game-service';
 import { Guess } from '@core/models/guess';
 import { Card } from '@core/models/card';
-import { seededShuffle, getTodayKey, hashString } from '../../shared/daily-random';
+import { seededShuffle, getTodayKey, hashString } from '@shared/daily-random';
 import { restoreState, saveState } from '@core/cache/storage-functions';
 
 export abstract class BaseGameService implements GameService {

@@ -1,5 +1,5 @@
 import { Component, computed, Input } from '@angular/core';
-import { toArtCrop } from '../../../shared/image-helper';
+import { toArtCrop } from '@shared/image-helper';
 
 @Component({
   selector: 'app-guess-cell-artwork',
