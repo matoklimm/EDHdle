@@ -1,6 +1,6 @@
 import { Guess } from "@core/models/guess";
 import { PersistedGameState } from "./persisted-game-state";
-import { getTodayKey } from "@core/services/daily-random";
+import { getTodayKey } from "@app/shared/daily-random";
 
 export function restoreState(STORAGE_KEY: string): Guess[] {
     const raw = localStorage.getItem(STORAGE_KEY);

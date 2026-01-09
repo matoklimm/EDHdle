@@ -5,7 +5,7 @@ import { GameConfig } from '@core/models/game-config';
 import { GameService } from './game-service';
 import { Guess } from '@core/models/guess';
 import { Card } from '@core/models/card';
-import { dailyIndex, getTodayKey } from './daily-random';
+import { seededShuffle, getTodayKey, hashString } from '../../shared/daily-random';
 import { restoreState, saveState } from '@core/cache/storage-functions';
 
 export abstract class BaseGameService implements GameService {
@@ -41,7 +41,11 @@ export abstract class BaseGameService implements GameService {
         this._target = computed<Card | null>(() => {
             const cards = this._allCards();
             const day = this._dayKey();
-            return cards.length ? cards[dailyIndex(cards.length, day)] : null;
+
+            if (!cards.length) return null;
+
+            const seed = hashString(day);
+            return seededShuffle(cards, seed)[0];
         });
 
         this.target = this._target;
