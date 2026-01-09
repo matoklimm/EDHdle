@@ -6,6 +6,7 @@ import { CommanderGameService } from '@core/services/commander-game-service';
 import { GAME_SERVICE } from '@core/services/game.token';
 import { CardGameComponent } from './pages/card-game/card';
 import { CardGameService } from '@core/services/card-game-service';
+import { OracleGameComponent } from './pages/oracle-game/oracle-game';
 
 
 export const routes: Routes = [
@@ -26,8 +27,11 @@ export const routes: Routes = [
     },
     {
         path: 'card',
-        component: CardGameComponent,
-        providers: [{ provide: GAME_SERVICE, useExisting: CardGameService }]
+        component: CardGameComponent
+    },
+    {
+        path: 'oracle',
+        component: OracleGameComponent
     },
     {
         path: '**',

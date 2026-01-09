@@ -1,0 +1,49 @@
+<div class="oracle-game">
+
+  <div class="content-box">
+
+    <div class="input-zone">
+      <app-guess-input
+        [allCards]="service.cards()"
+        [guessedNames]="service.guessedNames()"
+        [isGameWon]="isGameWon()"
+        (select)="service.submitGuess($event.name)" />
+    </div>
+
+    @if (target()) {
+      <div class="oracle-text-box">
+        <div
+          class="oracle-text"
+          [innerHTML]="oracleHintHtml()">
+        </div>
+      </div>
+    }
+
+    <div class="card-actions">
+      <button
+        class="card-action"
+        [disabled]="wrongGuesses() < 3"
+        (click)="toggleHints()">
+
+        <img src="/icons/hint.png" class="card-action-icon" />
+        Hints
+      </button>
+    </div>
+
+    @if (showHints()) {
+      <app-guess-hint
+        [target]="target()!"
+        [wrongGuesses]="wrongGuesses()"
+        [config]="hintConfig">
+      </app-guess-hint>
+    }
+
+  </div>
+
+  @if (showVictory()) {
+    <app-victory
+      [target]="target()!"
+      (close)="showVictory.set(false)" />
+  }
+
+</div>

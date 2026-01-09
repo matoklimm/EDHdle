@@ -36,7 +36,7 @@
 /* =========================
    Actions
    ========================= */
-.card-actions {
+/* .card-actions {
     display: flex;
     gap: 12px;
     margin-top: 16px;
@@ -66,9 +66,9 @@
 .card-action:disabled {
     opacity: 0.4;
     cursor: default;
-}
+} */
 
-.card-action-icon {
+/* .card-action-icon {
     width: var(--icon-size);
     height: var(--icon-size);
     image-rendering: auto;
@@ -80,7 +80,7 @@
 
 .card-action:disabled .card-action-icon {
     opacity: 0.4;
-}
+} */
 
 /* =========================
    Mobile

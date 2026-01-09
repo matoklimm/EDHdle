@@ -1,0 +1,37 @@
+.oracle-game {
+    display: flex;
+    justify-content: center;
+}
+
+.content-box {
+    width: clamp(380px, 90vw, 600px);
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(6px);
+    border-radius: 18px;
+    padding: 24px;
+}
+
+.oracle-text-box {
+    margin-top: 16px;
+    padding: 20px;
+    background: rgba(10, 10, 10, 0.75);
+    border-radius: 14px;
+}
+
+.oracle-text {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #eee;
+    white-space: pre-wrap;
+}
+
+.oracle-placeholder {
+    font-style: italic;
+    opacity: 0.85;
+}
+
+.card-actions {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
