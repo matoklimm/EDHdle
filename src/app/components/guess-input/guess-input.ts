@@ -1,4 +1,5 @@
 import { Component, computed, EventEmitter, Input, Output, signal } from '@angular/core';
+import { toArtCrop } from '@app/shared/image-helper';
 import { Card } from '@core/models/card';
 
 @Component({
@@ -27,6 +28,10 @@ export class GuessInput {
         c.name.toLowerCase().startsWith(q) &&
         !this.guessedNames.includes(c.name)
       )
+      .map(c => ({
+        ...c,
+        imageUrl: toArtCrop(c.imageUrl),
+      }));
   });
 
   onInput(value: string) {

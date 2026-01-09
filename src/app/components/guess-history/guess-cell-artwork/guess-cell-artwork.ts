@@ -1,4 +1,5 @@
 import { Component, computed, Input } from '@angular/core';
+import { toArtCrop } from '../../../shared/image-helper';
 
 @Component({
   selector: 'app-guess-cell-artwork',
@@ -14,9 +15,9 @@ import { Component, computed, Input } from '@angular/core';
   `
 })
 export class GuessCellArtwork {
-  @Input({ required: true }) imgUrl!: String;
+  @Input({ required: true }) imgUrl!: string;
 
   artCropUrl = computed(() =>
-    this.imgUrl.replace('/normal/front/', '/art_crop/front/')
+    toArtCrop(this.imgUrl)
   );
 }
