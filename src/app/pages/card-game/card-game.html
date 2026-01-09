@@ -1,0 +1,59 @@
+<div class="card-game">
+
+    <div class="input-zone">
+        <app-guess-input [allCards]="service.cards()" [guessedNames]="service.guessedNames()" [isGameWon]="isGameWon()"
+            (select)="service.submitGuess($event.name)" />
+    </div>
+
+    @if (target()) {
+    <div class="card-stage">
+
+        <div class="card-art-wrapper">
+            <img [src]="target()!.imageUrl" [style.filter]="'blur(' + blurAmount() + 'px)'" class="card-art"
+                alt="Mystery Card" />
+        </div>
+        <div class="card-actions">
+            <button class="card-action" (click)="toggleBlur()">
+                <img src="/icons/reset.png" alt="Reset blur" class="card-action-icon" />
+                Blur reset
+            </button>
+
+            <button class="card-action" [disabled]="wrongGuesses() < 3" (click)="toggleHints()">
+                <img src="/icons/hint.png" alt="Show hints" class="card-action-icon" />
+                Hints
+            </button>
+        </div>
+        @if (showHints()) {
+        <div class="hint-box">
+
+            @if (showCmcHint()) {f
+            <div class="hint-cmc">
+                <strong>CMC:</strong> {{ target()!.cmc }}
+            </div>
+            }
+
+            @if (showColorHint()) {
+            <div class="hint-colors">
+                @for (c of target()!.colors; track c) {
+                <img class="mana-icon" [src]="'/mana/' + c + '.svg'" [alt]="c" />
+                }
+            </div>
+            }
+
+            @if (showOracleHint()) {
+            <div class="hint-oracle" [innerHTML]="oracleHintHtml()"></div>
+            }
+
+        </div>
+        }
+
+
+
+    </div>
+    }
+
+    @if (showVictory()) {
+    <app-victory [target]="target()!" (close)="showVictory.set(false)" />
+    }
+
+</div>

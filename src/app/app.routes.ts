@@ -4,6 +4,9 @@ import { StapleGameService } from '@core/services/staple-game-service';
 import { Game } from './pages/game/game';
 import { CommanderGameService } from '@core/services/commander-game-service';
 import { GAME_SERVICE } from '@core/services/game.token';
+import { CardGameComponent } from './pages/card-game/card';
+import { CardGameService } from '@core/services/card-game-service';
+
 
 export const routes: Routes = [
     {
@@ -20,6 +23,11 @@ export const routes: Routes = [
         path: 'commander',
         component: Game,
         providers: [{ provide: GAME_SERVICE, useExisting: CommanderGameService }]
+    },
+    {
+        path: 'card',
+        component: CardGameComponent,
+        providers: [{ provide: GAME_SERVICE, useExisting: CardGameService }]
     },
     {
         path: '**',
