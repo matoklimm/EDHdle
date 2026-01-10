@@ -14,9 +14,13 @@ textarea {
 
 html,
 body {
+    min-height: 100vh;
+    height: auto;
+    overflow-y: auto;
     min-height: 100%;
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
+    scroll-behavior: auto;
 }
 
 body {
@@ -28,6 +32,13 @@ body {
     background-attachment: fixed;
     font-family: system-ui, -apple-system, BlinkMacSystemFont,
         "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-attachment: scroll;
+        scroll-padding-top: 0;
+    }
 }
 
 :root {

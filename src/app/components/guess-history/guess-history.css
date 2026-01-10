@@ -51,7 +51,7 @@
    Header Tiles
    ========================= */
 .tile-header {
-    height: 60px;
+    min-height: 60px;
 
     background: transparent;
     border: none;

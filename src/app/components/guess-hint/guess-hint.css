@@ -24,6 +24,11 @@
     margin: 6px 0;
 }
 
+.hint-artwork {
+    width: 90%;
+    border-radius: 16px;
+}
+
 .mana-icon {
     width: 26px;
     height: 26px;

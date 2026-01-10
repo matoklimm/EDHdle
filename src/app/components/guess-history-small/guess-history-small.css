@@ -36,11 +36,11 @@
 }
 
 .guess-row.correct {
-    background: rgba(60, 180, 90, 0.55);
+    background: rgba(60, 180, 90, 0.65);
 }
 
 .guess-row.wrong {
-    background: rgba(200, 70, 70, 0.55);
+    background: rgba(200, 70, 70, 0.65);
 }
 
 .guess-row.faded {

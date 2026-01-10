@@ -50,5 +50,7 @@
     .game-content {
         padding: 20px 16px;
         border-radius: 16px;
+        /* backdrop-filter: none; */
+        /* background: rgba(0, 0, 0, 0.55); */
     }
 }
