@@ -99,16 +99,29 @@
 }
 
 .info-header {
-    width: 100%;
-    background: none;
+    padding: 2px 12px;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    border-radius: 999px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
     border: none;
 
     display: flex;
     justify-content: space-between;
 
     font-size: 16px;
-    color: #fff;
+    color: white;
     cursor: pointer;
+}
+
+.info-header:hover {
+    transform: scale(1.015);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+
 }
 
 .info-content {
@@ -123,4 +136,18 @@
 
     border-radius: 12px;
     color: #eee;
+}
+
+.info-content a {
+    color: #7dd3fc;
+    text-decoration: none;
+    font-weight: 500;
+
+    border-bottom: 1px solid rgba(125, 211, 252, 0.35);
+    padding-bottom: 1px;
+
+    transition:
+        color 120ms ease,
+        border-color 120ms ease,
+        text-shadow 120ms ease;
 }
