@@ -19,6 +19,7 @@
     flex-wrap: wrap;
     gap: 4px;
     justify-content: center;
+    padding: 6px 0;
 }
 
 .tag {

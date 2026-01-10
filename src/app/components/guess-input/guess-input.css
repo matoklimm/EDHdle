@@ -54,6 +54,7 @@
     width: 44px;
     border: none;
     border-radius: 0 8px 8px 0;
+    background: transparent;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -62,11 +63,6 @@
         transform 120ms ease,
         box-shadow 120ms ease,
         background 120ms ease;
-}
-
-.submit-btn:hover {
-    background: #ffd166;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.65);
 }
 
 .submit-btn:active {
