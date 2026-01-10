@@ -23,6 +23,7 @@
 
     padding: 16px 64px 16px 16px;
 
+    border: none;
     border-radius: 14px;
     background: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(4px);
