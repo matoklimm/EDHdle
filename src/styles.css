@@ -47,6 +47,10 @@ body {
     --color-wrong-bg: #f4b6b6;
     --color-partial-bg: #ffd28a;
 
+    /* --color-correct-bg: #75c042;
+    --color-wrong-bg: #b6252d;
+    --color-partial-bg: #ffc92a; */
+
     /* --color-correct-bg: #68a691;
     --color-partial-bg: #f3d98c;
     --color-wrong-bg: #c46d78; */
@@ -141,8 +145,8 @@ body {
 /* =========================
   Input Zone for app-guess-input
    ========================= */
-.input-zone {
+/* .input-zone {
     display: flex;
     justify-content: center;
     margin: 32px 0 40px;
-}
+} */

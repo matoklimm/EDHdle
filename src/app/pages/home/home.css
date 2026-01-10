@@ -83,7 +83,7 @@
     right: 16px;
     top: 50%;
 
-    width: clamp(40px, 10vw, 56px);
+    width: clamp(50px, 10vw, 80px);
     height: auto;
 
     transform: translateY(-50%) scale(1);
@@ -99,7 +99,7 @@
 }
 
 .info-header {
-    padding: 2px 12px;
+    padding: 6px 12px;
     background: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(4px);
     border-radius: 999px;
@@ -150,4 +150,9 @@
         color 120ms ease,
         border-color 120ms ease,
         text-shadow 120ms ease;
+}
+
+.info-content a:visited {
+    color: #7dd3fc;
+    opacity: 0.75;
 }
