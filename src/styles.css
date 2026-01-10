@@ -140,13 +140,3 @@ body {
 .card-action:disabled .card-action-icon {
     opacity: 0.5;
 }
-
-
-/* =========================
-  Input Zone for app-guess-input
-   ========================= */
-/* .input-zone {
-    display: flex;
-    justify-content: center;
-    margin: 32px 0 40px;
-} */
