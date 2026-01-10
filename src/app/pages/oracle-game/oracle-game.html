@@ -1,29 +1,21 @@
-<div class="oracle-game">
+<app-game-shell [contentSize]="'normal'">
 
-  <div class="content-box">
+  <div game-input>
+    <app-guess-input [allCards]="service.cards()" [guessedNames]="service.guessedNames()" [isGameWon]="isGameWon()"
+      (select)="service.submitGuess($event.name)" />
+  </div>
 
-    <div class="input-zone">
-      <app-guess-input
-        [allCards]="service.cards()"
-        [guessedNames]="service.guessedNames()"
-        [isGameWon]="isGameWon()"
-        (select)="service.submitGuess($event.name)" />
-    </div>
+  <div game-content>
 
     @if (target()) {
-      <div class="oracle-text-box">
-        <div
-          class="oracle-text"
-          [innerHTML]="oracleHintHtml()">
-        </div>
+    <div class="oracle-text-box">
+      <div class="oracle-text" [innerHTML]="oracleHintHtml()">
       </div>
+    </div>
     }
 
     <div class="card-actions">
-      <button
-        class="card-action"
-        [disabled]="wrongGuesses() < 3"
-        (click)="toggleHints()">
+      <button class="card-action" [disabled]="wrongGuesses() < 3" (click)="toggleHints()">
 
         <img src="/icons/hint.png" class="card-action-icon" />
         Hints
@@ -31,19 +23,18 @@
     </div>
 
     @if (showHints()) {
-      <app-guess-hint
-        [target]="target()!"
-        [wrongGuesses]="wrongGuesses()"
-        [config]="hintConfig">
-      </app-guess-hint>
+    <app-guess-hint [target]="target()!" [wrongGuesses]="wrongGuesses()" [config]="hintConfig">
+    </app-guess-hint>
     }
+
+    <app-guess-history-small [guesses]="guesses()" />
 
   </div>
 
-  @if (showVictory()) {
-    <app-victory
-      [target]="target()!"
-      (close)="showVictory.set(false)" />
-  }
+  <div victory>
+    @if (showVictory()) {
+    <app-victory [target]="target()!" (close)="showVictory.set(false)" />
+    }
+  </div>
 
-</div>
+</app-game-shell>

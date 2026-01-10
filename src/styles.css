@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    background:
+        radial-gradient(circle at center,
+            rgba(30, 30, 40, 0.9),
+            rgba(10, 10, 15, 1));
+    background-attachment: fixed;
+}
+
 :root {
     --color-white: #ffffff;
     --color-correct-bg: #b7e4c7;
@@ -38,10 +52,14 @@
         0 4px 14px rgba(0, 0, 0, 0.25);
 }
 
+/* =========================
+   Actions used in card-game and oracle-game
+   ========================= */
 .card-actions {
     display: flex;
     gap: 12px;
     margin-top: 16px;
+    justify-content: center;
 }
 
 .card-action {
@@ -90,4 +108,14 @@
 
 .card-action:disabled .card-action-icon {
     opacity: 0.5;
+}
+
+
+/* =========================
+  Input Zone for app-guess-input
+   ========================= */
+.input-zone {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 40px;
 }

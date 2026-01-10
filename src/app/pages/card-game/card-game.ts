@@ -5,12 +5,14 @@ import { stripCardNameFromOracle } from '@app/shared/oracle-helper';
 import { HintConfig } from '@core/models/hint-config';
 import { CardGameService } from '@core/services/card-game-service';
 import { GuessHint } from "@app/components/guess-hint/guess-hint";
+import { GameShell } from "@app/components/game-shell/game-shell";
+import { GuessHistorySmall } from "@app/components/guess-history-small/guess-history-small";
 
 @Component({
   selector: 'app-card-game',
   templateUrl: './card-game.html',
   styleUrl: './card-game.css',
-  imports: [GuessInput, Victory, GuessHint],
+  imports: [GuessInput, Victory, GuessHint, GameShell, GuessHistorySmall],
 })
 export class CardGameComponent {
   readonly service = inject(CardGameService);
@@ -38,6 +40,7 @@ export class CardGameComponent {
       if (this.isGameWon()) {
         setTimeout(() => {
           this.showVictory.set(true);
+          console.log(this.showVictory());
         }, 1000);
       }
     });

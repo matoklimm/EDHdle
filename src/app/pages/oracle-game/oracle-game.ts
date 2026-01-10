@@ -5,12 +5,14 @@ import { Victory } from '@app/components/victory/victory';
 import { stripCardNameFromOracle } from '@app/shared/oracle-helper';
 import { HintConfig } from '@core/models/hint-config';
 import { OracleGameService } from '@core/services/oracle-game-service';
+import { GuessHistorySmall } from "@app/components/guess-history-small/guess-history-small";
+import { GameShell } from "@app/components/game-shell/game-shell";
 
 @Component({
   selector: 'app-oracle-game',
   templateUrl: './oracle-game.html',
   styleUrl: './oracle-game.css',
-  imports: [GuessInput, GuessHint, Victory],
+  imports: [GuessInput, GuessHint, Victory, GuessHistorySmall, GameShell],
 })
 export class OracleGameComponent {
   readonly service = inject(OracleGameService);

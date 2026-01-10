@@ -1,0 +1,101 @@
+/* =========================
+   Guess History (Small)
+   ========================= */
+
+.guess-history-small {
+    width: 100%;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* =========================
+   Single Guess Row
+   ========================= */
+
+.guess-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 8px 12px;
+    border-radius: 12px;
+
+    background: rgba(0, 0, 0, 0.45);
+    color: #fff;
+
+    font-size: 18px;
+    line-height: 1.2;
+
+    transition: background 120ms ease;
+}
+
+.guess-row.correct {
+    background: rgba(60, 180, 90, 0.55);
+}
+
+.guess-row.wrong {
+    background: rgba(200, 70, 70, 0.55);
+}
+
+.guess-row.faded {
+    opacity: 0.35;
+    mask-image: linear-gradient(to bottom, black 50%, transparent 90%);
+}
+
+/* =========================
+   Artwork
+   ========================= */
+
+.guess-art {
+    width: 55px;
+    height: 55px;
+    border-radius: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* =========================
+   Name
+   ========================= */
+
+.guess-name {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* =========================
+   Result Icon
+   ========================= */
+
+.guess-result {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* =========================
+   Mobile Tweaks
+   ========================= */
+
+@media (max-width: 600px) {
+    .guess-history-small {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    .guess-art {
+        width: var(--icon-size);
+        height: var(--icon-size);
+    }
+
+    .guess-name {
+        font-size: 20px;
+    }
+}

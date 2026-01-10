@@ -1,17 +1,22 @@
-<div class="page">
-    <div class="content">
-        <div class="input-zone">
-            <app-guess-input [allCards]="allCards()" [guessedNames]="guessedNames()" (select)="submitGuess($event)"
-                [isGameWon]="isGameWon()" />
-        </div>
+<app-game-shell [contentSize]="'wide'">
+
+    <div game-input>
+        <app-guess-input [allCards]="service.cards()" [guessedNames]="service.guessedNames()" [isGameWon]="isGameWon()"
+            (select)="service.submitGuess($event.name)" />
+    </div>
+
+    <div game-content>
 
         @if (target()) {
         <app-guess-history [guesses]="guesses()" [target]="target()!"></app-guess-history>
         }
+
     </div>
 
+    <div victory>
+        @if (showVictory()) {
+        <app-victory [target]="target()!" (close)="showVictory.set(false)" />
+        }
+    </div>
 
-    @if (showVictory()) {
-    <app-victory [target]="target()!" (close)="showVictory.set(false)" />
-    }
-</div>
+</app-game-shell>

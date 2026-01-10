@@ -7,6 +7,9 @@ export function stripCardNameFromOracle(
     let result = oracleText;
 
     const beforeComma = escapeRegExp(cardName.split(',')[0].trim());
+    const wordOf = escapeRegExp(
+        cardName.split('of')[0].trim()
+    );
     const firstWord = escapeRegExp(
         cardName.split(',')[0].trim().split(' ')[0]
     );
@@ -14,6 +17,7 @@ export function stripCardNameFromOracle(
     const patterns = [
         `\\b${escapeRegExp(cardName)}\\b`,
         `\\b${beforeComma}\\b`,
+        `\\b${wordOf}\\b`,
         `\\b${firstWord}\\b`,
         `\\b${firstWord}'s\\b`,
         `\\b(named|name is)\\s+${firstWord}\\b`,

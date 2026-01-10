@@ -6,21 +6,22 @@ import { Victory } from '@app/components/victory/victory';
 import { Card } from '@core/models/card';
 import { GameService } from '@core/services/game-service';
 import { GAME_SERVICE } from '@core/services/game.token';
+import { GameShell } from "@app/components/game-shell/game-shell";
 
 @Component({
   selector: 'app-game',
-  imports: [GuessHistory, GuessInput, Victory, RouterModule],
+  imports: [GuessHistory, GuessInput, Victory, RouterModule, GameShell],
   templateUrl: './game.html',
   styleUrl: './game.css',
 })
 export class Game {
-  private game = inject<GameService>(GAME_SERVICE);
+  service = inject<GameService>(GAME_SERVICE);
 
-  guesses = this.game.guesses;
-  target = this.game.target;
-  allCards = this.game.cards;
-  isGameWon = this.game.isGameWon;
-  guessedNames = this.game.guessedNames;
+  guesses = this.service.guesses;
+  target = this.service.target;
+  allCards = this.service.cards;
+  isGameWon = this.service.isGameWon;
+  guessedNames = this.service.guessedNames;
 
   showVictory = signal(false);
 
@@ -37,6 +38,6 @@ export class Game {
   }
 
   submitGuess(card: Card) {
-    this.game.submitGuess(card.name);
+    this.service.submitGuess(card.name);
   }
 }

@@ -25,12 +25,11 @@
 .hero {
     padding-top: clamp(16px, 2vh, 64px);
     text-align: center;
-    margin-bottom: 46px;
 }
 
 .logo-image {
     display: block;
-    margin: 0 auto 32px;
+    margin: 0 auto;
     width: clamp(300px, 65vw, 350px);
     height: auto;
     filter:

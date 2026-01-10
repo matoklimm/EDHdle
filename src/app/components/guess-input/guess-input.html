@@ -1,6 +1,6 @@
 <div class="autocomplete">
     <div class="input-wrapper">
-        <input type="text" placeholder="Commander eingeben…" [value]="displayValue()"
+        <input type="text" placeholder="Enter card..." [value]="displayValue()"
             (input)="onInput($any($event.target).value)" (keydown)="onKeyDown($event)" autocomplete="off"
             [disabled]="isGameWon" />
 

@@ -1,39 +1,40 @@
-<div class="card-game">
+<app-game-shell [contentSize]="'normal'">
 
-    <div class="input-zone">
-        <app-guess-input [allCards]="service.cards()" [guessedNames]="service.guessedNames()" [isGameWon]="isGameWon()"
-            (select)="service.submitGuess($event.name)" />
+  <div game-input>
+    <app-guess-input [allCards]="service.cards()" [guessedNames]="service.guessedNames()" [isGameWon]="isGameWon()"
+      (select)="service.submitGuess($event.name)" />
+  </div>
+
+  <div game-content>
+
+    <div class="card-art-wrapper">
+      <img [src]="target()!.imageUrl" [style.filter]="'blur(' + blurAmount() + 'px)'" class="card-art" />
     </div>
 
-    @if (target()) {
-    <div class="card-stage">
+    <div class="card-actions">
+      <button class="card-action" (click)="toggleBlur()">
+        <img src="/icons/reset.png" class="card-action-icon" />
+        Blur reset
+      </button>
 
-        <div class="card-art-wrapper">
-            <img [src]="target()!.imageUrl" [style.filter]="'blur(' + blurAmount() + 'px)'" class="card-art"
-                alt="Mystery Card" />
-        </div>
-        <div class="card-actions">
-            <button class="card-action" (click)="toggleBlur()">
-                <img src="/icons/reset.png" alt="Reset blur" class="card-action-icon" />
-                Blur reset
-            </button>
-
-            <button class="card-action" [disabled]="wrongGuesses() < 3" (click)="toggleHints()">
-                <img src="/icons/hint.png" alt="Show hints" class="card-action-icon" />
-                Hints
-            </button>
-        </div>
-
-        @if (showHints()) {
-            <app-guess-hint [target]="target()!" [wrongGuesses]="wrongGuesses()" [config]="hintConfig"/>
-        }
-
-
+      <button class="card-action" [disabled]="wrongGuesses() < 3" (click)="toggleHints()">
+        <img src="/icons/hint.png" class="card-action-icon" />
+        Hints
+      </button>
     </div>
+
+    @if (showHints()) {
+    <app-guess-hint [target]="target()!" [wrongGuesses]="wrongGuesses()" [config]="hintConfig" />
     }
 
+    <app-guess-history-small [guesses]="guesses()" />
+
+  </div>
+
+  <div victory>
     @if (showVictory()) {
     <app-victory [target]="target()!" (close)="showVictory.set(false)" />
     }
+  </div>
 
-</div>
+</app-game-shell>

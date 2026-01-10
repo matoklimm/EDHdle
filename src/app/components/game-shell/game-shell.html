@@ -1,0 +1,14 @@
+<div class="game-shell">
+
+    <div class="game-input">
+        <ng-content select="[game-input]"></ng-content>
+    </div>
+
+
+    <div class="game-content" [class.wide]="contentSize === 'wide'">
+        <ng-content select="[game-content]"></ng-content>
+    </div>
+
+    <ng-content select="[victory]"></ng-content>
+
+</div>
