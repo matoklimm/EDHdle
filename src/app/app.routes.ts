@@ -7,6 +7,7 @@ import { GAME_SERVICE } from '@core/services/game.token';
 import { CardGameComponent } from './pages/card-game/card-game';
 import { CardGameService } from '@core/services/card-game-service';
 import { OracleGameComponent } from './pages/oracle-game/oracle-game';
+import { About } from './pages/about/about';
 
 
 export const routes: Routes = [
@@ -32,6 +33,10 @@ export const routes: Routes = [
     {
         path: 'oracle',
         component: OracleGameComponent
+    },
+    {
+        path: 'about',
+        component: About
     },
     {
         path: '**',

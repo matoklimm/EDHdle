@@ -1,0 +1,114 @@
+<app-info-shell>
+
+    <h1>EDHdle ✨</h1>
+
+    <p>
+        <strong>EDHdle</strong> is a daily guessing game inspired by
+        <em>Pokedle</em>, <em>LoLdle</em> and other popular guessing games. 🎲
+    </p>
+
+    <p>
+        Test your Commander knowledge in different game modes —
+        from artwork and oracle text to metadata like colors, CMC and rank.
+        A new puzzle is available <strong>every day.</strong> 🧠
+    </p>
+
+    <h2>Data Sources</h2>
+
+    <p>
+        EDHdle is based on the <strong>Top 100 most played Commander cards</strong>
+        listed on <a href="https://edhrec.com" target="_blank" rel="noopener">EDHREC</a>.
+    </p>
+
+    <p>
+        Only the card names and ranking positions are taken from EDHREC.
+        EDHdle does <strong>not</strong> crawl EDHREC and does <strong>not</strong> use
+        their API at runtime.
+    </p>
+
+    <p>
+        All card data (colors, types, oracle text, artwork, etc.) is fetched from
+        <a href="https://scryfall.com" target="_blank" rel="noopener">Scryfall</a>
+        using a one-time offline script.
+    </p>
+
+    <p>
+        The generated data is bundled with the application.
+        No external card APIs are called while playing the game.<br>
+        The dataset used by EDHdle was generated and processed on
+        <strong>January 8, 2026</strong>.
+    </p>
+
+    <p>
+        Rankings and card popularity may change over time as the Commander meta evolves.
+        Therefore, I plan to regularly refresh and process the data to keep the dataset up to date.
+        The current plan is a refresh roughly every four weeks.
+    </p>
+
+    <h2>Card Images</h2>
+
+    <p>
+        Card images are provided by Scryfall and loaded via direct image URLs
+        from their CDN.
+    </p>
+
+    <p>
+        Images are used in accordance with
+        <a href="https://scryfall.com/docs/api" target="_blank" rel="noopener">
+            Scryfall’s image usage guidelines
+        </a>.
+    </p>
+
+    <p>
+        The background image(s) are downloaded from the official Wizards of the Coast
+        <a href="https://magic.wizards.com/de/news#wallpapers" target="_blank" rel="noopener">wallpaper website</a>
+    </p>
+
+    <h2>Disclaimer</h2>
+
+    <p>
+        EDHdle is an unofficial fan project.
+    </p>
+
+    <p>
+        Magic: The Gathering is © Wizards of the Coast.<br>
+        This project is not affiliated with or endorsed by Wizards of the Coast,
+        EDHREC or Scryfall.
+    </p>
+
+    <hr />
+
+    <h2>About Me</h2>
+
+    <p>
+        EDHdle is a personal side project. 👋<br>
+        Professionally, I mostly work on backend and distributed systems,
+        so building a small frontend-heavy game like this was a fun new experience —
+        and a great way to combine my passion for EDH with software development.
+    </p>
+
+    <p>
+        If you have ideas for improvements, enhancements or new game modes,
+        feel free to open an issue or contribute on GitHub 🚀
+    </p>
+
+    <p>
+        <a href="https://github.com/matoklimm/EDHdle" target="_blank" rel="noopener">
+            github.com/matoklimm/EDHdle
+        </a>
+    </p>
+
+    <h2>Support</h2>
+
+    <p>
+        EDHdle is a free side project.
+        If you enjoy playing and would like to support hosting and domain costs,
+        you can do so here 🙂 — totally optional, no pressure.
+    </p>
+
+    <div class="coffee-support">
+        <a href="https://www.buymeacoffee.com/maxklimm" target="_blank"><img
+                src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee"
+                style="height: 60px !important;width: 217px !important;"></a>
+    </div>
+</app-info-shell>

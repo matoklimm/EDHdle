@@ -1,0 +1,18 @@
+.coffee-support {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-support img {
+    height: 56px;
+    width: auto;
+    border-radius: 10px;
+
+    transition: transform 120ms ease, opacity 120ms ease;
+}
+
+.coffee-support img:hover {
+    transform: scale(1.04);
+    opacity: 0.95;
+}

@@ -35,6 +35,25 @@ body {
         "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
+a {
+    color: #7dd3fc;
+    text-decoration: none;
+    font-weight: 500;
+
+    border-bottom: 1px solid rgba(125, 211, 252, 0.35);
+    padding-bottom: 1px;
+
+    transition:
+        color 120ms ease,
+        border-color 120ms ease,
+        text-shadow 120ms ease;
+}
+
+a:visited {
+    color: #7dd3fc;
+    opacity: 0.75;
+}
+
 @media (max-width: 600px) {
     body {
         background-attachment: scroll;
