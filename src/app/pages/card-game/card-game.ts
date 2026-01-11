@@ -18,6 +18,7 @@ export class CardGameComponent {
   readonly service = inject(CardGameService);
 
   readonly target = this.service.target;
+  readonly yesterdayTarget = this.service.yesterdayTarget;
   readonly guesses = this.service.guesses;
   readonly isGameWon = this.service.isGameWon;
 

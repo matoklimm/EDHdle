@@ -40,6 +40,17 @@
     width: clamp(380px, 90vw, 1050px);
 }
 
+.game-meta {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 999px;
+    color: white;
+    padding: 0 22px;
+}
+
+
 /* =========================
    Mobile Adjustments
    ========================= */

@@ -31,6 +31,13 @@
 
   </div>
 
+  @if (yesterdayTarget()) {
+  <p yesterday-target>
+    Yesterday’s searched card was
+    <strong>{{ yesterdayTarget()?.name }}</strong>
+  </p>
+  }
+
   <div victory>
     @if (showVictory()) {
     <app-victory [target]="target()!" (close)="showVictory.set(false)" />

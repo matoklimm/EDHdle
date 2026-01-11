@@ -17,11 +17,12 @@ import { GameShell } from "@app/components/game-shell/game-shell";
 export class Game {
   service = inject<GameService>(GAME_SERVICE);
 
-  guesses = this.service.guesses;
-  target = this.service.target;
-  allCards = this.service.cards;
-  isGameWon = this.service.isGameWon;
-  guessedNames = this.service.guessedNames;
+  readonly guesses = this.service.guesses;
+  readonly target = this.service.target;
+  readonly allCards = this.service.cards;
+  readonly isGameWon = this.service.isGameWon;
+  readonly guessedNames = this.service.guessedNames;
+  readonly yesterdayTarget = this.service.yesterdayTarget;
 
   showVictory = signal(false);
 

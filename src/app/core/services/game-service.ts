@@ -7,6 +7,7 @@ export interface GameService {
   readonly guesses: Signal<Guess[]>;
   readonly cards: Signal<Card[]>;
   readonly target: Signal<Card | null>;
+  readonly yesterdayTarget: Signal<Card | null>;
   readonly isGameWon: Signal<boolean>;
   readonly guessedNames: Signal<string[]>;
 
