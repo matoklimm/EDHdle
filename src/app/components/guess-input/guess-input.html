@@ -1,22 +1,21 @@
 <div class="autocomplete">
+
     <div class="input-wrapper">
-        <input type="text" placeholder="Enter card..." [value]="displayValue()"
+        <input type="text" placeholder="Enter card name…" [value]="displayValue()"
             (input)="onInput($any($event.target).value)" (keydown)="onKeyDown($event)" autocomplete="off"
             [disabled]="isGameWon" />
-
-        <button class="submit-btn" aria-label="Submit" [disabled]="isGameWon">
-            <img src="/icons/tap.svg" alt="Tap" />
-        </button>
     </div>
 
     @if (filtered().length) {
     <ul class="suggestions">
         @for (c of filtered(); track c.name; let i = $index) {
         <li (click)="choose(c)" [class.active]="i === activeIndex()">
+
             <img [src]="c.imageUrl" alt="" />
             <span>{{ c.name }}</span>
         </li>
         }
     </ul>
     }
+
 </div>

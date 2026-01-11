@@ -7,6 +7,7 @@
     align-items: center;
     gap: 16px;
     padding-top: 32px;
+    min-height: 100vh;
 }
 
 /* =========================
@@ -28,7 +29,7 @@
     backdrop-filter: blur(6px);
 
     border-radius: 18px;
-    padding: 24px;
+    padding: 2px 24px 24px 24px;
 
     display: flex;
     flex-direction: column;
