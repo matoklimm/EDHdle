@@ -49,4 +49,8 @@
         position: absolute;
         backdrop-filter: none;
     }
+
+    .bg-layer {
+        position: absolute;
+    }
 }

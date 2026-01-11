@@ -21,6 +21,7 @@ body {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
     scroll-behavior: auto;
+    overscroll-behavior-y: none;
 }
 
 body {
@@ -37,6 +38,8 @@ body {
 @media (max-width: 600px) {
     body {
         background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
         scroll-padding-top: 0;
     }
 }

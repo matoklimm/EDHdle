@@ -87,7 +87,8 @@
 @media (max-width: 600px) {
     .guess-history-small {
         max-width: 100%;
-        max-height: 200px;
+        max-height: none;
+        overflow: visible;
     }
 
     .guess-art {
@@ -97,5 +98,10 @@
 
     .guess-name {
         font-size: 20px;
+    }
+
+    .guess-row.faded {
+        mask-image: none;
+        opacity: 0.4;
     }
 }
