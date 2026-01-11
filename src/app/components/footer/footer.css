@@ -1,0 +1,65 @@
+/* =========================
+   App Footer
+   ========================= */
+
+.app-footer {
+    margin-top: auto;
+    padding: 32px 16px 24px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 13px;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* =========================
+   Text Blocks
+   ========================= */
+
+.footer-meta {
+    margin-bottom: 6px;
+}
+
+.footer-disclaimer {
+    margin-bottom: 10px;
+    font-size: 12px;
+    opacity: 0.85;
+}
+
+/* =========================
+   Links
+   ========================= */
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   Mobile
+   ========================= */
+
+@media (max-width: 600px) {
+    .app-footer {
+        font-size: 12px;
+    }
+
+    .footer-disclaimer {
+        font-size: 11px;
+    }
+}

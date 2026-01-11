@@ -1,7 +1,12 @@
-<div>
+<div class="app-root">
     <div class="bg-layer"></div>
     <header class="hero" routerLink="/home">
         <img src="/edhdle.png" alt="EDHdle" class="logo-image">
     </header>
-    <router-outlet />
+
+    <main class="app-main">
+        <router-outlet></router-outlet>
+    </main>
+
+    <app-footer></app-footer>
 </div>

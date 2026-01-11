@@ -14,10 +14,11 @@ textarea {
 
 html,
 body {
-    min-height: 100vh;
-    height: auto;
-    overflow-y: auto;
     min-height: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
     scroll-behavior: auto;
@@ -33,6 +34,8 @@ body {
     background-attachment: fixed;
     font-family: system-ui, -apple-system, BlinkMacSystemFont,
         "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -161,4 +164,42 @@ a:visited {
 
 .card-action:disabled .card-action-icon {
     opacity: 0.5;
+}
+
+/* =========================
+   Info Shell Layout
+   ========================= */
+
+.info-shell {
+    display: flex;
+    justify-content: center;
+    padding: 40px 16px;
+}
+
+.info-content {
+    width: clamp(380px, 90vw, 900px);
+
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 16px;
+    padding: 28px 24px;
+
+    color: #fff;
+    line-height: 1.6;
+}
+
+.info-content h1 {
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+
+.info-content h2 {
+    font-size: 22px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+.info-content p {
+    font-size: 18px;
+    opacity: 0.9;
+    margin-bottom: 14px;
 }
