@@ -45,7 +45,7 @@ export abstract class BaseGameService implements GameService {
             if (!cards.length) return null;
 
             const seed = hashString(`${day}:${this.config.modeKey}`);
-            return seededShuffle(cards, seed)[1];
+            return seededShuffle(cards, seed)[0];
         });
 
         this.target = this._target;
