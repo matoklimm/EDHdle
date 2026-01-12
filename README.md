@@ -53,6 +53,7 @@ EDHdle is built with **modern Angular (v21+)** and uses a **Signals-first archit
 
 ### Project structure
 
+```md
 src/app
 ├── components/ # Reusable UI components
 ├── core/
@@ -60,6 +61,7 @@ src/app
 │ ├── models/ # Card, Guess, and domain models
 │ └── services/ # Game logic & mode-specific services
 ├── pages/ # Route-level pages
+```
 
 ---
 
