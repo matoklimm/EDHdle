@@ -1,14 +1,9 @@
 import { Routes } from '@angular/router';
-import { Home } from './pages/home/home';
+import { Home } from '@app/pages/home/home';
 import { StapleGameService } from '@core/services/staple-game-service';
-import { Game } from './pages/game/game';
 import { CommanderGameService } from '@core/services/commander-game-service';
 import { GAME_SERVICE } from '@core/services/game.token';
-import { CardGameComponent } from './pages/card-game/card-game';
-import { OracleGameComponent } from './pages/oracle-game/oracle-game';
-import { About } from './pages/about/about';
-import { Privacy } from './pages/privacy/privacy';
-import { Imprint } from './pages/imprint/imprint';
+
 
 
 export const routes: Routes = [
@@ -19,33 +14,43 @@ export const routes: Routes = [
     },
     {
         path: 'staple',
-        component: Game,
-        providers: [{ provide: GAME_SERVICE, useExisting: StapleGameService }]
+        loadComponent: () =>
+            import('@app/pages/game/game').then(m => m.Game),
+        providers: [
+            { provide: GAME_SERVICE, useExisting: StapleGameService }
+        ]
     },
     {
         path: 'commander',
-        component: Game,
-        providers: [{ provide: GAME_SERVICE, useExisting: CommanderGameService }]
+        loadComponent: () =>
+            import('@app/pages/game/game').then(m => m.Game),
+        providers: [
+            { provide: GAME_SERVICE, useExisting: CommanderGameService }
+        ]
     },
     {
         path: 'card',
-        component: CardGameComponent
+        loadComponent: () =>
+            import('@app/pages/card-game/card-game')
+                .then(m => m.CardGameComponent),
     },
     {
         path: 'oracle',
-        component: OracleGameComponent
+        loadComponent: () =>
+            import('@app/pages/oracle-game/oracle-game')
+                .then(m => m.OracleGameComponent),
     },
     {
         path: 'about',
-        component: About
+        loadComponent: () => import('@app/pages/about/about').then(m => m.About),
     },
     {
         path: 'privacy',
-        component: Privacy
+        loadComponent: () => import('@app/pages/privacy/privacy').then(m => m.Privacy),
     },
     {
         path: 'imprint',
-        component: Imprint
+        loadComponent: () => import('@app/pages/imprint/imprint').then(m => m.Imprint),
     },
     {
         path: '**',
