@@ -1,7 +1,3 @@
-/* =========================
-   Guess History (Small)
-   ========================= */
-
 .guess-history-small {
     width: 100%;
     margin-top: 20px;
@@ -14,10 +10,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-/* =========================
-   Single Guess Row
-   ========================= */
-
+/* Single Guess Row */
 .guess-row {
     display: flex;
     align-items: center;
@@ -48,10 +41,7 @@
     mask-image: linear-gradient(to bottom, black 50%, transparent 90%);
 }
 
-/* =========================
-   Artwork
-   ========================= */
-
+/* Artwork, name, result */
 .guess-art {
     width: 55px;
     height: 55px;
@@ -60,10 +50,6 @@
     flex-shrink: 0;
 }
 
-/* =========================
-   Name
-   ========================= */
-
 .guess-name {
     flex: 1;
     white-space: nowrap;
@@ -71,19 +57,12 @@
     text-overflow: ellipsis;
 }
 
-/* =========================
-   Result Icon
-   ========================= */
-
 .guess-result {
     font-size: 20px;
     font-weight: 600;
 }
 
-/* =========================
-   Mobile Tweaks
-   ========================= */
-
+/* Mobile  */
 @media (max-width: 600px) {
     .guess-history-small {
         max-width: 100%;

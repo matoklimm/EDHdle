@@ -1,26 +1,19 @@
-/* =========================
-   Game Shell
-   ========================= */
 .game-shell {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
-    padding-top: 32px;
+    gap: clamp(32px, 6vh, 56px);
+    padding-top: clamp(16px, 3vh, 42px);
 }
 
-/* =========================
-   Input Zone
-   ========================= */
+/* Input Zone */
 .game-input {
     width: clamp(380px, 90vw, 600px);
     display: flex;
     justify-content: center;
 }
 
-/* =========================
-   Content Box
-   ========================= */
+/* Content Box */
 .game-content {
     width: clamp(380px, 90vw, 600px);
 
@@ -50,14 +43,8 @@
 }
 
 
-/* =========================
-   Mobile Adjustments
-   ========================= */
+/* Mobile */
 @media (max-width: 600px) {
-    .game-shell {
-        gap: 12px;
-    }
-
     .game-content {
         backdrop-filter: none;
         -webkit-backdrop-filter: none;

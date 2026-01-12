@@ -11,8 +11,7 @@ import { GameShell } from "@app/components/game-shell/game-shell";
 @Component({
   selector: 'app-game',
   imports: [GuessHistory, GuessInput, Victory, RouterModule, GameShell],
-  templateUrl: './game.html',
-  styleUrl: './game.css',
+  templateUrl: './game.html'
 })
 export class Game {
   service = inject<GameService>(GAME_SERVICE);

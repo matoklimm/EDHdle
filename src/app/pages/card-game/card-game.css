@@ -11,10 +11,6 @@
     transition: filter 260ms ease;
 }
 
-/* =========================
-   Mobile
-   ========================= */
-
 @media (max-width: 600px) {
     .card-art {
         width: 260px;

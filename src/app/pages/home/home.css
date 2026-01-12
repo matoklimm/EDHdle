@@ -4,14 +4,11 @@
     padding: 16px;
 }
 
-/* =========================
-   Mode Cards
-   ========================= */
-
+/* Mode Cards */
 .modes {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 32px;
 }
 
 .mode-card {
@@ -53,10 +50,7 @@
     }
 }
 
-/* =========================
-   Mode Card Text
-   ========================= */
-
+/* Mode Card Text */
 .mode-text {
     display: flex;
     flex-direction: column;
@@ -74,10 +68,7 @@
     opacity: 0.85;
 }
 
-/* =========================
-   Mode Card Icon (decorativ)
-   ========================= */
-
+/* Mode Card Icon  */
 .mode-icon {
     position: absolute;
     right: 16px;
@@ -91,8 +82,7 @@
 }
 
 /* =========================
-   Info Section
-   ========================= */
+   Info Section*/
 
 .info {
     margin-top: 24px;

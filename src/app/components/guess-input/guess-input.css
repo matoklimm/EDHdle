@@ -43,7 +43,7 @@
 }
 
 .autocomplete input::placeholder {
-    color: rgba(255, 255, 255, 0.45);
+    color: rgba(255, 255, 255, 0.85);
 }
 
 /* Focus State */
@@ -52,13 +52,14 @@
 }
 
 .input-wrapper:has(input:focus) {
+    background: rgba(20, 20, 28, 0.95);
     box-shadow:
-        0 0 0 2px rgba(255, 209, 102, 0.6),
-        0 0 20px rgba(255, 159, 28, 0.35),
-        0 18px 40px rgba(0, 0, 0, 0.75);
+        0 0 0 2px rgba(255, 209, 102, 0.75),
+        0 0 18px rgba(255, 190, 120, 0.45),
+        0 0 36px rgba(255, 159, 28, 0.25),
+        0 22px 48px rgba(0, 0, 0, 0.85);
 }
 
-/* Disabled */
 .autocomplete input:disabled {
     opacity: 0.5;
     cursor: not-allowed;
