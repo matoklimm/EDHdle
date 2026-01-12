@@ -24,10 +24,10 @@
       "Eminence"
     ],
     "tags": [
-      "triggered",
-      "draw",
       "combat",
       "cost-reduction",
+      "triggered",
+      "draw",
       "flying"
     ],
     "power": "10",
@@ -62,13 +62,13 @@
       "Eminence"
     ],
     "tags": [
-      "token",
+      "combat",
       "cast",
       "triggered",
-      "counter",
       "haste",
-      "combat",
-      "first-strike"
+      "first-strike",
+      "token",
+      "counter"
     ],
     "power": "4",
     "toughness": "4",
@@ -106,12 +106,12 @@
       "Proliferate"
     ],
     "tags": [
+      "lifegain",
       "triggered",
       "deathtouch",
       "flying",
       "lifelink",
-      "counter",
-      "lifegain"
+      "counter"
     ],
     "power": "4",
     "toughness": "4",
@@ -205,12 +205,11 @@
       "Vigilance"
     ],
     "tags": [
-      "ping",
-      "burn",
       "cast",
-      "lifegain",
       "triggered",
-      "draw"
+      "draw",
+      "lifegain",
+      "burn"
     ],
     "power": "2",
     "toughness": "4",
@@ -241,8 +240,8 @@
       "Discover"
     ],
     "tags": [
-      "triggered",
       "etb",
+      "triggered",
       "exile"
     ],
     "power": "4",
@@ -276,14 +275,14 @@
       "Ward"
     ],
     "tags": [
-      "cast",
-      "ward",
-      "triggered",
       "sacrifice",
       "draw",
       "combat",
+      "ward",
       "burn",
-      "discard"
+      "discard",
+      "cast",
+      "triggered"
     ],
     "power": "7",
     "toughness": "6",
@@ -314,11 +313,11 @@
       "Commander ninjutsu"
     ],
     "tags": [
-      "life-loss",
-      "triggered",
-      "combat",
       "burn",
-      "chaos"
+      "triggered",
+      "chaos",
+      "life-loss",
+      "combat"
     ],
     "power": "1",
     "toughness": "3",
@@ -350,12 +349,12 @@
     ],
     "tags": [
       "burn",
-      "token",
-      "lifegain",
-      "life-loss",
       "triggered",
+      "token",
+      "life-loss",
+      "menace",
       "combat",
-      "menace"
+      "lifegain"
     ],
     "power": "2",
     "toughness": "3",
@@ -387,11 +386,11 @@
     ],
     "keywords": [],
     "tags": [
-      "counter",
-      "haste",
       "draw",
       "graveyard",
-      "lifegain"
+      "counter",
+      "lifegain",
+      "haste"
     ],
     "power": "5",
     "toughness": "5",
@@ -422,9 +421,9 @@
     ],
     "tags": [
       "cast",
+      "flying",
       "ramp",
-      "counter",
-      "flying"
+      "counter"
     ],
     "power": "2",
     "toughness": "2",
@@ -456,11 +455,11 @@
       "Flying"
     ],
     "tags": [
-      "etb",
       "counter",
       "combat",
-      "flying",
-      "triggered"
+      "etb",
+      "triggered",
+      "flying"
     ],
     "power": "3",
     "toughness": "3",
@@ -524,10 +523,9 @@
     ],
     "keywords": [],
     "tags": [
+      "burn",
       "triggered",
-      "draw",
-      "ping",
-      "burn"
+      "draw"
     ],
     "power": "2",
     "toughness": "4",
@@ -560,9 +558,9 @@
       "Ward"
     ],
     "tags": [
-      "token",
-      "triggered",
       "etb",
+      "triggered",
+      "token",
       "flying",
       "ward"
     ],
@@ -596,9 +594,9 @@
       "Vigilance"
     ],
     "tags": [
+      "counter",
       "cast",
       "triggered",
-      "counter",
       "draw"
     ],
     "power": "1",
@@ -658,7 +656,6 @@
     "keywords": [],
     "tags": [
       "counter",
-      "ping",
       "burn",
       "cast",
       "triggered"
@@ -728,10 +725,10 @@
       "Mill"
     ],
     "tags": [
-      "token",
-      "triggered",
       "combat",
+      "triggered",
       "flying",
+      "token",
       "graveyard",
       "recursion"
     ],
@@ -763,9 +760,9 @@
     ],
     "keywords": [],
     "tags": [
-      "counter",
       "draw",
-      "ramp"
+      "ramp",
+      "counter"
     ],
     "power": "4",
     "toughness": "3",
@@ -797,8 +794,8 @@
       "Forestwalk"
     ],
     "tags": [
-      "sacrifice",
       "combat",
+      "sacrifice",
       "token"
     ],
     "power": "3",
@@ -831,12 +828,12 @@
       "Ward"
     ],
     "tags": [
-      "life-loss",
-      "triggered",
       "counter",
-      "draw",
       "flying",
-      "ward"
+      "ward",
+      "triggered",
+      "draw",
+      "life-loss"
     ],
     "power": "4",
     "toughness": "4",
@@ -867,12 +864,12 @@
       "Explore"
     ],
     "tags": [
-      "triggered",
       "counter",
-      "draw",
       "combat",
-      "graveyard",
-      "chaos"
+      "triggered",
+      "draw",
+      "chaos",
+      "graveyard"
     ],
     "power": "3",
     "toughness": "3",
@@ -939,8 +936,8 @@
     ],
     "keywords": [],
     "tags": [
-      "cast",
-      "graveyard"
+      "graveyard",
+      "cast"
     ],
     "power": "6",
     "toughness": "6",
@@ -973,10 +970,10 @@
     ],
     "tags": [
       "recursion",
-      "token",
-      "triggered",
       "etb",
+      "triggered",
       "draw",
+      "token",
       "graveyard"
     ],
     "power": "2",
@@ -1010,11 +1007,11 @@
       "Vigilance"
     ],
     "tags": [
-      "draw",
       "combat",
+      "etb",
       "flying",
       "triggered",
-      "etb"
+      "draw"
     ],
     "power": "3",
     "toughness": "5",
@@ -1045,10 +1042,10 @@
       "Protection"
     ],
     "tags": [
+      "protection",
       "cast",
       "triggered",
       "counter",
-      "protection",
       "cost-reduction"
     ],
     "power": "1",
@@ -1082,10 +1079,10 @@
       "Partner"
     ],
     "tags": [
-      "triggered",
-      "draw",
       "combat",
-      "lifegain"
+      "lifegain",
+      "triggered",
+      "draw"
     ],
     "power": "1",
     "toughness": "3",
@@ -1118,11 +1115,11 @@
     ],
     "keywords": [],
     "tags": [
-      "token",
+      "combat",
       "triggered",
       "sacrifice",
       "draw",
-      "combat"
+      "token"
     ],
     "power": "3",
     "toughness": "3",
@@ -1154,8 +1151,8 @@
       "Treasure"
     ],
     "tags": [
-      "token",
-      "triggered"
+      "triggered",
+      "token"
     ],
     "power": "0",
     "toughness": "4",
@@ -1188,12 +1185,12 @@
       "Ward"
     ],
     "tags": [
+      "triggered",
       "draw",
-      "combat",
       "trample",
       "ward",
-      "triggered",
-      "counter"
+      "counter",
+      "combat"
     ],
     "power": "5",
     "toughness": "5",
@@ -1222,12 +1219,12 @@
     ],
     "keywords": [],
     "tags": [
-      "haste",
-      "draw",
       "combat",
       "burn",
       "triggered",
-      "indestructible"
+      "haste",
+      "indestructible",
+      "draw"
     ],
     "power": "3",
     "toughness": "3",
@@ -1260,11 +1257,10 @@
       "Scry"
     ],
     "tags": [
-      "triggered",
-      "ping",
-      "burn",
       "token",
-      "cast"
+      "burn",
+      "cast",
+      "triggered"
     ],
     "power": "5",
     "toughness": "5",
@@ -1294,8 +1290,8 @@
     ],
     "keywords": [],
     "tags": [
-      "discard",
       "token",
+      "discard",
       "triggered"
     ],
     "power": "1",
@@ -1360,8 +1356,8 @@
     ],
     "tags": [
       "burn",
-      "triggered",
       "trample",
+      "triggered",
       "haste",
       "combat"
     ],
@@ -1393,14 +1389,14 @@
     ],
     "keywords": [],
     "tags": [
-      "triggered",
-      "sacrifice",
       "haste",
+      "sacrifice",
       "draw",
+      "token",
+      "life-loss",
       "combat",
       "burn",
-      "token",
-      "life-loss"
+      "triggered"
     ],
     "power": "4",
     "toughness": "4",
@@ -1430,11 +1426,11 @@
     ],
     "keywords": [],
     "tags": [
-      "burn",
+      "triggered",
       "token",
-      "cast",
       "lifegain",
-      "triggered"
+      "burn",
+      "cast"
     ],
     "power": "4",
     "toughness": "4",
@@ -1464,9 +1460,9 @@
       "Crew"
     ],
     "tags": [
-      "discard",
+      "draw",
       "token",
-      "draw"
+      "discard"
     ],
     "power": "8",
     "toughness": "8",
@@ -1496,10 +1492,10 @@
     ],
     "keywords": [],
     "tags": [
-      "triggered",
-      "draw",
       "discard",
-      "cast"
+      "cast",
+      "triggered",
+      "draw"
     ],
     "power": "0",
     "toughness": "5",
@@ -1528,8 +1524,8 @@
     ],
     "keywords": [],
     "tags": [
-      "triggered",
       "counter",
+      "triggered",
       "graveyard"
     ],
     "power": "3",
@@ -1563,10 +1559,10 @@
     ],
     "tags": [
       "token",
-      "cast",
       "ramp",
-      "triggered",
-      "combat"
+      "combat",
+      "cast",
+      "triggered"
     ],
     "power": "4",
     "toughness": "4",
@@ -1597,12 +1593,11 @@
     ],
     "keywords": [],
     "tags": [
+      "triggered",
       "sacrifice",
-      "ping",
-      "burn",
       "token",
       "lifegain",
-      "triggered",
+      "burn",
       "etb"
     ],
     "power": "4",
@@ -1639,14 +1634,14 @@
       "Transform"
     ],
     "tags": [
-      "draw",
       "combat",
       "flying",
-      "discard",
-      "life-loss",
-      "triggered",
       "etb",
-      "sacrifice"
+      "discard",
+      "triggered",
+      "sacrifice",
+      "draw",
+      "life-loss"
     ],
     "power": null,
     "toughness": null,
@@ -1707,11 +1702,11 @@
     ],
     "keywords": [],
     "tags": [
-      "recursion",
-      "token",
       "triggered",
-      "etb",
-      "graveyard"
+      "token",
+      "graveyard",
+      "recursion",
+      "etb"
     ],
     "power": "3",
     "toughness": "4",
@@ -1747,14 +1742,14 @@
       "Super Nova"
     ],
     "tags": [
-      "triggered",
-      "etb",
-      "sacrifice",
       "draw",
+      "life-loss",
       "combat",
-      "flying",
       "lifegain",
-      "life-loss"
+      "etb",
+      "flying",
+      "triggered",
+      "sacrifice"
     ],
     "power": null,
     "toughness": null,
@@ -1786,11 +1781,10 @@
       "Ward"
     ],
     "tags": [
-      "triggered",
-      "counter",
-      "ping",
       "burn",
-      "ward"
+      "triggered",
+      "ward",
+      "counter"
     ],
     "power": "3",
     "toughness": "2",
@@ -1822,12 +1816,12 @@
       "Flying"
     ],
     "tags": [
-      "etb",
       "sacrifice",
-      "counter",
       "draw",
-      "combat",
       "flying",
+      "counter",
+      "combat",
+      "etb",
       "triggered"
     ],
     "power": "4",
@@ -1862,12 +1856,12 @@
       "Haste"
     ],
     "tags": [
-      "etb",
-      "haste",
       "draw",
-      "combat",
       "token",
-      "triggered"
+      "combat",
+      "etb",
+      "triggered",
+      "haste"
     ],
     "power": "4",
     "toughness": "4",
@@ -1899,10 +1893,10 @@
       "Menace"
     ],
     "tags": [
-      "combat",
-      "burn",
       "triggered",
-      "menace"
+      "menace",
+      "combat",
+      "burn"
     ],
     "power": "2",
     "toughness": "5",
@@ -1933,11 +1927,11 @@
       "Lifelink"
     ],
     "tags": [
-      "counter",
-      "lifelink",
       "cast",
-      "lifegain",
-      "triggered"
+      "triggered",
+      "lifelink",
+      "counter",
+      "lifegain"
     ],
     "power": "2",
     "toughness": "2",
@@ -2004,9 +1998,9 @@
     ],
     "keywords": [],
     "tags": [
+      "protection",
       "triggered",
-      "indestructible",
-      "protection"
+      "indestructible"
     ],
     "power": "4",
     "toughness": "4",
@@ -2037,12 +2031,12 @@
       "Ward"
     ],
     "tags": [
-      "graveyard",
+      "counter",
       "lifegain",
+      "ward",
       "triggered",
       "sacrifice",
-      "counter",
-      "ward"
+      "graveyard"
     ],
     "power": "6",
     "toughness": "6",
@@ -2072,10 +2066,10 @@
     ],
     "keywords": [],
     "tags": [
-      "lifegain",
-      "life-loss",
       "triggered",
-      "draw"
+      "draw",
+      "life-loss",
+      "lifegain"
     ],
     "power": "4",
     "toughness": "5",
@@ -2103,11 +2097,11 @@
     ],
     "keywords": [],
     "tags": [
-      "exile",
       "token",
       "ramp",
-      "triggered",
-      "etb"
+      "exile",
+      "etb",
+      "triggered"
     ],
     "power": "1",
     "toughness": "4",
@@ -2166,8 +2160,8 @@
     ],
     "keywords": [],
     "tags": [
-      "token",
-      "triggered"
+      "triggered",
+      "token"
     ],
     "power": "2",
     "toughness": "3",
@@ -2199,12 +2193,12 @@
       "Flying"
     ],
     "tags": [
-      "combat",
-      "burn",
-      "token",
-      "triggered",
       "draw",
-      "flying"
+      "token",
+      "combat",
+      "flying",
+      "burn",
+      "triggered"
     ],
     "power": "3",
     "toughness": "5",
@@ -2233,10 +2227,10 @@
     ],
     "keywords": [],
     "tags": [
-      "lifegain",
       "life-loss",
-      "triggered",
-      "combat"
+      "combat",
+      "lifegain",
+      "triggered"
     ],
     "power": "2",
     "toughness": "4",
@@ -2270,8 +2264,8 @@
     ],
     "tags": [
       "triggered",
-      "counter",
       "haste",
+      "counter",
       "exile"
     ],
     "power": "3",
@@ -2303,11 +2297,11 @@
       "Station"
     ],
     "tags": [
-      "sacrifice",
-      "haste",
       "draw",
       "life-loss",
-      "triggered"
+      "triggered",
+      "haste",
+      "sacrifice"
     ],
     "power": "6",
     "toughness": "7",
@@ -2337,8 +2331,8 @@
     "keywords": [],
     "tags": [
       "combat",
-      "burn",
       "lifegain",
+      "burn",
       "triggered"
     ],
     "power": "1",
@@ -2373,11 +2367,11 @@
       "Menace"
     ],
     "tags": [
-      "triggered",
       "combat",
-      "menace",
       "burn",
-      "cast"
+      "cast",
+      "triggered",
+      "menace"
     ],
     "power": "3",
     "toughness": "2",
@@ -2407,11 +2401,11 @@
     ],
     "keywords": [],
     "tags": [
-      "triggered",
-      "sacrifice",
-      "haste",
       "draw",
-      "cast"
+      "cast",
+      "triggered",
+      "haste",
+      "sacrifice"
     ],
     "power": "3",
     "toughness": "3",
@@ -2443,13 +2437,12 @@
       "Landfall"
     ],
     "tags": [
-      "ping",
-      "burn",
-      "lifegain",
+      "draw",
       "ramp",
-      "triggered",
+      "lifegain",
+      "burn",
       "etb",
-      "draw"
+      "triggered"
     ],
     "power": "4",
     "toughness": "4",
@@ -2483,15 +2476,15 @@
       "Eminence"
     ],
     "tags": [
-      "recursion",
-      "flying",
-      "triggered",
-      "combat",
-      "discard",
       "graveyard",
-      "first-strike",
+      "combat",
+      "burn",
+      "discard",
+      "triggered",
+      "flying",
+      "recursion",
       "draw",
-      "burn"
+      "first-strike"
     ],
     "power": "4",
     "toughness": "3",
@@ -2560,11 +2553,11 @@
     ],
     "tags": [
       "token",
-      "cast",
       "ramp",
-      "triggered",
       "counter",
-      "deathtouch"
+      "deathtouch",
+      "cast",
+      "triggered"
     ],
     "power": "2",
     "toughness": "3",
@@ -2600,12 +2593,12 @@
       "Vigilance"
     ],
     "tags": [
-      "lifelink",
       "lifegain",
-      "triggered",
       "etb",
+      "triggered",
       "deathtouch",
-      "flying"
+      "flying",
+      "lifelink"
     ],
     "power": "7",
     "toughness": "7",
@@ -2636,12 +2629,11 @@
       "Flying"
     ],
     "tags": [
+      "draw",
       "burn",
       "cast",
       "triggered",
-      "flying",
-      "draw",
-      "ping"
+      "flying"
     ],
     "power": "5",
     "toughness": "5",
@@ -2674,8 +2666,8 @@
     "tags": [
       "combat",
       "burn",
-      "graveyard",
-      "triggered"
+      "triggered",
+      "graveyard"
     ],
     "power": "3",
     "toughness": "6",
@@ -2707,8 +2699,8 @@
       "Affinity"
     ],
     "tags": [
-      "triggered",
       "cost-reduction",
+      "triggered",
       "token"
     ],
     "power": "4",
@@ -2775,8 +2767,8 @@
     ],
     "tags": [
       "token",
-      "triggered",
       "etb",
+      "triggered",
       "haste",
       "deathtouch"
     ],
@@ -2810,11 +2802,11 @@
     ],
     "keywords": [],
     "tags": [
-      "triggered",
       "counter",
       "combat",
-      "token",
-      "cast"
+      "cast",
+      "triggered",
+      "token"
     ],
     "power": "2",
     "toughness": "2",
@@ -2844,10 +2836,10 @@
       "Treasure"
     ],
     "tags": [
-      "tutor",
-      "sacrifice",
       "token",
-      "triggered"
+      "triggered",
+      "tutor",
+      "sacrifice"
     ],
     "power": "2",
     "toughness": "1",
@@ -2879,11 +2871,11 @@
       "Flying"
     ],
     "tags": [
-      "triggered",
-      "etb",
-      "flying",
       "token",
-      "cast"
+      "etb",
+      "cast",
+      "triggered",
+      "flying"
     ],
     "power": "1",
     "toughness": "3",
@@ -2915,9 +2907,9 @@
       "Goad"
     ],
     "tags": [
+      "token",
       "combat",
       "burn",
-      "token",
       "cast",
       "triggered",
       "flying"
@@ -2991,10 +2983,10 @@
       "Lifelink"
     ],
     "tags": [
-      "token",
       "cast",
-      "lifegain",
       "triggered",
+      "token",
+      "lifegain",
       "deathtouch",
       "flying",
       "lifelink"
@@ -3028,11 +3020,11 @@
     "keywords": [],
     "tags": [
       "cast",
-      "lifegain",
-      "ramp",
       "triggered",
+      "draw",
+      "ramp",
       "counter",
-      "draw"
+      "lifegain"
     ],
     "power": "1",
     "toughness": "3",
@@ -3061,9 +3053,9 @@
     ],
     "keywords": [],
     "tags": [
+      "triggered",
       "exile",
-      "cast",
-      "triggered"
+      "cast"
     ],
     "power": "2",
     "toughness": "4",
@@ -3095,12 +3087,12 @@
       "Mobilize"
     ],
     "tags": [
-      "token",
-      "life-loss",
+      "combat",
       "triggered",
       "sacrifice",
       "draw",
-      "combat"
+      "token",
+      "life-loss"
     ],
     "power": "3",
     "toughness": "3",
@@ -3133,11 +3125,11 @@
       "Scry"
     ],
     "tags": [
-      "triggered",
       "etb",
-      "counter",
+      "triggered",
       "draw",
-      "ramp"
+      "ramp",
+      "counter"
     ],
     "power": "3",
     "toughness": "3",
@@ -3168,8 +3160,8 @@
     ],
     "tags": [
       "triggered",
-      "etb",
-      "draw"
+      "draw",
+      "etb"
     ],
     "power": "5",
     "toughness": "5",
@@ -3201,10 +3193,10 @@
       "Surveil"
     ],
     "tags": [
-      "topdeck",
+      "draw",
       "graveyard",
-      "triggered",
-      "draw"
+      "topdeck",
+      "triggered"
     ],
     "power": "2",
     "toughness": "4",
@@ -3236,10 +3228,10 @@
       "Flying"
     ],
     "tags": [
-      "flying",
+      "combat",
       "triggered",
       "tutor",
-      "combat"
+      "flying"
     ],
     "power": "1",
     "toughness": "4",
@@ -3273,12 +3265,12 @@
       "Lord of Torment"
     ],
     "tags": [
-      "flying",
-      "burn",
+      "draw",
       "life-loss",
-      "triggered",
+      "burn",
       "etb",
-      "draw"
+      "triggered",
+      "flying"
     ],
     "power": "6",
     "toughness": "5",
@@ -3351,10 +3343,10 @@
       "Nightbound"
     ],
     "tags": [
+      "burn",
       "triggered",
       "draw",
-      "combat",
-      "burn"
+      "combat"
     ],
     "power": null,
     "toughness": null,
@@ -3387,11 +3379,11 @@
       "Trample"
     ],
     "tags": [
-      "trample",
-      "combat",
       "triggered",
+      "combat",
       "etb",
-      "flying"
+      "flying",
+      "trample"
     ],
     "power": "7",
     "toughness": "7",
@@ -3457,11 +3449,11 @@
     ],
     "tags": [
       "combat",
-      "token",
       "triggered",
-      "menace",
+      "haste",
       "sacrifice",
-      "haste"
+      "menace",
+      "token"
     ],
     "power": "3",
     "toughness": "5",
@@ -3491,11 +3483,11 @@
       "Deathtouch"
     ],
     "tags": [
-      "combat",
+      "deathtouch",
       "destroy",
+      "combat",
       "burn",
-      "triggered",
-      "deathtouch"
+      "triggered"
     ],
     "power": "1",
     "toughness": "3",
@@ -3531,14 +3523,14 @@
       "Trample"
     ],
     "tags": [
-      "indestructible",
       "etb",
-      "combat",
-      "exile",
-      "burn",
       "cast",
+      "triggered",
+      "indestructible",
+      "combat",
       "trample",
-      "triggered"
+      "exile",
+      "burn"
     ],
     "power": null,
     "toughness": null,

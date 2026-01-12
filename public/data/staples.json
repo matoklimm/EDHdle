@@ -61,9 +61,9 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "removal",
       "lifegain",
-      "exile"
+      "exile",
+      "removal"
     ],
     "power": null,
     "toughness": null,
@@ -161,8 +161,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "tutor",
-      "ramp"
+      "ramp",
+      "tutor"
     ],
     "power": null,
     "toughness": null,
@@ -186,9 +186,9 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
+      "removal",
       "token",
-      "destroy",
-      "removal"
+      "destroy"
     ],
     "power": null,
     "toughness": null,
@@ -238,7 +238,6 @@
     "keywords": [],
     "tags": [
       "burn",
-      "ping",
       "cost-reduction"
     ],
     "power": null,
@@ -265,7 +264,6 @@
     "keywords": [],
     "tags": [
       "burn",
-      "ping",
       "ramp"
     ],
     "power": null,
@@ -365,8 +363,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "removal",
       "chaos",
+      "removal",
       "polymorph"
     ],
     "power": null,
@@ -393,7 +391,6 @@
     "keywords": [],
     "tags": [
       "burn",
-      "ping",
       "ramp"
     ],
     "power": null,
@@ -420,7 +417,6 @@
     "keywords": [],
     "tags": [
       "burn",
-      "ping",
       "ramp"
     ],
     "power": null,
@@ -476,8 +472,8 @@
     ],
     "keywords": [],
     "tags": [
-      "ramp",
-      "tutor"
+      "tutor",
+      "ramp"
     ],
     "power": null,
     "toughness": null,
@@ -505,10 +501,10 @@
       "Equip"
     ],
     "tags": [
-      "triggered",
-      "protection",
       "equipment",
       "combat",
+      "protection",
+      "triggered",
       "haste"
     ],
     "power": null,
@@ -535,7 +531,6 @@
     "keywords": [],
     "tags": [
       "burn",
-      "ping",
       "ramp"
     ],
     "power": null,
@@ -587,7 +582,6 @@
     "keywords": [],
     "tags": [
       "burn",
-      "ping",
       "ramp"
     ],
     "power": null,
@@ -641,9 +635,9 @@
       "Equip"
     ],
     "tags": [
-      "protection",
+      "haste",
       "equipment",
-      "haste"
+      "protection"
     ],
     "power": null,
     "toughness": null,
@@ -697,9 +691,9 @@
     ],
     "tags": [
       "ramp",
-      "sacrifice",
       "token",
-      "counter"
+      "counter",
+      "sacrifice"
     ],
     "power": null,
     "toughness": null,
@@ -748,7 +742,6 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "ping",
       "ramp",
       "burn"
     ],
@@ -830,9 +823,9 @@
       "Exalted"
     ],
     "tags": [
-      "triggered",
+      "combat",
       "ramp",
-      "combat"
+      "triggered"
     ],
     "power": "0",
     "toughness": "1",
@@ -856,9 +849,9 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "cast",
+      "draw",
       "triggered",
-      "draw"
+      "cast"
     ],
     "power": null,
     "toughness": null,
@@ -934,9 +927,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "indestructible",
       "burn",
-      "ping"
+      "indestructible"
     ],
     "power": null,
     "toughness": null,
@@ -1039,11 +1031,11 @@
       "Treasure"
     ],
     "tags": [
-      "sacrifice",
-      "triggered",
       "draw",
       "token",
-      "ramp"
+      "sacrifice",
+      "ramp",
+      "triggered"
     ],
     "power": null,
     "toughness": null,
@@ -1140,9 +1132,9 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "triggered",
       "draw",
-      "counter"
+      "counter",
+      "triggered"
     ],
     "power": null,
     "toughness": null,
@@ -1247,8 +1239,8 @@
     "keywords": [],
     "tags": [
       "cast",
-      "triggered",
-      "draw"
+      "draw",
+      "triggered"
     ],
     "power": "1",
     "toughness": "1",
@@ -1274,8 +1266,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "wipe",
-      "destroy"
+      "destroy",
+      "wipe"
     ],
     "power": null,
     "toughness": null,
@@ -1300,8 +1292,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "removal",
-      "destroy"
+      "destroy",
+      "removal"
     ],
     "power": null,
     "toughness": null,
@@ -1375,8 +1367,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "cast",
-      "wipe"
+      "wipe",
+      "cast"
     ],
     "power": null,
     "toughness": null,
@@ -1504,8 +1496,8 @@
     "tags": [
       "etb",
       "graveyard",
-      "recursion",
-      "triggered"
+      "triggered",
+      "recursion"
     ],
     "power": "2",
     "toughness": "1",
@@ -1529,8 +1521,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "protection",
-      "exile"
+      "exile",
+      "protection"
     ],
     "power": null,
     "toughness": null,
@@ -1554,11 +1546,11 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
+      "etb",
       "combat",
-      "triggered",
       "draw",
       "burn",
-      "etb"
+      "triggered"
     ],
     "power": null,
     "toughness": null,
@@ -1586,8 +1578,8 @@
     "keywords": [],
     "tags": [
       "tutor",
-      "ramp",
-      "sacrifice"
+      "sacrifice",
+      "ramp"
     ],
     "power": "1",
     "toughness": "1",
@@ -1663,11 +1655,11 @@
       "Cumulative upkeep"
     ],
     "tags": [
-      "triggered",
+      "cast",
       "draw",
       "counter",
       "sacrifice",
-      "cast"
+      "triggered"
     ],
     "power": null,
     "toughness": null,
@@ -1694,8 +1686,8 @@
     ],
     "tags": [
       "discard",
-      "draw",
       "exile",
+      "draw",
       "graveyard"
     ],
     "power": null,
@@ -1755,8 +1747,8 @@
     ],
     "tags": [
       "ramp",
-      "combat",
-      "triggered"
+      "triggered",
+      "combat"
     ],
     "power": "0",
     "toughness": "1",
@@ -1781,8 +1773,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "removal",
-      "destroy"
+      "destroy",
+      "removal"
     ],
     "power": null,
     "toughness": null,
@@ -1808,9 +1800,9 @@
       "Overload"
     ],
     "tags": [
-      "cast",
       "removal",
-      "destroy"
+      "destroy",
+      "cast"
     ],
     "power": null,
     "toughness": null,
@@ -1834,8 +1826,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "triggered",
       "draw",
+      "triggered",
       "life-loss"
     ],
     "power": null,
@@ -1860,9 +1852,9 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "cast",
+      "ramp",
       "exile",
-      "ramp"
+      "cast"
     ],
     "power": null,
     "toughness": null,
@@ -1939,8 +1931,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "tutor",
-      "life-loss"
+      "life-loss",
+      "tutor"
     ],
     "power": null,
     "toughness": null,
@@ -1966,10 +1958,10 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "etb",
-      "haste",
+      "draw",
       "triggered",
-      "draw"
+      "haste",
+      "etb"
     ],
     "power": null,
     "toughness": null,
@@ -2022,12 +2014,11 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "ping",
       "destroy",
+      "burn",
       "exile",
       "removal",
-      "graveyard",
-      "burn"
+      "graveyard"
     ],
     "power": null,
     "toughness": null,
@@ -2051,9 +2042,9 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "draw",
+      "sacrifice",
       "ramp",
-      "sacrifice"
+      "draw"
     ],
     "power": null,
     "toughness": null,
@@ -2109,11 +2100,11 @@
     ],
     "keywords": [],
     "tags": [
-      "draw",
-      "burn",
+      "triggered",
       "combat",
       "cast",
-      "triggered"
+      "draw",
+      "burn"
     ],
     "power": "3",
     "toughness": "3",
@@ -2137,8 +2128,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "counter",
-      "triggered"
+      "triggered",
+      "counter"
     ],
     "power": null,
     "toughness": null,
@@ -2162,8 +2153,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "discard",
-      "draw"
+      "draw",
+      "discard"
     ],
     "power": null,
     "toughness": null,
@@ -2270,8 +2261,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "exile",
       "removal",
+      "exile",
       "cast"
     ],
     "power": null,
@@ -2303,11 +2294,11 @@
       "Flying"
     ],
     "tags": [
-      "triggered",
-      "draw",
-      "etb",
       "deathtouch",
-      "flying"
+      "flying",
+      "triggered",
+      "etb",
+      "draw"
     ],
     "power": "1",
     "toughness": "1",
@@ -2338,12 +2329,12 @@
       "Treasure"
     ],
     "tags": [
-      "sacrifice",
-      "cast",
-      "triggered",
       "token",
+      "sacrifice",
+      "ramp",
+      "triggered",
       "life-loss",
-      "ramp"
+      "cast"
     ],
     "power": "2",
     "toughness": "1",
@@ -2369,7 +2360,6 @@
     "keywords": [],
     "tags": [
       "burn",
-      "ping",
       "ramp"
     ],
     "power": null,
@@ -2394,8 +2384,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "exile",
-      "graveyard"
+      "graveyard",
+      "exile"
     ],
     "power": null,
     "toughness": null,
@@ -2422,11 +2412,11 @@
     ],
     "keywords": [],
     "tags": [
-      "ramp",
       "triggered",
-      "draw",
       "etb",
-      "tutor"
+      "tutor",
+      "draw",
+      "ramp"
     ],
     "power": "2",
     "toughness": "2",
@@ -2453,10 +2443,9 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "triggered",
+      "etb",
       "burn",
-      "ping",
-      "etb"
+      "triggered"
     ],
     "power": null,
     "toughness": null,
@@ -2482,7 +2471,6 @@
     "keywords": [],
     "tags": [
       "burn",
-      "ping",
       "ramp"
     ],
     "power": null,
@@ -2592,10 +2580,10 @@
       "Landfall"
     ],
     "tags": [
-      "lifegain",
       "triggered",
+      "etb",
       "draw",
-      "etb"
+      "lifegain"
     ],
     "power": "3",
     "toughness": "3",
@@ -2647,8 +2635,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "sacrifice",
-      "graveyard"
+      "graveyard",
+      "sacrifice"
     ],
     "power": null,
     "toughness": null,
@@ -2672,8 +2660,8 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "sacrifice",
       "draw",
+      "sacrifice",
       "ramp"
     ],
     "power": null,
