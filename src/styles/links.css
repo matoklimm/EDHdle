@@ -1,0 +1,24 @@
+a {
+    color: #7dd3fc;
+    text-decoration: none;
+    font-weight: 500;
+
+    border-bottom: 1px solid rgba(125, 211, 252, 0.35);
+    padding-bottom: 1px;
+
+    transition:
+        color 120ms ease,
+        border-color 120ms ease,
+        text-shadow 120ms ease;
+}
+
+a:hover {
+    color: #bae6fd;
+    border-bottom-color: rgba(186, 230, 253, 0.8);
+    text-shadow: 0 0 6px rgba(125, 211, 252, 0.35);
+}
+
+a:visited {
+    color: #7dd3fc;
+    opacity: 0.75;
+}

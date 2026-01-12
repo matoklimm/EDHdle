@@ -7,7 +7,6 @@
     align-items: center;
     gap: 16px;
     padding-top: 32px;
-    min-height: 100svh;
 }
 
 /* =========================
@@ -20,7 +19,7 @@
 }
 
 /* =========================
-   Content Box (dark glass)
+   Content Box
    ========================= */
 .game-content {
     width: clamp(380px, 90vw, 600px);

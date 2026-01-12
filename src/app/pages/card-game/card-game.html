@@ -12,7 +12,7 @@
     </div>
 
     <div class="card-actions">
-      <button class="card-action" (click)="toggleBlur()">
+      <button class="card-action" (click)="toggleBlur()" [disabled]="guesses().length === 0">
         <img src="/icons/reset.png" class="card-action-icon" />
         Blur reset
       </button>

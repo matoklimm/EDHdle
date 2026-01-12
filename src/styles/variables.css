@@ -1,0 +1,41 @@
+:root {
+    --color-white: #ffffff;
+    --color-correct-bg: #b7e4c7;
+    --color-wrong-bg: #f4b6b6;
+    --color-partial-bg: #ffd28a;
+
+    /* --color-correct-bg: #75c042;
+    --color-wrong-bg: #b6252d;
+    --color-partial-bg: #ffc92a; */
+
+    /* --color-correct-bg: #68a691;
+    --color-partial-bg: #f3d98c;
+    --color-wrong-bg: #c46d78; */
+
+    --tile-bg: #ffffff;
+    --tile-border: rgba(0, 0, 0, 0.12);
+    --tile-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    --tile-radius: 6px;
+
+    --icon-size: 46px;
+}
+
+.color-correct {
+    background: var(--color-correct-bg);
+}
+
+.color-partial {
+    background: var(--color-partial-bg);
+}
+
+.color-wrong {
+    background: var(--color-wrong-bg);
+}
+
+.color-correct,
+.color-partial,
+.color-wrong {
+    box-shadow:
+        inset 0 0 0 1px rgba(0, 0, 0, 0.18),
+        0 4px 14px rgba(0, 0, 0, 0.25);
+}

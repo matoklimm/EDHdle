@@ -3,11 +3,10 @@
    ========================= */
 
 .app-footer {
-    margin-top: auto;
     padding: 32px 16px 24px;
     text-align: center;
 
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 13px;
 }
 
@@ -41,7 +40,7 @@
 }
 
 .footer-links a {
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     border-bottom: none;
 }
