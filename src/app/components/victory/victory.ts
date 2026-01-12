@@ -39,25 +39,25 @@ export class Victory {
       key: 'commander',
       label: 'Commander',
       link: '/commander',
-      icon: '/icons/commander.png',
+      icon: '/icons/commander.avif',
     },
     {
       key: 'staple',
       label: 'Staple',
       link: '/staple',
-      icon: '/icons/staple.png',
+      icon: '/icons/staple.avif',
     },
     {
       key: 'card',
       label: 'Card',
       link: '/card',
-      icon: '/icons/card.png',
+      icon: '/icons/card.avif',
     },
     {
       key: 'oracle',
       label: 'Oracle',
       link: '/oracle',
-      icon: '/icons/oracle.png',
+      icon: '/icons/oracle.avif',
     },
   ];
 
