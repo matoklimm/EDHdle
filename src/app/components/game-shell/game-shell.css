@@ -17,7 +17,7 @@
 .game-content {
     width: clamp(380px, 90vw, 600px);
 
-    background: rgba(245, 240, 230, 0.55);
+    background: var(--container-bg-primary);
     border: 1px solid rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(4px);
 
@@ -41,9 +41,9 @@
     margin-top: 12px;
     text-align: center;
     font-size: 14px;
-    background: rgba(255, 255, 255, 0.35);
+    background: var(--container-bg-primary);
     border-radius: 999px;
-    color: white;
+    color: var(--color-text-primary);
     font-weight: 500;
     padding: 0 22px;
 }

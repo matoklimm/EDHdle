@@ -1,6 +1,4 @@
-/* =========================
-   Actions used in card-game and oracle-game
-   ========================= */
+/* Actions used in card-game and oracle-game */
 .card-actions {
     display: flex;
     gap: 12px;
@@ -15,8 +13,8 @@
     padding: 10px 16px;
     border-radius: 999px;
 
-    background: rgba(0, 0, 0, 0.55);
-    color: #fff;
+    background: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
 
     border: none;
     cursor: pointer;
@@ -30,7 +28,7 @@
 }
 
 .card-action:hover:not(:disabled) {
-    background: rgba(0, 0, 0, 0.35);
+    background: var(--color-hover-secondary);
 }
 
 .card-action:active:not(:disabled) {

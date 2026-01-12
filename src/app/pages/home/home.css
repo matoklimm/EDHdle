@@ -22,10 +22,10 @@
 
     border: none;
     border-radius: 14px;
-    background: rgba(0, 0, 0, 0.45);
+    background: var(--container-bg-primary);
     backdrop-filter: blur(4px);
 
-    color: #fff;
+    color: var(--color-text-primary);
     cursor: pointer;
 
     transition:
@@ -81,19 +81,17 @@
     transition: transform 160ms ease;
 }
 
-/* =========================
-   Info Section*/
-
+/* Info Section */
 .info {
     margin-top: 24px;
 }
 
 .info-header {
     padding: 6px 12px;
-    background: rgba(0, 0, 0, 0.45);
+    background: var(--container-bg-primary);
     backdrop-filter: blur(4px);
     border-radius: 999px;
-    color: #fff;
+    color: var(--color-text-primary);
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -104,7 +102,6 @@
     justify-content: space-between;
 
     font-size: 16px;
-    color: white;
     cursor: pointer;
 }
 
@@ -121,9 +118,9 @@
     font-size: 15px;
     line-height: 1.5;
 
-    background: rgba(10, 10, 10, 0.75);
+    background: var(--container-bg-primary);
     backdrop-filter: blur(6px);
 
     border-radius: 12px;
-    color: #eee;
+    color: var(--color-text-primary);
 }

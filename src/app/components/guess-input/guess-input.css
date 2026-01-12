@@ -52,7 +52,6 @@
 }
 
 .input-wrapper:has(input:focus) {
-    background: rgba(20, 20, 28, 0.95);
     box-shadow:
         0 0 0 2px rgba(255, 209, 102, 0.75),
         0 0 18px rgba(255, 190, 120, 0.45),

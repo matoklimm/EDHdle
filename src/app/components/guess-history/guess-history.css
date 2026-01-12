@@ -1,7 +1,7 @@
 .guess-scroll {
     display: grid;
     row-gap: 10px;
-    overflow-x: auto;
+    overflow: hidden;
     max-width: 100%;
 }
 
@@ -35,7 +35,10 @@
 
     font-size: 15px;
     font-weight: 500;
-    color: #1e1e22;
+    color: var(--color-text-dark);
+
+    opacity: 0;
+    transform: translateY(6px) scale(0.98);
 
     animation: tile-scale 360ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
 
@@ -63,7 +66,7 @@
     line-height: 1.1;
     letter-spacing: 0.3px;
 
-    color: rgba(20, 20, 24, 0.92);
+    color: var(--color-text-primary);
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
 }
 

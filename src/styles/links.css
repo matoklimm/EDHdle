@@ -1,9 +1,11 @@
+@import './variables.css';
+
 a {
-    color: #7dd3fc;
+    color: var(--color-link-primary);
     text-decoration: none;
     font-weight: 500;
 
-    border-bottom: 1px solid rgba(125, 211, 252, 0.35);
+    border-bottom: 1px solid var(--color-link-secondary);
     padding-bottom: 1px;
 
     transition:
@@ -13,12 +15,12 @@ a {
 }
 
 a:hover {
-    color: #bae6fd;
-    border-bottom-color: rgba(186, 230, 253, 0.8);
+    color: var(--color-link-secondary);
+    border-bottom-color: var(--color-link-primary);
     text-shadow: 0 0 6px rgba(125, 211, 252, 0.35);
 }
 
 a:visited {
-    color: #7dd3fc;
+    color: var(--color-link-primary);
     opacity: 0.75;
 }
