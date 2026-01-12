@@ -20,7 +20,7 @@ EDHdle currently features multiple daily game modes, all sharing the same core a
   Guess a popular EDH staple (among the "Top Cards" category from [EDHREC](https://edhrec.com)) using metadata like colors, CMC, types, and keywords.
 
 - **Commander Mode**
-  Guess a hidden Commander (among the "Top Cards" category from [EDHREC](https://edhrec.com)) based on structural hints and gameplay-related attributes.
+  Guess a hidden Commander (among the "Top Commanders" category from [EDHREC](https://edhrec.com)) based on structural hints and gameplay-related attributes.
 
 - **Card (Blurred Art) Mode**
   Guess the card while the artwork starts blurred and gradually reveals itself.
