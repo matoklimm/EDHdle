@@ -1,8 +1,12 @@
 <app-game-shell [contentSize]="'normal'">
 
   <div game-input>
+    @if (!isGameWon()) {
     <app-guess-input [allCards]="service.cards()" [guessedNames]="service.guessedNames()" [isGameWon]="isGameWon()"
       (select)="service.submitGuess($event.name)" />
+    } @else {
+    <app-next-puzzle-display />
+    }
   </div>
 
   <div game-content>
@@ -12,7 +16,7 @@
     </div>
 
     <div class="card-actions">
-      <button class="card-action" (click)="toggleBlur()" [disabled]="guesses().length === 0">
+      <button class="card-action" (click)="toggleBlur()" [disabled]="guesses().length === 0 || isGameWon()">
         <img src="/icons/reset.png" class="card-action-icon" />
         Blur reset
       </button>

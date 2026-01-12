@@ -7,10 +7,11 @@ import { Card } from '@core/models/card';
 import { GameService } from '@core/services/game-service';
 import { GAME_SERVICE } from '@core/services/game.token';
 import { GameShell } from "@app/components/game-shell/game-shell";
+import { NextPuzzleDisplay } from "@app/components/next-puzzle-display/next-puzzle-display";
 
 @Component({
   selector: 'app-game',
-  imports: [GuessHistory, GuessInput, Victory, RouterModule, GameShell],
+  imports: [GuessHistory, GuessInput, Victory, RouterModule, GameShell, NextPuzzleDisplay],
   templateUrl: './game.html'
 })
 export class Game {

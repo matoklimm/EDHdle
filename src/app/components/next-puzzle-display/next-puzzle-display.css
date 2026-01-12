@@ -1,0 +1,7 @@
+p {
+    background: var(--container-bg-primary);
+    border-radius: 999px;
+    color: var(--color-text-primary);
+    padding: 14px;
+    font-size: 20px;
+}

@@ -7,12 +7,13 @@ import { CardGameService } from '@core/services/card-game-service';
 import { GuessHint } from "@app/components/guess-hint/guess-hint";
 import { GameShell } from "@app/components/game-shell/game-shell";
 import { GuessHistorySmall } from "@app/components/guess-history-small/guess-history-small";
+import { NextPuzzleDisplay } from "@app/components/next-puzzle-display/next-puzzle-display";
 
 @Component({
   selector: 'app-card-game',
   templateUrl: './card-game.html',
   styleUrl: './card-game.css',
-  imports: [GuessInput, Victory, GuessHint, GameShell, GuessHistorySmall],
+  imports: [GuessInput, Victory, GuessHint, GameShell, GuessHistorySmall, NextPuzzleDisplay],
 })
 export class CardGameComponent {
   readonly service = inject(CardGameService);

@@ -7,12 +7,13 @@ import { HintConfig } from '@core/models/hint-config';
 import { OracleGameService } from '@core/services/oracle-game-service';
 import { GuessHistorySmall } from "@app/components/guess-history-small/guess-history-small";
 import { GameShell } from "@app/components/game-shell/game-shell";
+import { NextPuzzleDisplay } from "@app/components/next-puzzle-display/next-puzzle-display";
 
 @Component({
   selector: 'app-oracle-game',
   templateUrl: './oracle-game.html',
   styleUrl: './oracle-game.css',
-  imports: [GuessInput, GuessHint, Victory, GuessHistorySmall, GameShell],
+  imports: [GuessInput, GuessHint, Victory, GuessHistorySmall, GameShell, NextPuzzleDisplay],
 })
 export class OracleGameComponent {
   readonly service = inject(OracleGameService);
