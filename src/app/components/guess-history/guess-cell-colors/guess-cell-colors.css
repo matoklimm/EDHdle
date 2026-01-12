@@ -4,25 +4,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 4px;
+    align-items: center;
+    gap: 6px;
     border-radius: 6px;
-    background: var(--tile-bg);
-}
-
-
-.color-correct-row {
-    background: var(--color-correct-bg);
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
-}
-
-.color-wrong-row {
-    background: var(--color-wrong-bg);
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
-}
-
-.color-partial-row {
-    background: var(--color-partial-bg);
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
 }
 
 .color-value {
@@ -30,7 +14,11 @@
     justify-content: center;
     align-items: center;
     padding: 2px 0;
-    border-radius: 4px;
+    border-radius: var(--border-radius-chips);
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.35);
 }
 
 .mana-icon {

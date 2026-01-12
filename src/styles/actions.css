@@ -15,7 +15,7 @@
     padding: 10px 16px;
     border-radius: 999px;
 
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(0, 0, 0, 0.55);
     color: #fff;
 
     border: none;
@@ -30,7 +30,7 @@
 }
 
 .card-action:hover:not(:disabled) {
-    background: rgba(255, 255, 255, 0.28);
+    background: rgba(0, 0, 0, 0.35);
 }
 
 .card-action:active:not(:disabled) {

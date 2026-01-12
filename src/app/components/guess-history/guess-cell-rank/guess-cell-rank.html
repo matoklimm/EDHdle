@@ -1,5 +1,6 @@
-<div class="rank-tile" [class.color-correct]="isCorrect()" [class.color-wrong]="!isCorrect() && !isWithinRange()"
-    [class.color-partial]="!isCorrect() && isWithinRange()">
+<div class="rank-tile" [class.color-correct-background]="isCorrect()"
+    [class.color-wrong-background]="!isCorrect() && !isWithinRange()"
+    [class.color-partial-background]="!isCorrect() && isWithinRange()">
 
     <span class="cmc-value">{{ value }}</span>
 

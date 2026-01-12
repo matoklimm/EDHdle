@@ -1,5 +1,6 @@
-<div class="cmc-tile" [class.color-correct]="isCorrect()" [class.color-wrong]="!isCorrect() && !isClose()"
-    [class.color-partial]="!isCorrect() && isClose()">
+<div class="cmc-tile" [class.color-correct-background]="isCorrect()"
+    [class.color-wrong-background]="!isCorrect() && !isClose()"
+    [class.color-partial-background]="!isCorrect() && isClose()">
 
     <span class="cmc-value">{{ value }}</span>
 

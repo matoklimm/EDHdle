@@ -5,9 +5,6 @@
     max-width: 100%;
 }
 
-/* =========================
-   Row Layout
-   ========================= */
 .tile-row {
     display: flex;
     gap: 10px;
@@ -16,9 +13,7 @@
     width: 100%;
 }
 
-/* =========================
-   Base Tile
-   ========================= */
+/* Base Tile */
 .tile {
     flex: 0 0 110px;
     min-height: 160px;
@@ -27,33 +22,31 @@
     overflow: hidden;
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align: center;
 
-    background: var(--color-white);
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    border-radius: 8px;
+    border-radius: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.35);
 
     box-shadow:
-        0 1px 3px rgba(0, 0, 0, 0.12),
-        0 6px 16px rgba(0, 0, 0, 0.15);
+        0 6px 16px rgba(0, 0, 0, 0.25);
 
-    align-items: flex-start;
     font-size: 15px;
     font-weight: 500;
+    color: #1e1e22;
 
-    opacity: 0;
     animation: tile-scale 360ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
 
     transition:
         transform 160ms cubic-bezier(0.2, 0.8, 0.2, 1),
-        box-shadow 160ms cubic-bezier(0.2, 0.8, 0.2, 1);
+        box-shadow 160ms cubic-bezier(0.2, 0.8, 0.2, 1),
+        background-color 160ms ease;
 }
 
-/* =========================
-   Header Tiles
-   ========================= */
+
+/* Header Tiles */
 .tile-header {
     min-height: 60px;
 
@@ -70,7 +63,8 @@
     line-height: 1.1;
     letter-spacing: 0.3px;
 
-    color: rgba(255, 255, 255, 0.92);
+    color: rgba(20, 20, 24, 0.92);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
 }
 
 .tile-header:hover {
@@ -79,21 +73,14 @@
     border: none;
 }
 
-/* =========================
-   Hover Interaction
-   ========================= */
 @media (hover: hover) {
     .tile:not(.tile-header):hover {
-        transform: translateY(-4px);
+        transform: translateY(-2px);
         box-shadow:
-            0 8px 24px rgba(0, 0, 0, 0.25),
-            0 16px 40px rgba(0, 0, 0, 0.35);
+            0 8px 20px rgba(0, 0, 0, 0.3);
     }
 }
 
-/* =========================
-   Entry Animation
-   ========================= */
 @keyframes tile-scale {
     from {
         opacity: 0;
@@ -148,9 +135,7 @@
     }
 }
 
-/* =========================
-   Column Widths (Desktop)
-   ========================= */
+/* Column Widths */
 
 /* Artwork */
 .tile-row>.tile:nth-child(1) {
@@ -180,9 +165,7 @@
     flex-basis: 104px;
 }
 
-/* =========================
-   Mobile Sizings
-   ========================= */
+/* Mobile Sizings */
 @media (max-width: 600px) {
     .tile {
         height: 140px;

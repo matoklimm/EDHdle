@@ -23,25 +23,13 @@
 }
 
 .tag {
-    padding: 3px 7px;
+    padding: 4px 8px;
     font-size: 12px;
     font-weight: 500;
     line-height: 1.1;
-    border-radius: 999px;
+    border-radius: var(--border-radius-chips);
     white-space: nowrap;
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
-    background: #e7e7e7;
-}
-
-.tag-correct {
-    background: var(--color-correct-bg);
-}
-
-.tag-wrong {
-    background: var(--color-wrong-bg);
-}
-
-.color-correct .tag,
-.color-wrong .tag {
-    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.35);
 }

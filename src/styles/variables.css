@@ -1,41 +1,56 @@
 :root {
-    --color-white: #ffffff;
-    --color-correct-bg: #b7e4c7;
-    --color-wrong-bg: #f4b6b6;
-    --color-partial-bg: #ffd28a;
 
-    /* --color-correct-bg: #75c042;
-    --color-wrong-bg: #b6252d;
-    --color-partial-bg: #ffc92a; */
+    --correct-bg: #2f8f63;
+    /* warmes Emerald Green */
+    --partial-bg: #d39a2f;
+    /* echtes Gold / Amber */
+    --wrong-bg: #b84a4a;
 
-    /* --color-correct-bg: #68a691;
-    --color-partial-bg: #f3d98c;
-    --color-wrong-bg: #c46d78; */
+    --correct-fg: #5fd29a;
+    /* satt, lebendig */
+    --wrong-fg: #e07a7a;
 
-    --tile-bg: #ffffff;
-    --tile-border: rgba(0, 0, 0, 0.12);
-    --tile-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-    --tile-radius: 6px;
+
+    /* --correct-bg: #2e8b57;
+
+    --partial-bg: #d18f2f;
+
+    --wrong-bg: #c23a3a;
+
+    --correct-fg: #6fcf9b;
+
+    --wrong-fg: #f08a8a;
+    */
+    --text-primary: rgba(245, 247, 250, 0.96);
 
     --icon-size: 46px;
+
+    --border-radius-chips: 24px;
+
+    --color-dark-text: rgba(20, 20, 24, 0.92);
+    --color-gold: #ffd166;
 }
 
-.color-correct {
-    background: var(--color-correct-bg);
+.color-correct-background {
+    background: var(--correct-bg);
 }
 
-.color-partial {
-    background: var(--color-partial-bg);
+.color-partial-background {
+    background: var(--partial-bg);
 }
 
-.color-wrong {
-    background: var(--color-wrong-bg);
+
+.color-wrong-background {
+    background: var(--wrong-bg);
 }
 
-.color-correct,
-.color-partial,
-.color-wrong {
-    box-shadow:
-        inset 0 0 0 1px rgba(0, 0, 0, 0.18),
-        0 4px 14px rgba(0, 0, 0, 0.25);
+
+.color-correct-content {
+    background: var(--correct-fg);
+    color: #143d2a;
+}
+
+.color-wrong-content {
+    background: var(--wrong-fg);
+    color: #5a1616;
 }
