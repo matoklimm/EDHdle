@@ -53,7 +53,7 @@ EDHdle is built with **modern Angular (v21+)** and uses a **Signals-first archit
 
 ### Project structure
 
-```md
+```
 src/app
 ├── components/ # Reusable UI components
 ├── core/
@@ -102,8 +102,8 @@ export interface GameService {
 - `OracleGameService`
 
 Each service overrides **only what makes the mode unique**.
+Which is for the most part, which data should be loaded and which key we use to persist data in the LocalStorage.
 
-Each service overrides only what makes the mode unique.
 ## Why this matters
 
 - 🧩 Game logic is fully encapsulated
