@@ -8,13 +8,14 @@ import { GameService } from '@core/services/game-service';
 import { GAME_SERVICE } from '@core/services/game.token';
 import { GameShell } from "@app/components/game-shell/game-shell";
 import { NextPuzzleDisplay } from "@app/components/next-puzzle-display/next-puzzle-display";
+import { BasePage } from '@app/pages/base-page';
 
 @Component({
   selector: 'app-game',
   imports: [GuessHistory, GuessInput, Victory, RouterModule, GameShell, NextPuzzleDisplay],
   templateUrl: './game.html'
 })
-export class Game {
+export class Game extends BasePage {
   service = inject<GameService>(GAME_SERVICE);
 
   readonly guesses = this.service.guesses;
@@ -29,6 +30,8 @@ export class Game {
   readyTarget = computed<Card | null>(() => this.target());
 
   constructor() {
+    super();
+
     effect(() => {
       if (this.isGameWon()) {
         setTimeout(() => {

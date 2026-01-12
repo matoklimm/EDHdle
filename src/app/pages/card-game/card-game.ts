@@ -8,6 +8,7 @@ import { GuessHint } from "@app/components/guess-hint/guess-hint";
 import { GameShell } from "@app/components/game-shell/game-shell";
 import { GuessHistorySmall } from "@app/components/guess-history-small/guess-history-small";
 import { NextPuzzleDisplay } from "@app/components/next-puzzle-display/next-puzzle-display";
+import { BasePage } from '@app/pages/base-page';
 
 @Component({
   selector: 'app-card-game',
@@ -15,7 +16,7 @@ import { NextPuzzleDisplay } from "@app/components/next-puzzle-display/next-puzz
   styleUrl: './card-game.css',
   imports: [GuessInput, Victory, GuessHint, GameShell, GuessHistorySmall, NextPuzzleDisplay],
 })
-export class CardGameComponent {
+export class CardGameComponent extends BasePage {
   readonly service = inject(CardGameService);
 
   readonly target = this.service.target;
@@ -38,6 +39,8 @@ export class CardGameComponent {
   private readonly STEP = 3;
 
   constructor() {
+    super();
+
     effect(() => {
       if (this.isGameWon()) {
         setTimeout(() => {

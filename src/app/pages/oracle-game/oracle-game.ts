@@ -8,6 +8,7 @@ import { OracleGameService } from '@core/services/oracle-game-service';
 import { GuessHistorySmall } from "@app/components/guess-history-small/guess-history-small";
 import { GameShell } from "@app/components/game-shell/game-shell";
 import { NextPuzzleDisplay } from "@app/components/next-puzzle-display/next-puzzle-display";
+import { BasePage } from '@app/pages/base-page';
 
 @Component({
   selector: 'app-oracle-game',
@@ -15,7 +16,7 @@ import { NextPuzzleDisplay } from "@app/components/next-puzzle-display/next-puzz
   styleUrl: './oracle-game.css',
   imports: [GuessInput, GuessHint, Victory, GuessHistorySmall, GameShell, NextPuzzleDisplay],
 })
-export class OracleGameComponent {
+export class OracleGameComponent extends BasePage {
   readonly service = inject(OracleGameService);
 
   readonly target = this.service.target;
@@ -56,6 +57,8 @@ export class OracleGameComponent {
   }
 
   constructor() {
+    super();
+
     effect(() => {
       if (this.isGameWon()) {
         setTimeout(() => this.showVictory.set(true), 1000);
