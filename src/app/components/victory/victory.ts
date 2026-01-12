@@ -1,6 +1,7 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, computed, EventEmitter, inject, Input, Output } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { Card } from '@core/models/card';
+import { DailyTimerService } from '@core/services/daily-timer-service';
 
 type ModeKey = 'commander' | 'staple' | 'card' | 'oracle';
 
@@ -20,6 +21,16 @@ interface ModeAction {
 export class Victory {
   @Input({ required: true }) target!: Card;
   @Output() close = new EventEmitter<void>();
+
+  private timerService = inject(DailyTimerService);
+
+  readonly resetLabel = computed(() => {
+    const { hours, minutes, seconds } = this.timerService.timeUntilReset();
+
+    const pad = (n: number) => n.toString().padStart(2, '0');
+
+    return `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+  });
 
   constructor(private router: Router) { }
 
