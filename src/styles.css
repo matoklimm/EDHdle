@@ -40,6 +40,10 @@ body {
         "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    background:
+        linear-gradient(to bottom,
+            rgba(25, 22, 32, 0.96) 70%,
+            #442f47 100%);
 }
 
 @media (max-width: 600px) {
