@@ -80,6 +80,8 @@ export abstract class BaseGameService implements GameService {
             const today = getTodayKey();
             if (today !== this.dayKey()) {
                 this.dayKey.set(today);
+                this._guesses.set([]);
+                localStorage.removeItem(this.config.storageKey);
             }
         }, 60_000);
     }
