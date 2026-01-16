@@ -231,11 +231,10 @@ I’m here to learn, and I’m already very happy that it turned out well 🙂
 
 ## 📜 Disclaimer
 
- EDHdle is unofficial Fan Content permitted under the Fan Content Policy.<br>
-        Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast.<br>
-        ©Wizards of the Coast LLC.<br>
-        If you need more information regarding the legal policy, please refer to the
-       [official Fan Content Policy](https://company.wizards.com/en/legal/fancontentpolicy)
+EDHdle is unofficial Fan Content permitted under the Fan Content Policy.
+Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast.
+©Wizards of the Coast LLC.
+If you need more information regarding the legal policy, please refer to the [official Fan Content Policy](https://company.wizards.com/en/legal/fancontentpolicy)
 ---
 
 ## ❤️ Credits
