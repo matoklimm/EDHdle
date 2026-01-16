@@ -30,6 +30,8 @@ export function stripCardNameFromOracle(
         );
     }
 
+    result = result.replace('\n', '<br>');
+
     return result
         .replace(/\s{2,}/g, ' ')
         .replace(/\s+([.,;:])/g, '$1')
