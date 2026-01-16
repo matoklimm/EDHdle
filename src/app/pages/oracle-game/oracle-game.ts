@@ -23,6 +23,7 @@ export class OracleGameComponent extends BasePage {
   readonly yesterdayTarget = this.service.yesterdayTarget;
   readonly guesses = this.service.guesses;
   readonly isGameWon = this.service.isGameWon;
+  readonly wrongGuesses = this.service.wrongGuesses;
 
   showHints = signal(false);
   showVictory = signal(false);
@@ -33,9 +34,6 @@ export class OracleGameComponent extends BasePage {
     { level: 7, type: 'artwork' },
   ];
 
-  readonly wrongGuesses = computed(() =>
-    this.guesses().filter(g => !g.isCorrect).length
-  );
 
   readonly oracleHintHtml = computed(() => {
     const card = this.target();

@@ -4,7 +4,6 @@ import { toSignal } from '@angular/core/rxjs-interop';
 
 import { GameConfig } from '@core/services/game-config';
 import { GameService } from './game-service';
-import { Guess } from '@core/models/guess';
 import { Card } from '@core/models/card';
 
 import { seededShuffle, getTodayKey, hashString, getYesterdayKey } from '@shared/daily-random';
@@ -15,7 +14,7 @@ export abstract class BaseGameService implements GameService {
 
     private readonly dayKey = signal(getTodayKey());
 
-    protected readonly _guesses = signal<Guess[]>([]);
+    protected readonly _guesses = signal<Card[]>([]);
     readonly guesses = this._guesses.asReadonly();
 
     readonly cards: Signal<Card[]>;
@@ -38,12 +37,25 @@ export abstract class BaseGameService implements GameService {
         return seededShuffle(cards, seed)[0];
     });
 
-    readonly isGameWon = computed(() =>
-        this._guesses().some(g => g.isCorrect)
+    readonly isGameWon = computed(() => {
+        if (!this.target()) return false;
+
+        return this._guesses().some(card => card.name === this.target()?.name);
+    });
+
+    readonly correctGuess = computed(() => {
+        const target = this.target();
+        if (!target) return null;
+
+        return this._guesses().find(g => g.name === target.name) ?? null;
+    });
+
+    readonly wrongGuesses = computed(() =>
+        this.correctGuess() ? this._guesses().length - 1 : this._guesses().length
     );
 
     readonly guessedNames = computed(() =>
-        this._guesses().map(g => g.card.name)
+        this._guesses().map(card => card.name)
     );
 
     constructor(protected readonly config: GameConfig) {
@@ -69,10 +81,7 @@ export abstract class BaseGameService implements GameService {
 
         if (!card || !target) return;
 
-        this._guesses.update(prev => [
-            { card, isCorrect: card.name === target.name },
-            ...prev,
-        ]);
+        this._guesses.update(prev => [card, ...prev]);
     }
 
     private startDailyTicker(): void {

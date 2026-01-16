@@ -1,8 +1,8 @@
-import { Guess } from "@core/models/guess";
+import { Card } from "@core/models/card";
 import { PersistedGameState } from "./persisted-game-state";
 import { getTodayKey } from "@app/shared/daily-random";
 
-export function restoreState(STORAGE_KEY: string): Guess[] {
+export function restoreState(STORAGE_KEY: string): Card[] {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return [];
 
@@ -22,7 +22,7 @@ export function restoreState(STORAGE_KEY: string): Guess[] {
     return [];
 }
 
-export function saveState(STORAGE_KEY: string, guesses: Guess[]): void {
+export function saveState(STORAGE_KEY: string, guesses: Card[]): void {
     const state: PersistedGameState = {
         valid: getTodayKey(),
         guesses: guesses,

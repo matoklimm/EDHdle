@@ -23,6 +23,7 @@ export class CardGameComponent extends BasePage {
   readonly yesterdayTarget = this.service.yesterdayTarget;
   readonly guesses = this.service.guesses;
   readonly isGameWon = this.service.isGameWon;
+  readonly wrongGuesses = this.service.wrongGuesses;
 
   hintConfig: HintConfig[] = [
     { level: 3, type: 'cmc' },
@@ -50,10 +51,6 @@ export class CardGameComponent extends BasePage {
       }
     });
   }
-
-  readonly wrongGuesses = computed(() =>
-    this.guesses().filter(g => !g.isCorrect).length
-  );
 
   toggleHints(): void {
     this.showHints.update(v => !v);

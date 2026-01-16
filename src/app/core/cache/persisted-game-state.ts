@@ -1,6 +1,6 @@
-import { Guess } from "@core/models/guess";
+import { Card } from "@core/models/card";
 
 export interface PersistedGameState {
     valid: string;  // YYYY-MM-DD
-    guesses: Guess[];
+    guesses: Card[];
 }

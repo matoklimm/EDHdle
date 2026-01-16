@@ -11,9 +11,11 @@
 
   <div game-content>
 
+    @if(target()) {
     <div class="card-art-wrapper">
       <img [src]="target()!.imageUrl" [style.filter]="'blur(' + blurAmount() + 'px)'" class="card-art" />
     </div>
+    }
 
     <div class="card-actions">
       <button class="card-action" (click)="toggleBlur()" [disabled]="guesses().length === 0 || isGameWon()">
@@ -31,7 +33,7 @@
     <app-guess-hint [target]="target()!" [wrongGuesses]="wrongGuesses()" [config]="hintConfig" />
     }
 
-    <app-guess-history-small [guesses]="guesses()" />
+    <app-guess-history-small [guesses]="guesses()" [target]="target()" />
 
   </div>
 

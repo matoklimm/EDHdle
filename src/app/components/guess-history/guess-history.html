@@ -10,23 +10,23 @@
         <div class="tile tile-header">Rank</div>
     </div>
 
-    @for (guess of guesses; track guess.card.name) {
+    @for (guess of guesses; track guess.name) {
     <div class="tile-row">
-        <app-guess-cell-artwork class="tile" [imgUrl]="guess.card.imageUrl" />
+        <app-guess-cell-artwork class="tile" [imgUrl]="guess.imageUrl" />
 
-        <app-guess-cell-colors class="tile" [colors]="guess.card.colors" [targetColors]="target.colors" />
+        <app-guess-cell-colors class="tile" [colors]="guess.colors" [targetColors]="target.colors" />
 
-        <app-guess-cell-cmc class="tile" [value]="guess.card.cmc" [targetValue]="target.cmc" />
+        <app-guess-cell-cmc class="tile" [value]="guess.cmc" [targetValue]="target.cmc" />
 
-        <app-guess-cell-tags class="tile" [values]="guess.card.types" [targetValues]="target.types" />
+        <app-guess-cell-tags class="tile" [values]="guess.types" [targetValues]="target.types" />
 
-        <app-guess-cell-tags class="tile" [values]="guess.card.subtypes" [targetValues]="target.subtypes" />
+        <app-guess-cell-tags class="tile" [values]="guess.subtypes" [targetValues]="target.subtypes" />
 
-        <app-guess-cell-tags class="tile" [values]="guess.card.keywords" [targetValues]="target.keywords" />
+        <app-guess-cell-tags class="tile" [values]="guess.keywords" [targetValues]="target.keywords" />
 
-        <app-guess-cell-tags class="tile" [values]="guess.card.tags" [targetValues]="target.tags" />
+        <app-guess-cell-tags class="tile" [values]="guess.tags" [targetValues]="target.tags" />
 
-        <app-guess-cell-rank class="tile" [value]="guess.card.id" [targetValue]="target.id" />
+        <app-guess-cell-rank class="tile" [value]="guess.id" [targetValue]="target.id" />
     </div>
     }
 </div>

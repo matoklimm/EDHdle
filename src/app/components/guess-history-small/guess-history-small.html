@@ -1,12 +1,12 @@
 @if (visibleGuesses().length > 0) {
 <div class="guess-history-small">
 
-  @for (g of visibleGuesses(); let i = $index; track g.card.name) {
-  <div class="guess-row" [class.correct]="g.isCorrect" [class.wrong]="!g.isCorrect"
+  @for (guess of visibleGuesses(); let i = $index; track guess.name) {
+  <div class="guess-row" [class.correct]="isCorrect(guess)" [class.wrong]="!isCorrect(guess)"
     [class.faded]="hasOverflow() && i === 5">
 
-    <img class="guess-art" [src]="cropImage(g.card.imageUrl)" />
-    <span class="guess-name">{{ g.card.name }}</span>
+    <img class="guess-art" [src]="cropImage(guess.imageUrl)" />
+    <span class="guess-name">{{ guess.name }}</span>
   </div>
   }
 
