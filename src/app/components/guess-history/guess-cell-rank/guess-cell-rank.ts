@@ -14,7 +14,7 @@ export class GuessCellRank {
 
   readonly direction = computed<'up' | 'down' | null>(() => {
     if (this.isCorrect()) return null;
-    return this.targetValue > this.value ? 'up' : 'down';
+    return this.targetValue > this.value ? 'down' : 'up';
   });
 
   readonly isWithinRange = computed<boolean>(() => {

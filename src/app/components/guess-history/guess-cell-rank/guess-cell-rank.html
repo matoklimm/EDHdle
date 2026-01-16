@@ -2,7 +2,7 @@
     [class.color-wrong-background]="!isCorrect() && !isWithinRange()"
     [class.color-partial-background]="!isCorrect() && isWithinRange()">
 
-    <span class="cmc-value">{{ value }}</span>
+    <span class="rank-value">{{ value }}</span>
 
     @if (direction() === 'up') {
     <img src="/icons/up.svg" alt="Higher Rank" class="rank-arrow" />
