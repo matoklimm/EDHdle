@@ -17,10 +17,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/0/4/04002706-2236-4b79-bdea-4f263e43cb9c.jpg?1767730264",
+    "imageUrl": "https://cards.scryfall.io/normal/front/f/9/f9a32f17-49c4-4654-a087-1ba474f37377.jpg?1562276539",
     "oracleText": "{T}: Add {C}{C}.",
     "edhrecRank": 0,
-    "edhrecDecks": 6370540,
+    "edhrecDecks": 6521735,
     "isPartner": false
   },
   {
@@ -41,10 +41,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/a/a/aa9e7f3c-e752-4cee-9e9d-fae38ba27dc9.jpg?1767730206",
+    "imageUrl": "https://cards.scryfall.io/normal/front/8/4/84128e98-87d6-4c2f-909b-9435a7833e63.jpg?1593131393",
     "oracleText": "{T}: Add one mana of any color in your commander's color identity.",
     "edhrecRank": 0,
-    "edhrecDecks": 5494594,
+    "edhrecDecks": 5627180,
     "isPartner": false
   },
   {
@@ -62,15 +62,15 @@
     "keywords": [],
     "tags": [
       "lifegain",
-      "exile",
-      "removal"
+      "removal",
+      "exile"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/0/e/0e7ff4dc-af63-4342-9a44-d059e62bd14c.jpg?1752944384",
+    "imageUrl": "https://cards.scryfall.io/normal/front/5/2/5220accc-2095-43d9-9114-7599c1cb8e41.jpg?1562435813",
     "oracleText": "Exile target creature. Its controller gains life equal to its power.",
     "edhrecRank": 0,
-    "edhrecDecks": 2177120,
+    "edhrecDecks": 2226418,
     "isPartner": false
   },
   {
@@ -92,10 +92,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/3/5/35649ef0-b2fd-429f-be5f-766d5cea5994.jpg?1767730335",
+    "imageUrl": "https://cards.scryfall.io/normal/front/2/0/206fd18a-f263-42cd-a77a-e40ae31a468a.jpg?1682721421",
     "oracleText": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
     "edhrecRank": 0,
-    "edhrecDecks": 1668410,
+    "edhrecDecks": 1711455,
     "isPartner": false
   },
   {
@@ -112,15 +112,15 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "tutor",
-      "ramp"
+      "ramp",
+      "tutor"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/4/d/4d36559d-3b91-46e4-bc39-c489842adcbf.jpg?1767731192",
+    "imageUrl": "https://cards.scryfall.io/normal/front/4/6/46419c85-c476-42b8-979f-143b45c6819b.jpg?1562435353",
     "oracleText": "Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
     "edhrecRank": 0,
-    "edhrecDecks": 1502151,
+    "edhrecDecks": 1536833,
     "isPartner": false
   },
   {
@@ -141,10 +141,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/4/f/4f616706-ec97-4923-bb1e-11a69fbaa1f8.jpg?1751282477",
+    "imageUrl": "https://cards.scryfall.io/normal/front/c/c/cca8eb95-d071-46a4-885c-3da25b401806.jpg?1562441143",
     "oracleText": "Counter target spell.",
     "edhrecRank": 0,
-    "edhrecDecks": 1577835,
+    "edhrecDecks": 1612836,
     "isPartner": false
   },
   {
@@ -161,15 +161,15 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "ramp",
-      "tutor"
+      "tutor",
+      "ramp"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/9/5/95e0760a-d285-493b-88cd-7556d9b10007.jpg?1759995699",
+    "imageUrl": "https://cards.scryfall.io/normal/front/0/6/061f0032-eb14-4c63-8231-aa61472396c2.jpg?1568004554",
     "oracleText": "Search your library for a Plains, Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.",
     "edhrecRank": 0,
-    "edhrecDecks": 1254555,
+    "edhrecDecks": 1290583,
     "isPartner": false
   },
   {
@@ -186,16 +186,16 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "removal",
       "token",
-      "destroy"
+      "destroy",
+      "removal"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/c/c/ccac70d4-6e04-4802-8bb8-021368a40e14.jpg?1752944774",
+    "imageUrl": "https://cards.scryfall.io/normal/front/a/b/ab3e096a-d6e8-4148-bbea-f26fc67e2fe2.jpg?1562929539",
     "oracleText": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token.",
     "edhrecRank": 0,
-    "edhrecDecks": 1214865,
+    "edhrecDecks": 1238771,
     "isPartner": false
   },
   {
@@ -217,10 +217,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/b/7/b7c47024-5e08-4b17-b41a-7647f8b814b9.jpg?1743206981",
+    "imageUrl": "https://cards.scryfall.io/normal/front/8/0/8010cf03-754f-40db-805a-842d791aa4b7.jpg?1573514345",
     "oracleText": "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
     "edhrecRank": 0,
-    "edhrecDecks": 1172036,
+    "edhrecDecks": 1197734,
     "isPartner": false
   },
   {
@@ -237,15 +237,15 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "burn",
-      "cost-reduction"
+      "cost-reduction",
+      "burn"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/f/3/f349a283-a3ee-468b-92c5-d74f53f4d621.jpg?1767731058",
+    "imageUrl": "https://cards.scryfall.io/normal/front/f/c/fc048207-502a-478c-9195-5e20382652af.jpg?1562276571",
     "oracleText": "This spell costs {1} less to cast for each creature on the battlefield.\nBlasphemous Act deals 13 damage to each creature.",
     "edhrecRank": 0,
-    "edhrecDecks": 1257007,
+    "edhrecDecks": 1287622,
     "isPartner": false
   },
   {
@@ -263,15 +263,15 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "burn",
-      "ramp"
+      "ramp",
+      "burn"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/f/6/f6c8e0b5-218e-41dd-8b09-2d4aaec2c979.jpg?1706241098",
+    "imageUrl": "https://cards.scryfall.io/normal/front/5/6/56f62d84-f62f-4363-a99e-fe5387c3d77e.jpg?1637631850",
     "oracleText": "{T}: Add {C}.\n{T}: Add {U} or {B}. This artifact deals 1 damage to you.",
     "edhrecRank": 0,
-    "edhrecDecks": 620774,
+    "edhrecDecks": 633828,
     "isPartner": false
   },
   {
@@ -292,10 +292,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/5/b/5b42a79a-1f08-4e15-b40e-c993307ae066.jpg?1752944838",
+    "imageUrl": "https://cards.scryfall.io/normal/front/b/1/b1ce11c3-61bc-4391-b316-945661cfeaa9.jpg?1582058303",
     "oracleText": "Search your library for a Forest card, put that card onto the battlefield, then shuffle.",
     "edhrecRank": 0,
-    "edhrecDecks": 1107888,
+    "edhrecDecks": 1136511,
     "isPartner": false
   },
   {
@@ -312,15 +312,15 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "indestructible",
-      "protection"
+      "protection",
+      "indestructible"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/e/3/e32c67d1-187f-40df-b3b3-6036f5c92834.jpg?1689998584",
+    "imageUrl": "https://cards.scryfall.io/normal/front/4/3/43c037e3-7d1a-48ca-8ecc-276696592f62.jpg?1594737038",
     "oracleText": "Permanents you control gain hexproof and indestructible until end of turn.",
     "edhrecRank": 0,
-    "edhrecDecks": 1068069,
+    "edhrecDecks": 1097198,
     "isPartner": false
   },
   {
@@ -338,15 +338,15 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "removal",
-      "destroy"
+      "destroy",
+      "removal"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/5/e/5e530961-1cb5-4208-ac49-f0963bac0134.jpg?1767731260",
+    "imageUrl": "https://cards.scryfall.io/normal/front/9/0/906b6e99-128f-4c11-8daf-16099d35b0d4.jpg?1572893498",
     "oracleText": "Destroy target permanent an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle.",
     "edhrecRank": 0,
-    "edhrecDecks": 476800,
+    "edhrecDecks": 497793,
     "isPartner": false
   },
   {
@@ -363,16 +363,16 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "chaos",
       "removal",
-      "polymorph"
+      "polymorph",
+      "chaos"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/d/4/d4372203-b930-4e6e-a351-e5b4581eb72b.jpg?1752944413",
+    "imageUrl": "https://cards.scryfall.io/normal/front/3/3/33a33b4c-2f3c-4f74-aa5b-ec6eb73ee4e7.jpg?1562273376",
     "oracleText": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
     "edhrecRank": 0,
-    "edhrecDecks": 1141327,
+    "edhrecDecks": 1161909,
     "isPartner": false
   },
   {
@@ -390,15 +390,15 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "burn",
-      "ramp"
+      "ramp",
+      "burn"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/b/f/bfe00640-e775-4b2e-91a8-081c7ec0125c.jpg?1743207377",
+    "imageUrl": "https://cards.scryfall.io/normal/front/4/d/4d9dbadd-c1b6-44fe-92ac-6f69d7178342.jpg?1562202511",
     "oracleText": "{T}: Add {C}.\n{T}: Add {U} or {R}. This artifact deals 1 damage to you.",
     "edhrecRank": 0,
-    "edhrecDecks": 505437,
+    "edhrecDecks": 514262,
     "isPartner": false
   },
   {
@@ -421,10 +421,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/d/a/daf69185-96cf-4523-be1d-1fe90fc63ab7.jpg?1726285334",
+    "imageUrl": "https://cards.scryfall.io/normal/front/f/a/fa6c62c7-8fd4-46f1-a7f4-fc6e74d34b35.jpg?1631589255",
     "oracleText": "{T}: Add {C}.\n{T}: Add {B} or {R}. This artifact deals 1 damage to you.",
     "edhrecRank": 0,
-    "edhrecDecks": 490406,
+    "edhrecDecks": 501924,
     "isPartner": false
   },
   {
@@ -450,10 +450,10 @@
     ],
     "power": "0",
     "toughness": "1",
-    "imageUrl": "https://cards.scryfall.io/normal/front/3/d/3d69a3e0-6a2e-475a-964e-0affed1c017d.jpg?1722384747",
+    "imageUrl": "https://cards.scryfall.io/normal/front/5/a/5a8b5ae4-e683-4ee5-8a41-10daddc2561f.jpg?1551119590",
     "oracleText": "Flying\n{T}: Add one mana of any color.",
     "edhrecRank": 0,
-    "edhrecDecks": 972046,
+    "edhrecDecks": 994858,
     "isPartner": false
   },
   {
@@ -472,15 +472,15 @@
     ],
     "keywords": [],
     "tags": [
-      "tutor",
-      "ramp"
+      "ramp",
+      "tutor"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/9/0/90c423cc-1264-4067-9c50-e7c88c68ef2d.jpg?1767731241",
+    "imageUrl": "https://cards.scryfall.io/normal/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1547517639",
     "oracleText": "Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
     "edhrecRank": 0,
-    "edhrecDecks": 965218,
+    "edhrecDecks": 983746,
     "isPartner": false
   },
   {
@@ -501,18 +501,18 @@
       "Equip"
     ],
     "tags": [
-      "equipment",
       "combat",
       "protection",
+      "haste",
       "triggered",
-      "haste"
+      "equipment"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/1/9/1969b151-3192-4d35-80ca-c4e180601ec8.jpg?1743207367",
+    "imageUrl": "https://cards.scryfall.io/normal/front/a/a/aae09e17-b881-492c-ba47-8f381c09755d.jpg?1562439664",
     "oracleText": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
     "edhrecRank": 0,
-    "edhrecDecks": 2071057,
+    "edhrecDecks": 2118617,
     "isPartner": false
   },
   {
@@ -535,14 +535,40 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/7/a/7a283444-2cb5-4dd2-8d20-e8cb90ac0ffe.jpg?1743207385",
+    "imageUrl": "https://cards.scryfall.io/normal/front/8/2/826f99c7-f534-4183-8f0d-efe1609808ac.jpg?1562202524",
     "oracleText": "{T}: Add {C}.\n{T}: Add {W} or {B}. This artifact deals 1 damage to you.",
     "edhrecRank": 0,
-    "edhrecDecks": 452003,
+    "edhrecDecks": 462979,
     "isPartner": false
   },
   {
     "id": 22,
+    "name": "Talisman of Progress",
+    "cmc": 2,
+    "colors": [
+      "U",
+      "W"
+    ],
+    "colorCount": 2,
+    "types": [
+      "Artifact"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "ramp",
+      "burn"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/2/c/2c42da3b-8ff6-46b9-81c9-d18adf6dfd40.jpg?1673310417",
+    "oracleText": "{T}: Add {C}.\n{T}: Add {W} or {U}. This artifact deals 1 damage to you.",
+    "edhrecRank": 0,
+    "edhrecDecks": 450426,
+    "isPartner": false
+  },
+  {
+    "id": 23,
     "name": "Rakdos Signet",
     "cmc": 2,
     "colors": [
@@ -560,36 +586,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/0/1/01cc9536-f710-4c47-9e3f-d7e83cc888f2.jpg?1726285319",
+    "imageUrl": "https://cards.scryfall.io/normal/front/1/0/109dabac-8093-4877-8f3e-1ded4bb14336.jpg?1551119570",
     "oracleText": "{1}, {T}: Add {B}{R}.",
     "edhrecRank": 0,
-    "edhrecDecks": 448286,
-    "isPartner": false
-  },
-  {
-    "id": 23,
-    "name": "Talisman of Progress",
-    "cmc": 2,
-    "colors": [
-      "U",
-      "W"
-    ],
-    "colorCount": 2,
-    "types": [
-      "Artifact"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "burn",
-      "ramp"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/9/d/9d6a5ed4-54b3-4660-8d41-953336f2fe74.jpg?1743207397",
-    "oracleText": "{T}: Add {C}.\n{T}: Add {W} or {U}. This artifact deals 1 damage to you.",
-    "edhrecRank": 0,
-    "edhrecDecks": 440618,
+    "edhrecDecks": 454538,
     "isPartner": false
   },
   {
@@ -611,10 +611,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/c/3/c3af24ce-b1ab-4137-9222-a4080acae928.jpg?1706240208",
+    "imageUrl": "https://cards.scryfall.io/normal/front/3/f/3fe2a140-ce80-4517-9550-49d6a2c3eb04.jpg?1562273446",
     "oracleText": "{1}, {T}: Add {U}{B}.",
     "edhrecRank": 0,
-    "edhrecDecks": 476675,
+    "edhrecDecks": 483066,
     "isPartner": false
   },
   {
@@ -635,176 +635,20 @@
       "Equip"
     ],
     "tags": [
+      "protection",
       "haste",
-      "equipment",
-      "protection"
+      "equipment"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/8/b/8b59b12c-fde5-4f19-a357-e09f06f490cc.jpg?1743206077",
+    "imageUrl": "https://cards.scryfall.io/normal/front/f/0/f0fbee02-b6cc-4cd1-a702-cf4f89c17921.jpg?1562276514",
     "oracleText": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
     "edhrecRank": 0,
-    "edhrecDecks": 1891290,
+    "edhrecDecks": 1934181,
     "isPartner": false
   },
   {
     "id": 26,
-    "name": "Anguished Unmaking",
-    "cmc": 3,
-    "colors": [
-      "B",
-      "W"
-    ],
-    "colorCount": 2,
-    "types": [
-      "Instant"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "life-loss",
-      "exile",
-      "removal"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/c/7/c7ce164c-3437-440c-b462-acca491bfd91.jpg?1743207065",
-    "oracleText": "Exile target nonland permanent. You lose 3 life.",
-    "edhrecRank": 0,
-    "edhrecDecks": 420949,
-    "isPartner": false
-  },
-  {
-    "id": 27,
-    "name": "An Offer You Can't Refuse",
-    "cmc": 1,
-    "colors": [
-      "U"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Instant"
-    ],
-    "subtypes": [],
-    "keywords": [
-      "Treasure"
-    ],
-    "tags": [
-      "ramp",
-      "token",
-      "counter",
-      "sacrifice"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/a/8/a829747f-cf9b-4d81-ba66-9f0630ed4565.jpg?1730489199",
-    "oracleText": "Counter target noncreature spell. Its controller creates two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")",
-    "edhrecRank": 0,
-    "edhrecDecks": 919080,
-    "isPartner": false
-  },
-  {
-    "id": 28,
-    "name": "Three Visits",
-    "cmc": 2,
-    "colors": [
-      "G"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Sorcery"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "tutor",
-      "ramp"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/4/e/4ee4ea37-621f-4ef7-b220-f4da3008e399.jpg?1712354640",
-    "oracleText": "Search your library for a Forest card, put it onto the battlefield, then shuffle.",
-    "edhrecRank": 0,
-    "edhrecDecks": 855775,
-    "isPartner": false
-  },
-  {
-    "id": 29,
-    "name": "Talisman of Conviction",
-    "cmc": 2,
-    "colors": [
-      "R",
-      "W"
-    ],
-    "colorCount": 2,
-    "types": [
-      "Artifact"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "ramp",
-      "burn"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/e/f/efeafc9d-a953-4915-8342-725836d0f645.jpg?1743207371",
-    "oracleText": "{T}: Add {C}.\n{T}: Add {R} or {W}. This artifact deals 1 damage to you.",
-    "edhrecRank": 0,
-    "edhrecDecks": 430669,
-    "isPartner": false
-  },
-  {
-    "id": 30,
-    "name": "Dark Ritual",
-    "cmc": 1,
-    "colors": [
-      "B"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Instant"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "ramp"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/9/5/95f27eeb-6f14-4db3-adb9-9be5ed76b34b.jpg?1753711947",
-    "oracleText": "Add {B}{B}{B}.",
-    "edhrecRank": 0,
-    "edhrecDecks": 936730,
-    "isPartner": false
-  },
-  {
-    "id": 31,
-    "name": "Izzet Signet",
-    "cmc": 2,
-    "colors": [
-      "R",
-      "U"
-    ],
-    "colorCount": 2,
-    "types": [
-      "Artifact"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "ramp"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/2/c/2c747a97-9070-4c1e-b7b7-52637fbb30e1.jpg?1743207322",
-    "oracleText": "{1}, {T}: Add {U}{R}.",
-    "edhrecRank": 0,
-    "edhrecDecks": 433194,
-    "isPartner": false
-  },
-  {
-    "id": 32,
     "name": "Ignoble Hierarch",
     "cmc": 1,
     "colors": [
@@ -830,10 +674,165 @@
     ],
     "power": "0",
     "toughness": "1",
-    "imageUrl": "https://cards.scryfall.io/normal/front/e/8/e802cfe1-45e0-47cd-8745-363ccc0f2af8.jpg?1767730216",
+    "imageUrl": "https://cards.scryfall.io/normal/front/4/0/404f83fb-0090-49d5-a4d0-c963adac2fb2.jpg?1669836623",
     "oracleText": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\n{T}: Add {B}, {R}, or {G}.",
     "edhrecRank": 0,
-    "edhrecDecks": 176859,
+    "edhrecDecks": 186560,
+    "isPartner": false
+  },
+  {
+    "id": 27,
+    "name": "Anguished Unmaking",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "W"
+    ],
+    "colorCount": 2,
+    "types": [
+      "Instant"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "exile",
+      "life-loss",
+      "removal"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/b/b/bbd79be1-3e84-41a3-89ae-b1132cb31ed9.jpg?1742332487",
+    "oracleText": "Exile target nonland permanent. You lose 3 life.",
+    "edhrecRank": 0,
+    "edhrecDecks": 432475,
+    "isPartner": false
+  },
+  {
+    "id": 28,
+    "name": "An Offer You Can't Refuse",
+    "cmc": 1,
+    "colors": [
+      "U"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Instant"
+    ],
+    "subtypes": [],
+    "keywords": [
+      "Treasure"
+    ],
+    "tags": [
+      "token",
+      "counter",
+      "ramp",
+      "sacrifice"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/b/9/b9d349f3-5be2-4b1f-a4c3-ba94822cf0cf.jpg?1664410382",
+    "oracleText": "Counter target noncreature spell. Its controller creates two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+    "edhrecRank": 0,
+    "edhrecDecks": 945251,
+    "isPartner": false
+  },
+  {
+    "id": 29,
+    "name": "Three Visits",
+    "cmc": 2,
+    "colors": [
+      "G"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Sorcery"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "tutor"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/b/d/bd9307ec-987b-4bbf-a679-cfaabe283a80.jpg?1608910969",
+    "oracleText": "Search your library for a Forest card, put it onto the battlefield, then shuffle.",
+    "edhrecRank": 0,
+    "edhrecDecks": 877327,
+    "isPartner": false
+  },
+  {
+    "id": 30,
+    "name": "Dark Ritual",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Instant"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "ramp"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/9/5/95f27eeb-6f14-4db3-adb9-9be5ed76b34b.jpg?1753711947",
+    "oracleText": "Add {B}{B}{B}.",
+    "edhrecRank": 0,
+    "edhrecDecks": 961216,
+    "isPartner": false
+  },
+  {
+    "id": 31,
+    "name": "Talisman of Conviction",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "W"
+    ],
+    "colorCount": 2,
+    "types": [
+      "Artifact"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "ramp",
+      "burn"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/7/1/71148fd3-0c2c-459e-b8f5-735a0a8dd87f.jpg?1562202505",
+    "oracleText": "{T}: Add {C}.\n{T}: Add {R} or {W}. This artifact deals 1 damage to you.",
+    "edhrecRank": 0,
+    "edhrecDecks": 440951,
+    "isPartner": false
+  },
+  {
+    "id": 32,
+    "name": "Izzet Signet",
+    "cmc": 2,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "colorCount": 2,
+    "types": [
+      "Artifact"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "ramp"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/c/0/c0d08c40-5c25-47c2-b39d-90f52ba0f6f0.jpg?1592711255",
+    "oracleText": "{1}, {T}: Add {U}{R}.",
+    "edhrecRank": 0,
+    "edhrecDecks": 439070,
     "isPartner": false
   },
   {
@@ -856,10 +855,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/d/6/d6914dba-0d27-4055-ac34-b3ebf5802221.jpg?1600698439",
+    "imageUrl": "https://cards.scryfall.io/normal/front/4/7/473d37d1-1829-47d2-99d4-ed9916520c16.jpg?1592487902",
     "oracleText": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.",
     "edhrecRank": 0,
-    "edhrecDecks": 913939,
+    "edhrecDecks": 927605,
     "isPartner": false
   },
   {
@@ -881,10 +880,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/9/0/90894726-1940-4291-a05c-b85cefbfa344.jpg?1743207335",
+    "imageUrl": "https://cards.scryfall.io/normal/front/5/5/553d914e-a95b-407a-8536-3cfda34c9119.jpg?1562273902",
     "oracleText": "{1}, {T}: Add {W}{B}.",
     "edhrecRank": 0,
-    "edhrecDecks": 408007,
+    "edhrecDecks": 414542,
     "isPartner": false
   },
   {
@@ -907,10 +906,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/d/f/dfb7c4b9-f2f4-4d4e-baf2-86551c8150fe.jpg?1702429366",
+    "imageUrl": "https://cards.scryfall.io/normal/front/f/f/ff08e5ed-f47b-4d8e-8b8b-41675dccef8b.jpg?1598303834",
     "oracleText": "Return target nonland permanent you don't control to its owner's hand.\nOverload {6}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
     "edhrecRank": 0,
-    "edhrecDecks": 865852,
+    "edhrecDecks": 876139,
     "isPartner": false
   },
   {
@@ -928,15 +927,15 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "burn",
-      "indestructible"
+      "indestructible",
+      "burn"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/e/0/e0d8c9f6-cbbd-4694-b100-01cfb81036cc.jpg?1736305704",
+    "imageUrl": "https://cards.scryfall.io/normal/front/a/6/a6e601a7-c542-4843-98c6-e0a38aaf6cab.jpg?1562439515",
     "oracleText": "Choose one —\n• Boros Charm deals 4 damage to target player or planeswalker.\n• Permanents you control gain indestructible until end of turn.\n• Target creature gains double strike until end of turn.",
     "edhrecRank": 0,
-    "edhrecDecks": 401027,
+    "edhrecDecks": 408860,
     "isPartner": false
   },
   {
@@ -953,16 +952,16 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "removal",
       "token",
-      "destroy"
+      "destroy",
+      "removal"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/f/c/fc70e127-ffc8-45ed-9ca3-7f9f926ac4d5.jpg?1700321873",
+    "imageUrl": "https://cards.scryfall.io/normal/front/9/8/983f4711-20a8-4023-8201-9a74deab10be.jpg?1562201112",
     "oracleText": "Destroy target permanent. Its controller creates a 3/3 green Elephant creature token.",
     "edhrecRank": 0,
-    "edhrecDecks": 800873,
+    "edhrecDecks": 813553,
     "isPartner": false
   },
   {
@@ -980,15 +979,15 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "haste",
-      "counter"
+      "counter",
+      "haste"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/c/2/c2a6453e-a373-44ec-807a-15c0c8b1af57.jpg?1702429702",
+    "imageUrl": "https://cards.scryfall.io/normal/front/8/4/84062ce2-fea2-4e06-b83b-7cc597fb2a1b.jpg?1584831773",
     "oracleText": "Creature spells you control can't be countered.\nNontoken creatures you control have riot. (They enter with your choice of a +1/+1 counter or haste.)",
     "edhrecRank": 0,
-    "edhrecDecks": 369394,
+    "edhrecDecks": 375214,
     "isPartner": false
   },
   {
@@ -1010,10 +1009,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/4/1/41c50b99-4a29-4bef-8d41-c548c8a61dac.jpg?1743207273",
+    "imageUrl": "https://cards.scryfall.io/normal/front/2/0/20daf226-12c3-460c-b66a-e447346076d2.jpg?1592711191",
     "oracleText": "{1}, {T}: Add {W}{U}.",
     "edhrecRank": 0,
-    "edhrecDecks": 379223,
+    "edhrecDecks": 384362,
     "isPartner": false
   },
   {
@@ -1032,18 +1031,18 @@
       "Treasure"
     ],
     "tags": [
-      "draw",
-      "token",
       "sacrifice",
+      "token",
       "ramp",
+      "draw",
       "triggered"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/8/6/861b5889-0183-4bee-afeb-a4b2aa700a8e.jpg?1689996018",
+    "imageUrl": "https://cards.scryfall.io/normal/front/7/a/7af082fa-86a3-4f7b-966d-2be1f1d0c0bc.jpg?1584830010",
     "oracleText": "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
     "edhrecRank": 0,
-    "edhrecDecks": 764929,
+    "edhrecDecks": 776606,
     "isPartner": false
   },
   {
@@ -1064,14 +1063,38 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/f/f/ff3b0dba-0207-4249-bdab-e807c76ce39e.jpg?1730572717",
+    "imageUrl": "https://cards.scryfall.io/normal/front/3/1/31534f45-43e6-4103-bf58-ad8fa688e4b0.jpg?1555039942",
     "oracleText": "Counter target noncreature spell.",
     "edhrecRank": 0,
-    "edhrecDecks": 793973,
+    "edhrecDecks": 809319,
     "isPartner": false
   },
   {
     "id": 42,
+    "name": "Fellwar Stone",
+    "cmc": 2,
+    "colors": [
+      "C"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Artifact"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "ramp"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/1/e/1e60622b-7c25-444d-8eeb-c443acdfc488.jpg?1562272869",
+    "oracleText": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+    "edhrecRank": 0,
+    "edhrecDecks": 1597233,
+    "isPartner": false
+  },
+  {
+    "id": 43,
     "name": "Growth Spiral",
     "cmc": 2,
     "colors": [
@@ -1089,34 +1112,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/1/e/1e10e2b4-9639-41ae-8b8e-253224d3d513.jpg?1726284492",
+    "imageUrl": "https://cards.scryfall.io/normal/front/7/c/7c77a6b1-ef06-4da5-8e86-a5204216cb77.jpg?1584831556",
     "oracleText": "Draw a card. You may put a land card from your hand onto the battlefield.",
     "edhrecRank": 0,
-    "edhrecDecks": 348655,
-    "isPartner": false
-  },
-  {
-    "id": 43,
-    "name": "Fellwar Stone",
-    "cmc": 2,
-    "colors": [
-      "C"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Artifact"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "ramp"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/b/b/bbfb3591-1f81-4576-828b-fd00fea599dd.jpg?1767731501",
-    "oracleText": "{T}: Add one mana of any color that a land an opponent controls could produce.",
-    "edhrecRank": 0,
-    "edhrecDecks": 1562556,
+    "edhrecDecks": 355311,
     "isPartner": false
   },
   {
@@ -1133,16 +1132,16 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "draw",
       "counter",
+      "draw",
       "triggered"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/9/b/9b3f47a9-65fb-4b53-8e52-1c4b678b5841.jpg?1726284627",
+    "imageUrl": "https://cards.scryfall.io/normal/front/9/d/9d1ffeb1-6c31-45f7-8140-913c397022a3.jpg?1562439019",
     "oracleText": "Counter target spell. Its controller may draw up to two cards at the beginning of the next turn's upkeep.\nYou draw a card at the beginning of the next turn's upkeep.",
     "edhrecRank": 0,
-    "edhrecDecks": 764431,
+    "edhrecDecks": 781627,
     "isPartner": false
   },
   {
@@ -1166,10 +1165,10 @@
     ],
     "power": "1",
     "toughness": "1",
-    "imageUrl": "https://cards.scryfall.io/normal/front/6/a/6a0b230b-d391-4998-a3f7-7b158a0ec2cd.jpg?1731652605",
+    "imageUrl": "https://cards.scryfall.io/normal/front/5/8/581b7327-3215-4a4f-b4ae-d9d4002ba882.jpg?1562736014",
     "oracleText": "{T}: Add {G}.",
     "edhrecRank": 0,
-    "edhrecDecks": 708359,
+    "edhrecDecks": 729835,
     "isPartner": false
   },
   {
@@ -1191,10 +1190,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/4/9/49c37c0e-d363-4033-a069-710241cd9923.jpg?1743207285",
+    "imageUrl": "https://cards.scryfall.io/normal/front/e/1/e14cffbc-b644-4ad5-b62b-30a81c2968bf.jpg?1562276091",
     "oracleText": "{1}, {T}: Add {R}{W}.",
     "edhrecRank": 0,
-    "edhrecDecks": 348342,
+    "edhrecDecks": 353680,
     "isPartner": false
   },
   {
@@ -1215,14 +1214,40 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/a/2/a24b4cb6-cebb-428b-8654-74347a6a8d63.jpg?1763472867",
+    "imageUrl": "https://cards.scryfall.io/normal/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.jpg?1687647503",
     "oracleText": "Search your library for a card, put that card into your hand, then shuffle.",
     "edhrecRank": 0,
-    "edhrecDecks": 755662,
+    "edhrecDecks": 770111,
     "isPartner": false
   },
   {
     "id": 48,
+    "name": "Terminate",
+    "cmc": 2,
+    "colors": [
+      "B",
+      "R"
+    ],
+    "colorCount": 2,
+    "types": [
+      "Instant"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "removal",
+      "destroy"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/d/a/da7af2a9-5199-4339-a873-942136ddb231.jpg?1573515741",
+    "oracleText": "Destroy target creature. It can't be regenerated.",
+    "edhrecRank": 0,
+    "edhrecDecks": 345846,
+    "isPartner": false
+  },
+  {
+    "id": 49,
     "name": "Esper Sentinel",
     "cmc": 1,
     "colors": [
@@ -1239,20 +1264,20 @@
     ],
     "keywords": [],
     "tags": [
+      "triggered",
       "cast",
-      "draw",
-      "triggered"
+      "draw"
     ],
     "power": "1",
     "toughness": "1",
-    "imageUrl": "https://cards.scryfall.io/normal/front/f/3/f3537373-ef54-4578-9d05-6216420ee349.jpg?1626093502",
+    "imageUrl": "https://cards.scryfall.io/normal/front/e/6/e61ae0e2-8170-453e-93dd-f8ee82290677.jpg?1669837050",
     "oracleText": "Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is this creature's power.",
     "edhrecRank": 0,
-    "edhrecDecks": 677640,
+    "edhrecDecks": 690329,
     "isPartner": false
   },
   {
-    "id": 49,
+    "id": 50,
     "name": "Ruinous Ultimatum",
     "cmc": 7,
     "colors": [
@@ -1275,33 +1300,7 @@
     "imageUrl": "https://cards.scryfall.io/normal/front/5/0/50c1d6ca-7789-46b5-bc89-85cc3915cb85.jpg?1681500691",
     "oracleText": "Destroy all nonland permanents your opponents control.",
     "edhrecRank": 0,
-    "edhrecDecks": 163050,
-    "isPartner": false
-  },
-  {
-    "id": 50,
-    "name": "Terminate",
-    "cmc": 2,
-    "colors": [
-      "B",
-      "R"
-    ],
-    "colorCount": 2,
-    "types": [
-      "Instant"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "destroy",
-      "removal"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/2/1/21f579c9-4b74-4461-8812-dcfd68fd2b97.jpg?1767731390",
-    "oracleText": "Destroy target creature. It can't be regenerated.",
-    "edhrecRank": 0,
-    "edhrecDecks": 334867,
+    "edhrecDecks": 167249,
     "isPartner": false
   },
   {
@@ -1318,15 +1317,15 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "life-loss",
-      "graveyard"
+      "graveyard",
+      "life-loss"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/3/6/368b6903-5fc4-43e7-bd44-46b8107c8bb4.jpg?1738000013",
+    "imageUrl": "https://cards.scryfall.io/normal/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.jpg?1547516995",
     "oracleText": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",
     "edhrecRank": 0,
-    "edhrecDecks": 728216,
+    "edhrecDecks": 749651,
     "isPartner": false
   },
   {
@@ -1348,39 +1347,14 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/8/b/8beb987c-1b67-4a4e-ae71-58547afad2a0.jpg?1726284649",
+    "imageUrl": "https://cards.scryfall.io/normal/front/2/e/2ea8d5cb-cf7e-4194-8019-812b3f56cf20.jpg?1562434024",
     "oracleText": "Draw three cards, then put two cards from your hand on top of your library in any order.",
     "edhrecRank": 0,
-    "edhrecDecks": 698953,
+    "edhrecDecks": 711886,
     "isPartner": false
   },
   {
     "id": 53,
-    "name": "Toxic Deluge",
-    "cmc": 3,
-    "colors": [
-      "B"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Sorcery"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "wipe",
-      "cast"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/5/a/5aa02b7d-db31-4924-b75e-eb02f332ca3a.jpg?1717013647",
-    "oracleText": "As an additional cost to cast this spell, pay X life.\nAll creatures get -X/-X until end of turn.",
-    "edhrecRank": 0,
-    "edhrecDecks": 703959,
-    "isPartner": false
-  },
-  {
-    "id": 54,
     "name": "Dovin's Veto",
     "cmc": 2,
     "colors": [
@@ -1401,7 +1375,32 @@
     "imageUrl": "https://cards.scryfall.io/normal/front/5/d/5d6b5054-2224-4f68-9d82-3ed17c5dacc4.jpg?1557577115",
     "oracleText": "This spell can't be countered.\nCounter target noncreature spell.",
     "edhrecRank": 0,
-    "edhrecDecks": 315799,
+    "edhrecDecks": 323734,
+    "isPartner": false
+  },
+  {
+    "id": 54,
+    "name": "Toxic Deluge",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Sorcery"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "cast",
+      "wipe"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/d/0/d00fa18f-d50a-4d3f-929e-91f29141b1df.jpg?1599706034",
+    "oracleText": "As an additional cost to cast this spell, pay X life.\nAll creatures get -X/-X until end of turn.",
+    "edhrecRank": 0,
+    "edhrecDecks": 719684,
     "isPartner": false
   },
   {
@@ -1423,10 +1422,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/f/7/f7f3dd95-bd14-4e0f-a388-444f9cf1b0dc.jpg?1767727540",
+    "imageUrl": "https://cards.scryfall.io/normal/front/4/c/4c5ffa83-c88d-4f5d-851e-a642b229d596.jpg?1591319453",
     "oracleText": "If you control a commander, you may cast this spell without paying its mana cost.\nCounter target noncreature spell.",
     "edhrecRank": 0,
-    "edhrecDecks": 673612,
+    "edhrecDecks": 686913,
     "isPartner": false
   },
   {
@@ -1448,10 +1447,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/8/3/83d0b761-d694-4232-9f40-5bd8c82a05f1.jpg?1752944391",
+    "imageUrl": "https://cards.scryfall.io/normal/front/8/a/8a12d781-c48f-4d19-bc71-78b4adcdf0af.jpg?1590117690",
     "oracleText": "Counter target enchantment, instant, or sorcery spell. Its controller creates a 2/2 blue Bird creature token with flying.",
     "edhrecRank": 0,
-    "edhrecDecks": 661933,
+    "edhrecDecks": 679161,
     "isPartner": false
   },
   {
@@ -1472,10 +1471,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/7/1/71b11bf4-35ab-4028-961f-5180a12dac82.jpg?1728610326",
+    "imageUrl": "https://cards.scryfall.io/normal/front/1/9/19ce4784-139d-442c-86a9-3e45e91038b7.jpg?1562272480",
     "oracleText": "You have no maximum hand size.\n{T}: Add {C}.",
     "edhrecRank": 0,
-    "edhrecDecks": 1332557,
+    "edhrecDecks": 1360462,
     "isPartner": false
   },
   {
@@ -1495,46 +1494,21 @@
     ],
     "keywords": [],
     "tags": [
-      "etb",
-      "graveyard",
       "triggered",
+      "graveyard",
+      "etb",
       "recursion"
     ],
     "power": "2",
     "toughness": "1",
-    "imageUrl": "https://cards.scryfall.io/normal/front/3/9/39704000-65d3-4d39-849e-a3b617376bbc.jpg?1689998488",
+    "imageUrl": "https://cards.scryfall.io/normal/front/e/e/ee7d035f-184f-4067-876a-1d26cb8d3fa2.jpg?1562276494",
     "oracleText": "When this creature enters, you may return target card from your graveyard to your hand.",
     "edhrecRank": 0,
-    "edhrecDecks": 606854,
+    "edhrecDecks": 615355,
     "isPartner": false
   },
   {
     "id": 59,
-    "name": "Teferi's Protection",
-    "cmc": 3,
-    "colors": [
-      "W"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Instant"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "exile",
-      "protection"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/4/8/483fa1cb-1e35-44f2-a143-98c0f107f5ca.jpg?1745319936",
-    "oracleText": "Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.)\nExile Teferi's Protection.",
-    "edhrecRank": 0,
-    "edhrecDecks": 599597,
-    "isPartner": false
-  },
-  {
-    "id": 60,
     "name": "Garruk's Uprising",
     "cmc": 3,
     "colors": [
@@ -1547,22 +1521,71 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "etb",
-      "combat",
-      "draw",
       "burn",
-      "triggered"
+      "draw",
+      "triggered",
+      "etb",
+      "combat"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/b/5/b58c4033-f764-42f6-966f-b7202a2babbf.jpg?1767731186",
+    "imageUrl": "https://cards.scryfall.io/normal/front/7/1/71a4860a-8bb6-45c0-b00a-b4a42da33ab9.jpg?1594737017",
     "oracleText": "When this enchantment enters, if you control a creature with power 4 or greater, draw a card.\nCreatures you control have trample. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)\nWhenever a creature you control with power 4 or greater enters, draw a card.",
     "edhrecRank": 0,
-    "edhrecDecks": 592030,
+    "edhrecDecks": 609920,
+    "isPartner": false
+  },
+  {
+    "id": 60,
+    "name": "Teferi's Protection",
+    "cmc": 3,
+    "colors": [
+      "W"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Instant"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "protection",
+      "exile"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/b/2/b2baad7e-980b-4e4a-a1d1-3f6456b8baab.jpg?1574302682",
+    "oracleText": "Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.)\nExile Teferi's Protection.",
+    "edhrecRank": 0,
+    "edhrecDecks": 609812,
     "isPartner": false
   },
   {
     "id": 61,
+    "name": "Deflecting Swat",
+    "cmc": 3,
+    "colors": [
+      "R"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Instant"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "cast"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/8/4/84f035e1-6c89-457b-b05f-85680a50ed91.jpg?1591319579",
+    "oracleText": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
+    "edhrecRank": 0,
+    "edhrecDecks": 650447,
+    "isPartner": false
+  },
+  {
+    "id": 62,
     "name": "Sakura-Tribe Elder",
     "cmc": 2,
     "colors": [
@@ -1584,64 +1607,14 @@
     ],
     "power": "1",
     "toughness": "1",
-    "imageUrl": "https://cards.scryfall.io/normal/front/d/6/d619aece-7eab-40f3-8f41-970065f0dc73.jpg?1743206988",
+    "imageUrl": "https://cards.scryfall.io/normal/front/6/9/6912d171-5f26-45d3-9c6a-911e509d083a.jpg?1592710980",
     "oracleText": "Sacrifice this creature: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
     "edhrecRank": 0,
-    "edhrecDecks": 587707,
-    "isPartner": false
-  },
-  {
-    "id": 62,
-    "name": "Deflecting Swat",
-    "cmc": 3,
-    "colors": [
-      "R"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Instant"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "cast"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/b/4/b4b36435-55b3-4615-8812-af41d4fc64d9.jpg?1764261658",
-    "oracleText": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
-    "edhrecRank": 0,
-    "edhrecDecks": 633788,
+    "edhrecDecks": 596659,
     "isPartner": false
   },
   {
     "id": 63,
-    "name": "Feed the Swarm",
-    "cmc": 2,
-    "colors": [
-      "B"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Sorcery"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "destroy",
-      "life-loss",
-      "removal"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/a/7/a776f96b-01bf-430a-b1ad-9f4651070610.jpg?1743206491",
-    "oracleText": "Destroy target creature or enchantment an opponent controls. You lose life equal to that permanent's mana value.",
-    "edhrecRank": 0,
-    "edhrecDecks": 630912,
-    "isPartner": false
-  },
-  {
-    "id": 64,
     "name": "Mystic Remora",
     "cmc": 1,
     "colors": [
@@ -1656,51 +1629,48 @@
       "Cumulative upkeep"
     ],
     "tags": [
-      "cast",
       "draw",
-      "counter",
+      "triggered",
       "sacrifice",
-      "triggered"
+      "cast",
+      "counter"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/4/0/40140991-cffa-4b52-9a25-37e9a8aa9ddd.jpg?1675199366",
+    "imageUrl": "https://cards.scryfall.io/normal/front/b/f/bf76c6a4-d6e8-4d50-b65f-020252f7b659.jpg?1682692625",
     "oracleText": "Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nWhenever an opponent casts a noncreature spell, you may draw a card unless that player pays {4}.",
     "edhrecRank": 0,
-    "edhrecDecks": 616837,
+    "edhrecDecks": 627552,
     "isPartner": false
   },
   {
-    "id": 65,
-    "name": "Faithless Looting",
-    "cmc": 1,
+    "id": 64,
+    "name": "Feed the Swarm",
+    "cmc": 2,
     "colors": [
-      "R"
+      "B"
     ],
     "colorCount": 1,
     "types": [
       "Sorcery"
     ],
     "subtypes": [],
-    "keywords": [
-      "Flashback"
-    ],
+    "keywords": [],
     "tags": [
-      "discard",
-      "exile",
-      "draw",
-      "graveyard"
+      "destroy",
+      "removal",
+      "life-loss"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/c/4/c43aeb5a-8bdc-4aa9-89d1-156f97ac38aa.jpg?1743206665",
-    "oracleText": "Draw two cards, then discard two cards.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+    "imageUrl": "https://cards.scryfall.io/normal/front/f/6/f6b2eba7-862a-4efd-9f65-065fb2070855.jpg?1604195649",
+    "oracleText": "Destroy target creature or enchantment an opponent controls. You lose life equal to that permanent's mana value.",
     "edhrecRank": 0,
-    "edhrecDecks": 608944,
+    "edhrecDecks": 642078,
     "isPartner": false
   },
   {
-    "id": 66,
+    "id": 65,
     "name": "Elvish Mystic",
     "cmc": 1,
     "colors": [
@@ -1720,14 +1690,69 @@
     ],
     "power": "1",
     "toughness": "1",
-    "imageUrl": "https://cards.scryfall.io/normal/front/7/5/75918859-c93f-41b4-9ad0-a4a96c389f0d.jpg?1689998466",
+    "imageUrl": "https://cards.scryfall.io/normal/front/d/6/d618c3ea-f823-4fe0-8e11-65d5965528d3.jpg?1561759745",
     "oracleText": "{T}: Add {G}.",
     "edhrecRank": 0,
-    "edhrecDecks": 562657,
+    "edhrecDecks": 578039,
+    "isPartner": false
+  },
+  {
+    "id": 66,
+    "name": "Putrefy",
+    "cmc": 3,
+    "colors": [
+      "B",
+      "G"
+    ],
+    "colorCount": 2,
+    "types": [
+      "Instant"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "destroy",
+      "removal"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/9/c/9c937f67-09e2-4b31-b876-6aa88119c385.jpg?1562275086",
+    "oracleText": "Destroy target artifact or creature. It can't be regenerated.",
+    "edhrecRank": 0,
+    "edhrecDecks": 262068,
     "isPartner": false
   },
   {
     "id": 67,
+    "name": "Faithless Looting",
+    "cmc": 1,
+    "colors": [
+      "R"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Sorcery"
+    ],
+    "subtypes": [],
+    "keywords": [
+      "Flashback"
+    ],
+    "tags": [
+      "exile",
+      "draw",
+      "graveyard",
+      "discard"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/6/b/6b79cc4b-55a1-4030-aedb-1840bf0b9794.jpg?1562274141",
+    "oracleText": "Draw two cards, then discard two cards.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+    "edhrecRank": 0,
+    "edhrecDecks": 619862,
+    "isPartner": false
+  },
+  {
+    "id": 68,
     "name": "Noble Hierarch",
     "cmc": 1,
     "colors": [
@@ -1747,42 +1772,16 @@
       "Exalted"
     ],
     "tags": [
-      "ramp",
       "triggered",
-      "combat"
+      "combat",
+      "ramp"
     ],
     "power": "0",
     "toughness": "1",
-    "imageUrl": "https://cards.scryfall.io/normal/front/4/0/400382a4-aea2-4827-b06a-1b0b3745908b.jpg?1758104002",
+    "imageUrl": "https://cards.scryfall.io/normal/front/e/1/e178309d-8639-4db6-955e-45f69a0aded2.jpg?1562636871",
     "oracleText": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\n{T}: Add {G}, {W}, or {U}.",
     "edhrecRank": 0,
-    "edhrecDecks": 136875,
-    "isPartner": false
-  },
-  {
-    "id": 68,
-    "name": "Putrefy",
-    "cmc": 3,
-    "colors": [
-      "B",
-      "G"
-    ],
-    "colorCount": 2,
-    "types": [
-      "Instant"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "destroy",
-      "removal"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/a/d/ad6ed9f1-2014-49e2-91c6-2b55c8d60cdc.jpg?1767731378",
-    "oracleText": "Destroy target artifact or creature. It can't be regenerated.",
-    "edhrecRank": 0,
-    "edhrecDecks": 250410,
+    "edhrecDecks": 139923,
     "isPartner": false
   },
   {
@@ -1801,16 +1800,16 @@
       "Overload"
     ],
     "tags": [
-      "removal",
+      "cast",
       "destroy",
-      "cast"
+      "removal"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/e/7/e781b55f-6388-4ab8-be74-7c56eaba1c4d.jpg?1712354517",
+    "imageUrl": "https://cards.scryfall.io/normal/front/3/6/3636b07e-eab9-4cc8-8624-322c18e8133d.jpg?1645329217",
     "oracleText": "Destroy target artifact you don't control.\nOverload {4}{R} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
     "edhrecRank": 0,
-    "edhrecDecks": 594533,
+    "edhrecDecks": 606000,
     "isPartner": false
   },
   {
@@ -1833,10 +1832,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/0/7/0784b6f0-9ebf-43d2-ba0f-a6bc93ba0c48.jpg?1730489269",
+    "imageUrl": "https://cards.scryfall.io/normal/front/8/1/81c3099f-cea5-41d8-a753-096f0021b11b.jpg?1573510182",
     "oracleText": "At the beginning of your upkeep, you draw a card and you lose 1 life.",
     "edhrecRank": 0,
-    "edhrecDecks": 600287,
+    "edhrecDecks": 613165,
     "isPartner": false
   },
   {
@@ -1853,16 +1852,16 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "ramp",
+      "cast",
       "exile",
-      "cast"
+      "ramp"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/9/9/99e0c371-1024-4432-9fd9-3bc29c8d38e4.jpg?1706240845",
+    "imageUrl": "https://cards.scryfall.io/normal/front/4/e/4e91d96d-cc69-439b-b876-a7d57039022c.jpg?1608910286",
     "oracleText": "Choose one. If you control a commander as you cast this spell, you may choose both instead.\n• Add {R} for each card in target opponent's hand.\n• Exile the top three cards of your library. You may play them this turn.",
     "edhrecRank": 0,
-    "edhrecDecks": 591480,
+    "edhrecDecks": 600968,
     "isPartner": false
   },
   {
@@ -1883,10 +1882,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/1/c/1c9675fb-1a89-420f-aea8-50e0642f549c.jpg?1675198797",
+    "imageUrl": "https://cards.scryfall.io/normal/front/e/9/e940fd9f-f1f5-455e-b141-b70dde6cb89d.jpg?1592711941",
     "oracleText": "Search your library for an artifact or enchantment card, reveal it, then shuffle and put that card on top.",
     "edhrecRank": 0,
-    "edhrecDecks": 549172,
+    "edhrecDecks": 558175,
     "isPartner": false
   },
   {
@@ -1907,44 +1906,19 @@
     ],
     "tags": [
       "cast",
-      "removal",
-      "destroy"
+      "destroy",
+      "removal"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/8/4/84056124-1a6f-4274-bee2-74cf0debddb5.jpg?1698988237",
+    "imageUrl": "https://cards.scryfall.io/normal/front/1/3/138d9df8-ab9a-4d00-b6cc-320100dbaaaa.jpg?1669836858",
     "oracleText": "Destroy target creature. A creature destroyed this way can't be regenerated.\nOverload {2}{W}{W} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
     "edhrecRank": 0,
-    "edhrecDecks": 265047,
+    "edhrecDecks": 270184,
     "isPartner": false
   },
   {
     "id": 74,
-    "name": "Vampiric Tutor",
-    "cmc": 1,
-    "colors": [
-      "B"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Instant"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "life-loss",
-      "tutor"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/3/4/34a0203f-9cce-43a4-9cb7-8ce6647895cd.jpg?1675199860",
-    "oracleText": "Search your library for a card, then shuffle and put that card on top. You lose 2 life.",
-    "edhrecRank": 0,
-    "edhrecDecks": 588208,
-    "isPartner": false
-  },
-  {
-    "id": 75,
     "name": "Temur Ascendancy",
     "cmc": 3,
     "colors": [
@@ -1959,17 +1933,42 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "draw",
       "triggered",
+      "etb",
       "haste",
-      "etb"
+      "draw"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/5/c/5cedb54a-a6f6-48aa-acdf-01c988c1c37d.jpg?1743207231",
+    "imageUrl": "https://cards.scryfall.io/normal/front/8/0/80ac4542-1852-46d7-9f9d-eea8158297fa.jpg?1593609116",
     "oracleText": "Creatures you control have haste.\nWhenever a creature you control with power 4 or greater enters, you may draw a card.",
     "edhrecRank": 0,
-    "edhrecDecks": 126002,
+    "edhrecDecks": 129471,
+    "isPartner": false
+  },
+  {
+    "id": 75,
+    "name": "Vampiric Tutor",
+    "cmc": 1,
+    "colors": [
+      "B"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Instant"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "tutor",
+      "life-loss"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/f/9/f9ab4647-e025-4a63-b2c1-a90541ab17d1.jpg?1641635635",
+    "oracleText": "Search your library for a card, then shuffle and put that card on top. You lose 2 life.",
+    "edhrecRank": 0,
+    "edhrecDecks": 597039,
     "isPartner": false
   },
   {
@@ -1997,7 +1996,7 @@
     "imageUrl": "https://cards.scryfall.io/normal/front/b/f/bf6e59be-f959-4f4a-8c2d-b7c441e88135.jpg?1706242205",
     "oracleText": "If this card is in your opening hand, you may begin the game with it on the battlefield.\nEach nonland permanent you control is all colors.\nLands you control are every basic land type in addition to their other types.",
     "edhrecRank": 0,
-    "edhrecDecks": 73934,
+    "edhrecDecks": 76583,
     "isPartner": false
   },
   {
@@ -2015,48 +2014,22 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "destroy",
-      "burn",
-      "exile",
       "removal",
-      "graveyard"
+      "exile",
+      "burn",
+      "graveyard",
+      "destroy"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/6/4/64b67170-1602-4050-80c0-ade2a6cac211.jpg?1752945030",
+    "imageUrl": "https://cards.scryfall.io/normal/front/0/5/05741d2b-4aed-47f5-899e-7ed38e84ea39.jpg?1551119533",
     "oracleText": "Choose one —\n• Exile target player's graveyard.\n• Destroy target artifact.\n• Each creature deals 1 damage to its controller.",
     "edhrecRank": 0,
-    "edhrecDecks": 262493,
+    "edhrecDecks": 268682,
     "isPartner": false
   },
   {
     "id": 78,
-    "name": "Mind Stone",
-    "cmc": 2,
-    "colors": [
-      "C"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Artifact"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "sacrifice",
-      "ramp",
-      "draw"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/f/1/f1f616f2-d69d-4763-8ff0-3eb05a543926.jpg?1726285311",
-    "oracleText": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
-    "edhrecRank": 0,
-    "edhrecDecks": 1131577,
-    "isPartner": false
-  },
-  {
-    "id": 79,
     "name": "Void Rend",
     "cmc": 3,
     "colors": [
@@ -2071,15 +2044,41 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "removal",
-      "destroy"
+      "destroy",
+      "removal"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/2/d/2daab74d-d66b-4164-aa19-24e8d5536f7d.jpg?1664413960",
+    "imageUrl": "https://cards.scryfall.io/normal/front/b/a/ba2a5750-d62c-4be8-958a-4057bb1c2c31.jpg?1675618308",
     "oracleText": "This spell can't be countered.\nDestroy target nonland permanent.",
     "edhrecRank": 0,
-    "edhrecDecks": 137201,
+    "edhrecDecks": 140851,
+    "isPartner": false
+  },
+  {
+    "id": 79,
+    "name": "Mind Stone",
+    "cmc": 2,
+    "colors": [
+      "C"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Artifact"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "draw",
+      "sacrifice",
+      "ramp"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/2/c/2c214d26-8d0f-49a2-8e34-be073d34369a.jpg?1562272959",
+    "oracleText": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+    "edhrecRank": 0,
+    "edhrecDecks": 1147214,
     "isPartner": false
   },
   {
@@ -2101,10 +2100,10 @@
     ],
     "keywords": [],
     "tags": [
-      "triggered",
-      "combat",
-      "cast",
       "draw",
+      "triggered",
+      "cast",
+      "combat",
       "burn"
     ],
     "power": "3",
@@ -2112,7 +2111,7 @@
     "imageUrl": "https://cards.scryfall.io/normal/front/c/9/c9f88a40-a6ed-4c1f-a309-011aca1acddd.jpg?1699044549",
     "oracleText": "Your opponents can't cast spells during your turn.\nWhenever one or more creatures you control each with power greater than its base power deals combat damage to a player, draw a card.",
     "edhrecRank": 0,
-    "edhrecDecks": 237920,
+    "edhrecDecks": 243102,
     "isPartner": false
   },
   {
@@ -2129,15 +2128,15 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "triggered",
-      "counter"
+      "counter",
+      "triggered"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/3/c/3c429c40-2389-41e5-8681-4bb274e25eba.jpg?1762813208",
+    "imageUrl": "https://cards.scryfall.io/normal/front/b/a/ba874c0c-f66f-4edc-9859-40273487aef0.jpg?1608909310",
     "oracleText": "Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell's mana value.",
     "edhrecRank": 0,
-    "edhrecDecks": 549753,
+    "edhrecDecks": 560574,
     "isPartner": false
   },
   {
@@ -2154,15 +2153,15 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "draw",
-      "discard"
+      "discard",
+      "draw"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/a/1/a1c71f3e-16be-492a-8a3e-5911867270bd.jpg?1764119619",
+    "imageUrl": "https://cards.scryfall.io/normal/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.jpg?1547516289",
     "oracleText": "Draw two cards, then discard two cards. Untap up to three lands.",
     "edhrecRank": 0,
-    "edhrecDecks": 542108,
+    "edhrecDecks": 556897,
     "isPartner": false
   },
   {
@@ -2192,14 +2191,38 @@
     ],
     "power": "6",
     "toughness": "6",
-    "imageUrl": "https://cards.scryfall.io/normal/front/8/4/84238335-e08c-421c-b9b9-70a679ff2967.jpg?1689995411",
+    "imageUrl": "https://cards.scryfall.io/normal/front/9/6/9693e59b-032d-4ddc-a7d1-88a0f52dcc6c.jpg?1676913841",
     "oracleText": "Changeling (This card is every creature type.)\nAs Morophon enters, choose a creature type.\nSpells of the chosen type you cast cost {W}{U}{B}{R}{G} less to cast. This effect reduces only the amount of colored mana you pay.\nOther creatures you control of the chosen type get +1/+1.",
     "edhrecRank": 0,
-    "edhrecDecks": 69576,
+    "edhrecDecks": 71483,
     "isPartner": false
   },
   {
     "id": 84,
+    "name": "Propaganda",
+    "cmc": 3,
+    "colors": [
+      "U"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Enchantment"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "combat"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/0/1/01115986-1963-45c6-b706-2faee6c71e8f.jpg?1573508165",
+    "oracleText": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+    "edhrecRank": 0,
+    "edhrecDecks": 529679,
+    "isPartner": false
+  },
+  {
+    "id": 85,
     "name": "Despark",
     "cmc": 2,
     "colors": [
@@ -2218,34 +2241,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/f/3/f37a4bc1-3702-44d7-8b29-dca99b563c6b.jpg?1743207100",
+    "imageUrl": "https://cards.scryfall.io/normal/front/3/2/32b17dfc-b916-4134-ba77-501cff435e7e.jpg?1615415475",
     "oracleText": "Exile target permanent with mana value 4 or greater.",
     "edhrecRank": 0,
-    "edhrecDecks": 235383,
-    "isPartner": false
-  },
-  {
-    "id": 85,
-    "name": "Propaganda",
-    "cmc": 3,
-    "colors": [
-      "U"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Enchantment"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "combat"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/e/1/e175bba4-c131-48f4-8e31-16ec07a12e59.jpg?1712354188",
-    "oracleText": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
-    "edhrecRank": 0,
-    "edhrecDecks": 515676,
+    "edhrecDecks": 240639,
     "isPartner": false
   },
   {
@@ -2268,10 +2267,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/0/e/0e13f735-54fa-42b6-aea4-ced33811d7d4.jpg?1764261654",
+    "imageUrl": "https://cards.scryfall.io/normal/front/c/6/c61fa2c0-63c0-4dc2-9f17-5a00530e3348.jpg?1690817870",
     "oracleText": "If you control a commander, you may cast this spell without paying its mana cost.\nExile target creature.",
     "edhrecRank": 0,
-    "edhrecDecks": 520536,
+    "edhrecDecks": 537973,
     "isPartner": false
   },
   {
@@ -2295,18 +2294,18 @@
       "Flying"
     ],
     "tags": [
-      "deathtouch",
-      "flying",
-      "triggered",
       "etb",
-      "draw"
+      "draw",
+      "triggered",
+      "deathtouch",
+      "flying"
     ],
     "power": "1",
     "toughness": "1",
-    "imageUrl": "https://cards.scryfall.io/normal/front/b/e/be8439e6-f779-49f0-806a-b04995697a6a.jpg?1712354664",
+    "imageUrl": "https://cards.scryfall.io/normal/front/7/d/7d180021-2d6c-44a1-9c39-bd53e3a666e2.jpg?1573515009",
     "oracleText": "Flying, deathtouch\nWhen this creature enters, draw a card.",
     "edhrecRank": 0,
-    "edhrecDecks": 250253,
+    "edhrecDecks": 255719,
     "isPartner": false
   },
   {
@@ -2330,49 +2329,23 @@
       "Treasure"
     ],
     "tags": [
-      "token",
       "sacrifice",
-      "ramp",
-      "triggered",
+      "cast",
+      "token",
       "life-loss",
-      "cast"
+      "ramp",
+      "triggered"
     ],
     "power": "2",
     "toughness": "1",
     "imageUrl": "https://cards.scryfall.io/normal/front/c/e/ce01ff8f-a037-484f-9148-c847ffaabc5a.jpg?1686969873",
     "oracleText": "Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
     "edhrecRank": 0,
-    "edhrecDecks": 226985,
+    "edhrecDecks": 231884,
     "isPartner": false
   },
   {
     "id": 89,
-    "name": "Talisman of Curiosity",
-    "cmc": 2,
-    "colors": [
-      "G",
-      "U"
-    ],
-    "colorCount": 2,
-    "types": [
-      "Artifact"
-    ],
-    "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "burn",
-      "ramp"
-    ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/8/3/8388c4e8-bda1-47e5-8df2-ddec5babcaf9.jpg?1706241095",
-    "oracleText": "{T}: Add {C}.\n{T}: Add {G} or {U}. This artifact deals 1 damage to you.",
-    "edhrecRank": 0,
-    "edhrecDecks": 218377,
-    "isPartner": false
-  },
-  {
-    "id": 90,
     "name": "Farewell",
     "cmc": 6,
     "colors": [
@@ -2390,45 +2363,40 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/1/1/114d2180-093b-4838-97ad-badbc8ee50b0.jpg?1706240579",
+    "imageUrl": "https://cards.scryfall.io/normal/front/e/1/e1068723-d1ef-4007-97d9-b10dccdbade4.jpg?1654566260",
     "oracleText": "Choose one or more —\n• Exile all artifacts.\n• Exile all creatures.\n• Exile all enchantments.\n• Exile all graveyards.",
     "edhrecRank": 0,
-    "edhrecDecks": 454477,
+    "edhrecDecks": 464710,
+    "isPartner": false
+  },
+  {
+    "id": 90,
+    "name": "Talisman of Curiosity",
+    "cmc": 2,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "colorCount": 2,
+    "types": [
+      "Artifact"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "ramp",
+      "burn"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/f/d/fd52688a-39fd-430f-b950-cb56e0004396.jpg?1562202516",
+    "oracleText": "{T}: Add {C}.\n{T}: Add {G} or {U}. This artifact deals 1 damage to you.",
+    "edhrecRank": 0,
+    "edhrecDecks": 223127,
     "isPartner": false
   },
   {
     "id": 91,
-    "name": "Solemn Simulacrum",
-    "cmc": 4,
-    "colors": [
-      "C"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Artifact",
-      "Creature"
-    ],
-    "subtypes": [
-      "Golem"
-    ],
-    "keywords": [],
-    "tags": [
-      "triggered",
-      "etb",
-      "tutor",
-      "draw",
-      "ramp"
-    ],
-    "power": "2",
-    "toughness": "2",
-    "imageUrl": "https://cards.scryfall.io/normal/front/c/b/cb1563a1-c8dc-4fcb-b9c8-e7432235d31e.jpg?1743207347",
-    "oracleText": "When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhen this creature dies, you may draw a card.",
-    "edhrecRank": 0,
-    "edhrecDecks": 974538,
-    "isPartner": false
-  },
-  {
-    "id": 92,
     "name": "Annie Joins Up",
     "cmc": 4,
     "colors": [
@@ -2444,16 +2412,47 @@
     "subtypes": [],
     "keywords": [],
     "tags": [
-      "etb",
       "burn",
-      "triggered"
+      "triggered",
+      "etb"
     ],
     "power": null,
     "toughness": null,
     "imageUrl": "https://cards.scryfall.io/normal/front/1/6/1624a5f4-f5bc-47c9-85de-c5520ee234ce.jpg?1712356038",
     "oracleText": "When Annie Joins Up enters, it deals 5 damage to target creature or planeswalker an opponent controls.\nIf a triggered ability of a legendary creature you control triggers, that ability triggers an additional time.",
     "edhrecRank": 0,
-    "edhrecDecks": 107066,
+    "edhrecDecks": 111111,
+    "isPartner": false
+  },
+  {
+    "id": 92,
+    "name": "Solemn Simulacrum",
+    "cmc": 4,
+    "colors": [
+      "C"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "subtypes": [
+      "Golem"
+    ],
+    "keywords": [],
+    "tags": [
+      "ramp",
+      "tutor",
+      "draw",
+      "triggered",
+      "etb"
+    ],
+    "power": "2",
+    "toughness": "2",
+    "imageUrl": "https://cards.scryfall.io/normal/front/9/f/9fb8c25a-5ca8-40b2-a782-50eee49721b7.jpg?1561759348",
+    "oracleText": "When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhen this creature dies, you may draw a card.",
+    "edhrecRank": 0,
+    "edhrecDecks": 989935,
     "isPartner": false
   },
   {
@@ -2476,10 +2475,10 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/e/f/eff598b0-0b32-41d0-b980-584576e58626.jpg?1726285335",
+    "imageUrl": "https://cards.scryfall.io/normal/front/c/c/cc25a254-edd2-4817-ab80-7373239da7d2.jpg?1562202530",
     "oracleText": "{T}: Add {C}.\n{T}: Add {B} or {G}. This artifact deals 1 damage to you.",
     "edhrecRank": 0,
-    "edhrecDecks": 200774,
+    "edhrecDecks": 206933,
     "isPartner": false
   },
   {
@@ -2504,10 +2503,10 @@
     ],
     "power": "1",
     "toughness": "1",
-    "imageUrl": "https://cards.scryfall.io/normal/front/a/3/a390a7df-b8da-41aa-93e5-2c0db938a27e.jpg?1637630879",
+    "imageUrl": "https://cards.scryfall.io/normal/front/0/3/030cc5a5-efa2-446f-9adc-e5a16193bfe3.jpg?1593315394",
     "oracleText": "{T}: Add {W}.",
     "edhrecRank": 0,
-    "edhrecDecks": 202066,
+    "edhrecDecks": 205322,
     "isPartner": false
   },
   {
@@ -2530,14 +2529,39 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/3/8/3892f1c5-937e-4ef4-b6f9-e0c0ded070d0.jpg?1706240181",
+    "imageUrl": "https://cards.scryfall.io/normal/front/2/1/21a6bdf6-0c91-49c3-8f9d-7f244807e689.jpg?1573515726",
     "oracleText": "This spell can't be countered.\nDestroy all creatures.",
     "edhrecRank": 0,
-    "edhrecDecks": 215110,
+    "edhrecDecks": 218615,
     "isPartner": false
   },
   {
     "id": 96,
+    "name": "Victimize",
+    "cmc": 3,
+    "colors": [
+      "B"
+    ],
+    "colorCount": 1,
+    "types": [
+      "Sorcery"
+    ],
+    "subtypes": [],
+    "keywords": [],
+    "tags": [
+      "graveyard",
+      "sacrifice"
+    ],
+    "power": null,
+    "toughness": null,
+    "imageUrl": "https://cards.scryfall.io/normal/front/c/b/cb40f79f-6ef2-494e-95b7-49e824fd44f9.jpg?1599764641",
+    "oracleText": "Choose two target creature cards in your graveyard. Sacrifice a creature. If you do, return the chosen cards to the battlefield tapped.",
+    "edhrecRank": 0,
+    "edhrecDecks": 486319,
+    "isPartner": false
+  },
+  {
+    "id": 97,
     "name": "Mystical Tutor",
     "cmc": 1,
     "colors": [
@@ -2554,14 +2578,14 @@
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/3/6/36fa9a0b-b0c9-43ea-ba11-99d7982f974e.jpg?1764119717",
+    "imageUrl": "https://cards.scryfall.io/normal/front/7/d/7dd7dd7c-872d-44b6-8ce6-0b05c6f98e69.jpg?1682721528",
     "oracleText": "Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.",
     "edhrecRank": 0,
-    "edhrecDecks": 467823,
+    "edhrecDecks": 473945,
     "isPartner": false
   },
   {
-    "id": 97,
+    "id": 98,
     "name": "Tatyova, Benthic Druid",
     "cmc": 5,
     "colors": [
@@ -2581,96 +2605,87 @@
       "Landfall"
     ],
     "tags": [
-      "triggered",
-      "etb",
       "draw",
-      "lifegain"
+      "triggered",
+      "lifegain",
+      "etb"
     ],
     "power": "3",
     "toughness": "3",
-    "imageUrl": "https://cards.scryfall.io/normal/front/e/a/eabc978a-0666-472d-bdc6-d4b29d29eca4.jpg?1730489527",
+    "imageUrl": "https://cards.scryfall.io/normal/front/9/3/93657aaa-7a0f-49ad-b026-6f79b3bd6768.jpg?1665822988",
     "oracleText": "Landfall — Whenever a land you control enters, you gain 1 life and draw a card.",
     "edhrecRank": 0,
-    "edhrecDecks": 210270,
-    "isPartner": false
-  },
-  {
-    "id": 98,
-    "name": "Goblin Anarchomancer",
-    "cmc": 2,
-    "colors": [
-      "G",
-      "R"
-    ],
-    "colorCount": 2,
-    "types": [
-      "Creature"
-    ],
-    "subtypes": [
-      "Goblin",
-      "Shaman"
-    ],
-    "keywords": [],
-    "tags": [
-      "cost-reduction"
-    ],
-    "power": "2",
-    "toughness": "2",
-    "imageUrl": "https://cards.scryfall.io/normal/front/6/3/633a3423-501d-4b22-95a6-743233be521e.jpg?1626098429",
-    "oracleText": "Each spell you cast that's red or green costs {1} less to cast.",
-    "edhrecRank": 0,
-    "edhrecDecks": 205000,
+    "edhrecDecks": 214182,
     "isPartner": false
   },
   {
     "id": 99,
-    "name": "Victimize",
-    "cmc": 3,
+    "name": "Mass of Mysteries",
+    "cmc": 5,
+    "colors": [
+      "B",
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "colorCount": 5,
+    "types": [
+      "Legendary",
+      "Creature"
+    ],
+    "subtypes": [
+      "Elemental"
+    ],
+    "keywords": [
+      "Vigilance",
+      "First strike",
+      "Trample"
+    ],
+    "tags": [
+      "token",
+      "combat",
+      "exile",
+      "first-strike",
+      "trample",
+      "triggered"
+    ],
+    "power": "5",
+    "toughness": "5",
+    "imageUrl": "https://cards.scryfall.io/normal/front/8/7/871decb1-82e7-48f7-84be-96dde2d35770.jpg?1768337933",
+    "oracleText": "First strike, vigilance, trample\nAt the beginning of combat on your turn, another target Elemental you control gains myriad until end of turn. (Whenever it attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)",
+    "edhrecRank": 0,
+    "edhrecDecks": 6105,
+    "isPartner": false
+  },
+  {
+    "id": 100,
+    "name": "Deadly Dispute",
+    "cmc": 2,
     "colors": [
       "B"
     ],
     "colorCount": 1,
     "types": [
-      "Sorcery"
+      "Instant"
     ],
     "subtypes": [],
-    "keywords": [],
-    "tags": [
-      "graveyard",
-      "sacrifice"
+    "keywords": [
+      "Treasure"
     ],
-    "power": null,
-    "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/e/e/ee008d81-df28-49a8-917d-44f66527e469.jpg?1743206588",
-    "oracleText": "Choose two target creature cards in your graveyard. Sacrifice a creature. If you do, return the chosen cards to the battlefield tapped.",
-    "edhrecRank": 0,
-    "edhrecDecks": 473555,
-    "isPartner": false
-  },
-  {
-    "id": 100,
-    "name": "Commander's Sphere",
-    "cmc": 3,
-    "colors": [
-      "C"
-    ],
-    "colorCount": 1,
-    "types": [
-      "Artifact"
-    ],
-    "subtypes": [],
-    "keywords": [],
     "tags": [
       "draw",
       "sacrifice",
+      "cast",
+      "token",
       "ramp"
     ],
     "power": null,
     "toughness": null,
-    "imageUrl": "https://cards.scryfall.io/normal/front/a/0/a0d50603-e31f-4cd7-b4b6-49847d99eb2e.jpg?1767731403",
-    "oracleText": "{T}: Add one mana of any color in your commander's color identity.\nSacrifice this artifact: Draw a card.",
+    "imageUrl": "https://cards.scryfall.io/normal/front/7/3/7373fe95-ad1c-44b9-8c7f-464ce8cbffc6.jpg?1627704524",
+    "oracleText": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
     "edhrecRank": 0,
-    "edhrecDecks": 932586,
+    "edhrecDecks": 481852,
     "isPartner": false
   }
 ]
